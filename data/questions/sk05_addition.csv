@@ -1,0 +1,5 @@
+id,skill_id,type,question_vi,question_en,options,correct_answer,difficulty,hint_vi
+Q101,SK05,multiple_choice,2 + 3 = ?,2 + 3 = ?,"4,5,6,7",5,1,Đếm thêm 3 từ số 2
+Q102,SK05,multiple_choice,4 + 4 = ?,4 + 4 = ?,"6,7,8,9",8,1,Đếm thêm 4 từ số 4
+Q103,SK05,fill_blank,1 + _ = 5,1 + _ = 5,"","4",2,Cần thêm mấy để được 5?
+Q104,SK05,multiple_choice,6 + 3 = ?,6 + 3 = ?,"7,8,9,10",9,2,Đếm thêm 3 từ số 6

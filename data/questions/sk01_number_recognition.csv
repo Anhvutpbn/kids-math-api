@@ -1,0 +1,4 @@
+id,skill_id,type,question_vi,question_en,options,correct_answer,difficulty,hint_vi
+Q001,SK01,multiple_choice,Số nào đây là số 3?,Which one is number 3?,"1,2,3,4",3,1,Hãy đếm từ 1 nhé
+Q002,SK01,multiple_choice,Số nào đây là số 7?,Which one is number 7?,"5,6,7,8",7,1,Đếm tiếp từ 5
+Q003,SK01,fill_blank,Điền số còn thiếu: _ 2 3,Fill the blank: _ 2 3,"","1",1,Số đứng trước 2 là số mấy?

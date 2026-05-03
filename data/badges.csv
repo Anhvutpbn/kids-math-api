@@ -1,0 +1,8 @@
+id,code,name_vi,name_en,condition_type,condition_value,description_vi
+B001,first_correct,Câu đầu tiên,First Correct,first_correct,1,Trả lời đúng câu đầu tiên
+B002,streak_3,Siêu chăm chỉ,Super Diligent,streak,3,Học 3 ngày liên tiếp
+B003,streak_7,Tuần xuất sắc,Excellent Week,streak,7,Học 7 ngày liên tiếp
+B004,sk01_mastered,Vua số nhỏ,Number King,skill_mastered,SK01,Thành thạo kỹ năng Nhận biết số 0-10
+B005,sk05_mastered,Nhà vô địch cộng,Addition Champion,skill_mastered,SK05,Thành thạo kỹ năng Phép cộng
+B006,sk06_mastered,Vua trừ số,Subtraction Star,skill_mastered,SK06,Thành thạo kỹ năng Phép trừ
+B007,all_mastered,Siêu sao lớp 1,Grade 1 Star,all_skills_mastered,7,Thành thạo tất cả 7 kỹ năng
