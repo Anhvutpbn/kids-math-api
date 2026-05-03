@@ -1,0 +1,434 @@
+id,skill_id,type,question_vi,question_en,options,correct_answer,difficulty,hint_vi
+SK04_0001,SK04,multiple_choice,0 và 1: số nào lớn hơn?,Which is greater: 0 or 1?,"0,1",1,1,So sánh từng chữ số từ trái sang phải
+SK04_0002,SK04,multiple_choice,0 và 2: số nào lớn hơn?,Which is greater: 0 or 2?,"0,2",2,1,So sánh từng chữ số từ trái sang phải
+SK04_0003,SK04,multiple_choice,0 và 3: số nào lớn hơn?,Which is greater: 0 or 3?,"0,3",3,1,So sánh từng chữ số từ trái sang phải
+SK04_0004,SK04,multiple_choice,0 và 5: số nào lớn hơn?,Which is greater: 0 or 5?,"0,5",5,1,So sánh từng chữ số từ trái sang phải
+SK04_0005,SK04,multiple_choice,0 và 8: số nào lớn hơn?,Which is greater: 0 or 8?,"0,8",8,1,So sánh từng chữ số từ trái sang phải
+SK04_0006,SK04,multiple_choice,0 và 12: số nào lớn hơn?,Which is greater: 0 or 12?,"0,12",12,2,So sánh từng chữ số từ trái sang phải
+SK04_0007,SK04,multiple_choice,1 và 2: số nào lớn hơn?,Which is greater: 1 or 2?,"1,2",2,1,So sánh từng chữ số từ trái sang phải
+SK04_0008,SK04,multiple_choice,1 và 3: số nào lớn hơn?,Which is greater: 1 or 3?,"1,3",3,1,So sánh từng chữ số từ trái sang phải
+SK04_0009,SK04,multiple_choice,1 và 4: số nào lớn hơn?,Which is greater: 1 or 4?,"1,4",4,1,So sánh từng chữ số từ trái sang phải
+SK04_0010,SK04,multiple_choice,1 và 6: số nào lớn hơn?,Which is greater: 1 or 6?,"1,6",6,1,So sánh từng chữ số từ trái sang phải
+SK04_0011,SK04,multiple_choice,1 và 9: số nào lớn hơn?,Which is greater: 1 or 9?,"1,9",9,1,So sánh từng chữ số từ trái sang phải
+SK04_0012,SK04,multiple_choice,1 và 13: số nào lớn hơn?,Which is greater: 1 or 13?,"1,13",13,2,So sánh từng chữ số từ trái sang phải
+SK04_0013,SK04,multiple_choice,2 và 3: số nào lớn hơn?,Which is greater: 2 or 3?,"2,3",3,1,So sánh từng chữ số từ trái sang phải
+SK04_0014,SK04,multiple_choice,2 và 4: số nào lớn hơn?,Which is greater: 2 or 4?,"2,4",4,1,So sánh từng chữ số từ trái sang phải
+SK04_0015,SK04,multiple_choice,2 và 5: số nào lớn hơn?,Which is greater: 2 or 5?,"2,5",5,1,So sánh từng chữ số từ trái sang phải
+SK04_0016,SK04,multiple_choice,2 và 7: số nào lớn hơn?,Which is greater: 2 or 7?,"2,7",7,1,So sánh từng chữ số từ trái sang phải
+SK04_0017,SK04,multiple_choice,2 và 10: số nào lớn hơn?,Which is greater: 2 or 10?,"2,10",10,1,So sánh từng chữ số từ trái sang phải
+SK04_0018,SK04,multiple_choice,2 và 14: số nào lớn hơn?,Which is greater: 2 or 14?,"2,14",14,2,So sánh từng chữ số từ trái sang phải
+SK04_0019,SK04,multiple_choice,3 và 4: số nào lớn hơn?,Which is greater: 3 or 4?,"3,4",4,1,So sánh từng chữ số từ trái sang phải
+SK04_0020,SK04,multiple_choice,3 và 5: số nào lớn hơn?,Which is greater: 3 or 5?,"3,5",5,1,So sánh từng chữ số từ trái sang phải
+SK04_0021,SK04,multiple_choice,3 và 6: số nào lớn hơn?,Which is greater: 3 or 6?,"3,6",6,1,So sánh từng chữ số từ trái sang phải
+SK04_0022,SK04,multiple_choice,3 và 8: số nào lớn hơn?,Which is greater: 3 or 8?,"3,8",8,1,So sánh từng chữ số từ trái sang phải
+SK04_0023,SK04,multiple_choice,3 và 11: số nào lớn hơn?,Which is greater: 3 or 11?,"3,11",11,2,So sánh từng chữ số từ trái sang phải
+SK04_0024,SK04,multiple_choice,3 và 15: số nào lớn hơn?,Which is greater: 3 or 15?,"3,15",15,2,So sánh từng chữ số từ trái sang phải
+SK04_0025,SK04,multiple_choice,4 và 5: số nào lớn hơn?,Which is greater: 4 or 5?,"4,5",5,1,So sánh từng chữ số từ trái sang phải
+SK04_0026,SK04,multiple_choice,4 và 6: số nào lớn hơn?,Which is greater: 4 or 6?,"4,6",6,1,So sánh từng chữ số từ trái sang phải
+SK04_0027,SK04,multiple_choice,4 và 7: số nào lớn hơn?,Which is greater: 4 or 7?,"4,7",7,1,So sánh từng chữ số từ trái sang phải
+SK04_0028,SK04,multiple_choice,4 và 9: số nào lớn hơn?,Which is greater: 4 or 9?,"4,9",9,1,So sánh từng chữ số từ trái sang phải
+SK04_0029,SK04,multiple_choice,4 và 12: số nào lớn hơn?,Which is greater: 4 or 12?,"4,12",12,2,So sánh từng chữ số từ trái sang phải
+SK04_0030,SK04,multiple_choice,4 và 16: số nào lớn hơn?,Which is greater: 4 or 16?,"4,16",16,2,So sánh từng chữ số từ trái sang phải
+SK04_0031,SK04,multiple_choice,5 và 6: số nào lớn hơn?,Which is greater: 5 or 6?,"5,6",6,1,So sánh từng chữ số từ trái sang phải
+SK04_0032,SK04,multiple_choice,5 và 7: số nào lớn hơn?,Which is greater: 5 or 7?,"5,7",7,1,So sánh từng chữ số từ trái sang phải
+SK04_0033,SK04,multiple_choice,5 và 8: số nào lớn hơn?,Which is greater: 5 or 8?,"5,8",8,1,So sánh từng chữ số từ trái sang phải
+SK04_0034,SK04,multiple_choice,5 và 10: số nào lớn hơn?,Which is greater: 5 or 10?,"5,10",10,1,So sánh từng chữ số từ trái sang phải
+SK04_0035,SK04,multiple_choice,5 và 13: số nào lớn hơn?,Which is greater: 5 or 13?,"5,13",13,2,So sánh từng chữ số từ trái sang phải
+SK04_0036,SK04,multiple_choice,5 và 17: số nào lớn hơn?,Which is greater: 5 or 17?,"5,17",17,2,So sánh từng chữ số từ trái sang phải
+SK04_0037,SK04,multiple_choice,6 và 7: số nào lớn hơn?,Which is greater: 6 or 7?,"6,7",7,1,So sánh từng chữ số từ trái sang phải
+SK04_0038,SK04,multiple_choice,6 và 8: số nào lớn hơn?,Which is greater: 6 or 8?,"6,8",8,1,So sánh từng chữ số từ trái sang phải
+SK04_0039,SK04,multiple_choice,6 và 9: số nào lớn hơn?,Which is greater: 6 or 9?,"6,9",9,1,So sánh từng chữ số từ trái sang phải
+SK04_0040,SK04,multiple_choice,6 và 11: số nào lớn hơn?,Which is greater: 6 or 11?,"6,11",11,2,So sánh từng chữ số từ trái sang phải
+SK04_0041,SK04,multiple_choice,6 và 14: số nào lớn hơn?,Which is greater: 6 or 14?,"6,14",14,2,So sánh từng chữ số từ trái sang phải
+SK04_0042,SK04,multiple_choice,6 và 18: số nào lớn hơn?,Which is greater: 6 or 18?,"6,18",18,2,So sánh từng chữ số từ trái sang phải
+SK04_0043,SK04,multiple_choice,7 và 8: số nào lớn hơn?,Which is greater: 7 or 8?,"7,8",8,1,So sánh từng chữ số từ trái sang phải
+SK04_0044,SK04,multiple_choice,7 và 9: số nào lớn hơn?,Which is greater: 7 or 9?,"7,9",9,1,So sánh từng chữ số từ trái sang phải
+SK04_0045,SK04,multiple_choice,7 và 10: số nào lớn hơn?,Which is greater: 7 or 10?,"7,10",10,1,So sánh từng chữ số từ trái sang phải
+SK04_0046,SK04,multiple_choice,7 và 12: số nào lớn hơn?,Which is greater: 7 or 12?,"7,12",12,2,So sánh từng chữ số từ trái sang phải
+SK04_0047,SK04,multiple_choice,7 và 15: số nào lớn hơn?,Which is greater: 7 or 15?,"7,15",15,2,So sánh từng chữ số từ trái sang phải
+SK04_0048,SK04,multiple_choice,7 và 19: số nào lớn hơn?,Which is greater: 7 or 19?,"7,19",19,2,So sánh từng chữ số từ trái sang phải
+SK04_0049,SK04,multiple_choice,8 và 9: số nào lớn hơn?,Which is greater: 8 or 9?,"8,9",9,1,So sánh từng chữ số từ trái sang phải
+SK04_0050,SK04,multiple_choice,8 và 10: số nào lớn hơn?,Which is greater: 8 or 10?,"8,10",10,1,So sánh từng chữ số từ trái sang phải
+SK04_0051,SK04,multiple_choice,8 và 11: số nào lớn hơn?,Which is greater: 8 or 11?,"8,11",11,2,So sánh từng chữ số từ trái sang phải
+SK04_0052,SK04,multiple_choice,8 và 13: số nào lớn hơn?,Which is greater: 8 or 13?,"8,13",13,2,So sánh từng chữ số từ trái sang phải
+SK04_0053,SK04,multiple_choice,8 và 16: số nào lớn hơn?,Which is greater: 8 or 16?,"8,16",16,2,So sánh từng chữ số từ trái sang phải
+SK04_0054,SK04,multiple_choice,8 và 20: số nào lớn hơn?,Which is greater: 8 or 20?,"8,20",20,2,So sánh từng chữ số từ trái sang phải
+SK04_0055,SK04,multiple_choice,9 và 10: số nào lớn hơn?,Which is greater: 9 or 10?,"9,10",10,1,So sánh từng chữ số từ trái sang phải
+SK04_0056,SK04,multiple_choice,9 và 11: số nào lớn hơn?,Which is greater: 9 or 11?,"9,11",11,2,So sánh từng chữ số từ trái sang phải
+SK04_0057,SK04,multiple_choice,9 và 12: số nào lớn hơn?,Which is greater: 9 or 12?,"9,12",12,2,So sánh từng chữ số từ trái sang phải
+SK04_0058,SK04,multiple_choice,9 và 14: số nào lớn hơn?,Which is greater: 9 or 14?,"9,14",14,2,So sánh từng chữ số từ trái sang phải
+SK04_0059,SK04,multiple_choice,9 và 17: số nào lớn hơn?,Which is greater: 9 or 17?,"9,17",17,2,So sánh từng chữ số từ trái sang phải
+SK04_0060,SK04,multiple_choice,9 và 21: số nào lớn hơn?,Which is greater: 9 or 21?,"9,21",21,2,So sánh từng chữ số từ trái sang phải
+SK04_0061,SK04,multiple_choice,10 và 11: số nào lớn hơn?,Which is greater: 10 or 11?,"10,11",11,2,So sánh từng chữ số từ trái sang phải
+SK04_0062,SK04,multiple_choice,10 và 12: số nào lớn hơn?,Which is greater: 10 or 12?,"10,12",12,2,So sánh từng chữ số từ trái sang phải
+SK04_0063,SK04,multiple_choice,10 và 13: số nào lớn hơn?,Which is greater: 10 or 13?,"10,13",13,2,So sánh từng chữ số từ trái sang phải
+SK04_0064,SK04,multiple_choice,10 và 15: số nào lớn hơn?,Which is greater: 10 or 15?,"10,15",15,2,So sánh từng chữ số từ trái sang phải
+SK04_0065,SK04,multiple_choice,10 và 18: số nào lớn hơn?,Which is greater: 10 or 18?,"10,18",18,2,So sánh từng chữ số từ trái sang phải
+SK04_0066,SK04,multiple_choice,10 và 22: số nào lớn hơn?,Which is greater: 10 or 22?,"10,22",22,2,So sánh từng chữ số từ trái sang phải
+SK04_0067,SK04,multiple_choice,11 và 12: số nào lớn hơn?,Which is greater: 11 or 12?,"11,12",12,2,So sánh từng chữ số từ trái sang phải
+SK04_0068,SK04,multiple_choice,11 và 13: số nào lớn hơn?,Which is greater: 11 or 13?,"11,13",13,2,So sánh từng chữ số từ trái sang phải
+SK04_0069,SK04,multiple_choice,11 và 14: số nào lớn hơn?,Which is greater: 11 or 14?,"11,14",14,2,So sánh từng chữ số từ trái sang phải
+SK04_0070,SK04,multiple_choice,11 và 16: số nào lớn hơn?,Which is greater: 11 or 16?,"11,16",16,2,So sánh từng chữ số từ trái sang phải
+SK04_0071,SK04,multiple_choice,11 và 19: số nào lớn hơn?,Which is greater: 11 or 19?,"11,19",19,2,So sánh từng chữ số từ trái sang phải
+SK04_0072,SK04,multiple_choice,11 và 23: số nào lớn hơn?,Which is greater: 11 or 23?,"11,23",23,2,So sánh từng chữ số từ trái sang phải
+SK04_0073,SK04,multiple_choice,12 và 13: số nào lớn hơn?,Which is greater: 12 or 13?,"12,13",13,2,So sánh từng chữ số từ trái sang phải
+SK04_0074,SK04,multiple_choice,12 và 14: số nào lớn hơn?,Which is greater: 12 or 14?,"12,14",14,2,So sánh từng chữ số từ trái sang phải
+SK04_0075,SK04,multiple_choice,12 và 15: số nào lớn hơn?,Which is greater: 12 or 15?,"12,15",15,2,So sánh từng chữ số từ trái sang phải
+SK04_0076,SK04,multiple_choice,12 và 17: số nào lớn hơn?,Which is greater: 12 or 17?,"12,17",17,2,So sánh từng chữ số từ trái sang phải
+SK04_0077,SK04,multiple_choice,12 và 20: số nào lớn hơn?,Which is greater: 12 or 20?,"12,20",20,2,So sánh từng chữ số từ trái sang phải
+SK04_0078,SK04,multiple_choice,12 và 24: số nào lớn hơn?,Which is greater: 12 or 24?,"12,24",24,2,So sánh từng chữ số từ trái sang phải
+SK04_0079,SK04,multiple_choice,13 và 14: số nào lớn hơn?,Which is greater: 13 or 14?,"13,14",14,2,So sánh từng chữ số từ trái sang phải
+SK04_0080,SK04,multiple_choice,13 và 15: số nào lớn hơn?,Which is greater: 13 or 15?,"13,15",15,2,So sánh từng chữ số từ trái sang phải
+SK04_0081,SK04,multiple_choice,13 và 16: số nào lớn hơn?,Which is greater: 13 or 16?,"13,16",16,2,So sánh từng chữ số từ trái sang phải
+SK04_0082,SK04,multiple_choice,13 và 18: số nào lớn hơn?,Which is greater: 13 or 18?,"13,18",18,2,So sánh từng chữ số từ trái sang phải
+SK04_0083,SK04,multiple_choice,13 và 21: số nào lớn hơn?,Which is greater: 13 or 21?,"13,21",21,2,So sánh từng chữ số từ trái sang phải
+SK04_0084,SK04,multiple_choice,13 và 25: số nào lớn hơn?,Which is greater: 13 or 25?,"13,25",25,2,So sánh từng chữ số từ trái sang phải
+SK04_0085,SK04,multiple_choice,14 và 15: số nào lớn hơn?,Which is greater: 14 or 15?,"14,15",15,2,So sánh từng chữ số từ trái sang phải
+SK04_0086,SK04,multiple_choice,14 và 16: số nào lớn hơn?,Which is greater: 14 or 16?,"14,16",16,2,So sánh từng chữ số từ trái sang phải
+SK04_0087,SK04,multiple_choice,14 và 17: số nào lớn hơn?,Which is greater: 14 or 17?,"14,17",17,2,So sánh từng chữ số từ trái sang phải
+SK04_0088,SK04,multiple_choice,14 và 19: số nào lớn hơn?,Which is greater: 14 or 19?,"14,19",19,2,So sánh từng chữ số từ trái sang phải
+SK04_0089,SK04,multiple_choice,14 và 22: số nào lớn hơn?,Which is greater: 14 or 22?,"14,22",22,2,So sánh từng chữ số từ trái sang phải
+SK04_0090,SK04,multiple_choice,14 và 26: số nào lớn hơn?,Which is greater: 14 or 26?,"14,26",26,2,So sánh từng chữ số từ trái sang phải
+SK04_0091,SK04,multiple_choice,15 và 16: số nào lớn hơn?,Which is greater: 15 or 16?,"15,16",16,2,So sánh từng chữ số từ trái sang phải
+SK04_0092,SK04,multiple_choice,15 và 17: số nào lớn hơn?,Which is greater: 15 or 17?,"15,17",17,2,So sánh từng chữ số từ trái sang phải
+SK04_0093,SK04,multiple_choice,15 và 18: số nào lớn hơn?,Which is greater: 15 or 18?,"15,18",18,2,So sánh từng chữ số từ trái sang phải
+SK04_0094,SK04,multiple_choice,15 và 20: số nào lớn hơn?,Which is greater: 15 or 20?,"15,20",20,2,So sánh từng chữ số từ trái sang phải
+SK04_0095,SK04,multiple_choice,15 và 23: số nào lớn hơn?,Which is greater: 15 or 23?,"15,23",23,2,So sánh từng chữ số từ trái sang phải
+SK04_0096,SK04,multiple_choice,15 và 27: số nào lớn hơn?,Which is greater: 15 or 27?,"15,27",27,2,So sánh từng chữ số từ trái sang phải
+SK04_0097,SK04,multiple_choice,16 và 17: số nào lớn hơn?,Which is greater: 16 or 17?,"16,17",17,2,So sánh từng chữ số từ trái sang phải
+SK04_0098,SK04,multiple_choice,16 và 18: số nào lớn hơn?,Which is greater: 16 or 18?,"16,18",18,2,So sánh từng chữ số từ trái sang phải
+SK04_0099,SK04,multiple_choice,16 và 19: số nào lớn hơn?,Which is greater: 16 or 19?,"16,19",19,2,So sánh từng chữ số từ trái sang phải
+SK04_0100,SK04,multiple_choice,16 và 21: số nào lớn hơn?,Which is greater: 16 or 21?,"16,21",21,2,So sánh từng chữ số từ trái sang phải
+SK04_0101,SK04,multiple_choice,16 và 24: số nào lớn hơn?,Which is greater: 16 or 24?,"16,24",24,2,So sánh từng chữ số từ trái sang phải
+SK04_0102,SK04,multiple_choice,16 và 28: số nào lớn hơn?,Which is greater: 16 or 28?,"16,28",28,2,So sánh từng chữ số từ trái sang phải
+SK04_0103,SK04,multiple_choice,17 và 18: số nào lớn hơn?,Which is greater: 17 or 18?,"17,18",18,2,So sánh từng chữ số từ trái sang phải
+SK04_0104,SK04,multiple_choice,17 và 19: số nào lớn hơn?,Which is greater: 17 or 19?,"17,19",19,2,So sánh từng chữ số từ trái sang phải
+SK04_0105,SK04,multiple_choice,17 và 20: số nào lớn hơn?,Which is greater: 17 or 20?,"17,20",20,2,So sánh từng chữ số từ trái sang phải
+SK04_0106,SK04,multiple_choice,17 và 22: số nào lớn hơn?,Which is greater: 17 or 22?,"17,22",22,2,So sánh từng chữ số từ trái sang phải
+SK04_0107,SK04,multiple_choice,17 và 25: số nào lớn hơn?,Which is greater: 17 or 25?,"17,25",25,2,So sánh từng chữ số từ trái sang phải
+SK04_0108,SK04,multiple_choice,17 và 29: số nào lớn hơn?,Which is greater: 17 or 29?,"17,29",29,2,So sánh từng chữ số từ trái sang phải
+SK04_0109,SK04,multiple_choice,18 và 19: số nào lớn hơn?,Which is greater: 18 or 19?,"18,19",19,2,So sánh từng chữ số từ trái sang phải
+SK04_0110,SK04,multiple_choice,18 và 20: số nào lớn hơn?,Which is greater: 18 or 20?,"18,20",20,2,So sánh từng chữ số từ trái sang phải
+SK04_0111,SK04,multiple_choice,18 và 21: số nào lớn hơn?,Which is greater: 18 or 21?,"18,21",21,2,So sánh từng chữ số từ trái sang phải
+SK04_0112,SK04,multiple_choice,18 và 23: số nào lớn hơn?,Which is greater: 18 or 23?,"18,23",23,2,So sánh từng chữ số từ trái sang phải
+SK04_0113,SK04,multiple_choice,18 và 26: số nào lớn hơn?,Which is greater: 18 or 26?,"18,26",26,2,So sánh từng chữ số từ trái sang phải
+SK04_0114,SK04,multiple_choice,18 và 30: số nào lớn hơn?,Which is greater: 18 or 30?,"18,30",30,2,So sánh từng chữ số từ trái sang phải
+SK04_0115,SK04,multiple_choice,19 và 20: số nào lớn hơn?,Which is greater: 19 or 20?,"19,20",20,2,So sánh từng chữ số từ trái sang phải
+SK04_0116,SK04,multiple_choice,19 và 21: số nào lớn hơn?,Which is greater: 19 or 21?,"19,21",21,2,So sánh từng chữ số từ trái sang phải
+SK04_0117,SK04,multiple_choice,19 và 22: số nào lớn hơn?,Which is greater: 19 or 22?,"19,22",22,2,So sánh từng chữ số từ trái sang phải
+SK04_0118,SK04,multiple_choice,19 và 24: số nào lớn hơn?,Which is greater: 19 or 24?,"19,24",24,2,So sánh từng chữ số từ trái sang phải
+SK04_0119,SK04,multiple_choice,19 và 27: số nào lớn hơn?,Which is greater: 19 or 27?,"19,27",27,2,So sánh từng chữ số từ trái sang phải
+SK04_0120,SK04,multiple_choice,19 và 31: số nào lớn hơn?,Which is greater: 19 or 31?,"19,31",31,2,So sánh từng chữ số từ trái sang phải
+SK04_0121,SK04,multiple_choice,20 và 21: số nào lớn hơn?,Which is greater: 20 or 21?,"20,21",21,2,So sánh từng chữ số từ trái sang phải
+SK04_0122,SK04,multiple_choice,20 và 22: số nào lớn hơn?,Which is greater: 20 or 22?,"20,22",22,2,So sánh từng chữ số từ trái sang phải
+SK04_0123,SK04,multiple_choice,20 và 23: số nào lớn hơn?,Which is greater: 20 or 23?,"20,23",23,2,So sánh từng chữ số từ trái sang phải
+SK04_0124,SK04,multiple_choice,20 và 25: số nào lớn hơn?,Which is greater: 20 or 25?,"20,25",25,2,So sánh từng chữ số từ trái sang phải
+SK04_0125,SK04,multiple_choice,20 và 28: số nào lớn hơn?,Which is greater: 20 or 28?,"20,28",28,2,So sánh từng chữ số từ trái sang phải
+SK04_0126,SK04,multiple_choice,20 và 32: số nào lớn hơn?,Which is greater: 20 or 32?,"20,32",32,2,So sánh từng chữ số từ trái sang phải
+SK04_0127,SK04,multiple_choice,21 và 22: số nào lớn hơn?,Which is greater: 21 or 22?,"21,22",22,2,So sánh từng chữ số từ trái sang phải
+SK04_0128,SK04,multiple_choice,21 và 23: số nào lớn hơn?,Which is greater: 21 or 23?,"21,23",23,2,So sánh từng chữ số từ trái sang phải
+SK04_0129,SK04,multiple_choice,21 và 24: số nào lớn hơn?,Which is greater: 21 or 24?,"21,24",24,2,So sánh từng chữ số từ trái sang phải
+SK04_0130,SK04,multiple_choice,21 và 26: số nào lớn hơn?,Which is greater: 21 or 26?,"21,26",26,2,So sánh từng chữ số từ trái sang phải
+SK04_0131,SK04,multiple_choice,21 và 29: số nào lớn hơn?,Which is greater: 21 or 29?,"21,29",29,2,So sánh từng chữ số từ trái sang phải
+SK04_0132,SK04,multiple_choice,21 và 33: số nào lớn hơn?,Which is greater: 21 or 33?,"21,33",33,2,So sánh từng chữ số từ trái sang phải
+SK04_0133,SK04,multiple_choice,22 và 23: số nào lớn hơn?,Which is greater: 22 or 23?,"22,23",23,2,So sánh từng chữ số từ trái sang phải
+SK04_0134,SK04,multiple_choice,22 và 24: số nào lớn hơn?,Which is greater: 22 or 24?,"22,24",24,2,So sánh từng chữ số từ trái sang phải
+SK04_0135,SK04,multiple_choice,22 và 25: số nào lớn hơn?,Which is greater: 22 or 25?,"22,25",25,2,So sánh từng chữ số từ trái sang phải
+SK04_0136,SK04,multiple_choice,22 và 27: số nào lớn hơn?,Which is greater: 22 or 27?,"22,27",27,2,So sánh từng chữ số từ trái sang phải
+SK04_0137,SK04,multiple_choice,22 và 30: số nào lớn hơn?,Which is greater: 22 or 30?,"22,30",30,2,So sánh từng chữ số từ trái sang phải
+SK04_0138,SK04,multiple_choice,22 và 34: số nào lớn hơn?,Which is greater: 22 or 34?,"22,34",34,2,So sánh từng chữ số từ trái sang phải
+SK04_0139,SK04,multiple_choice,23 và 24: số nào lớn hơn?,Which is greater: 23 or 24?,"23,24",24,2,So sánh từng chữ số từ trái sang phải
+SK04_0140,SK04,multiple_choice,23 và 25: số nào lớn hơn?,Which is greater: 23 or 25?,"23,25",25,2,So sánh từng chữ số từ trái sang phải
+SK04_0141,SK04,multiple_choice,23 và 26: số nào lớn hơn?,Which is greater: 23 or 26?,"23,26",26,2,So sánh từng chữ số từ trái sang phải
+SK04_0142,SK04,multiple_choice,23 và 28: số nào lớn hơn?,Which is greater: 23 or 28?,"23,28",28,2,So sánh từng chữ số từ trái sang phải
+SK04_0143,SK04,multiple_choice,23 và 31: số nào lớn hơn?,Which is greater: 23 or 31?,"23,31",31,2,So sánh từng chữ số từ trái sang phải
+SK04_0144,SK04,multiple_choice,23 và 35: số nào lớn hơn?,Which is greater: 23 or 35?,"23,35",35,2,So sánh từng chữ số từ trái sang phải
+SK04_0145,SK04,multiple_choice,24 và 25: số nào lớn hơn?,Which is greater: 24 or 25?,"24,25",25,2,So sánh từng chữ số từ trái sang phải
+SK04_0146,SK04,multiple_choice,24 và 26: số nào lớn hơn?,Which is greater: 24 or 26?,"24,26",26,2,So sánh từng chữ số từ trái sang phải
+SK04_0147,SK04,multiple_choice,24 và 27: số nào lớn hơn?,Which is greater: 24 or 27?,"24,27",27,2,So sánh từng chữ số từ trái sang phải
+SK04_0148,SK04,multiple_choice,24 và 29: số nào lớn hơn?,Which is greater: 24 or 29?,"24,29",29,2,So sánh từng chữ số từ trái sang phải
+SK04_0149,SK04,multiple_choice,24 và 32: số nào lớn hơn?,Which is greater: 24 or 32?,"24,32",32,2,So sánh từng chữ số từ trái sang phải
+SK04_0150,SK04,multiple_choice,24 và 36: số nào lớn hơn?,Which is greater: 24 or 36?,"24,36",36,2,So sánh từng chữ số từ trái sang phải
+SK04_0151,SK04,multiple_choice,25 và 26: số nào lớn hơn?,Which is greater: 25 or 26?,"25,26",26,2,So sánh từng chữ số từ trái sang phải
+SK04_0152,SK04,multiple_choice,25 và 27: số nào lớn hơn?,Which is greater: 25 or 27?,"25,27",27,2,So sánh từng chữ số từ trái sang phải
+SK04_0153,SK04,multiple_choice,25 và 28: số nào lớn hơn?,Which is greater: 25 or 28?,"25,28",28,2,So sánh từng chữ số từ trái sang phải
+SK04_0154,SK04,multiple_choice,25 và 30: số nào lớn hơn?,Which is greater: 25 or 30?,"25,30",30,2,So sánh từng chữ số từ trái sang phải
+SK04_0155,SK04,multiple_choice,25 và 33: số nào lớn hơn?,Which is greater: 25 or 33?,"25,33",33,2,So sánh từng chữ số từ trái sang phải
+SK04_0156,SK04,multiple_choice,25 và 37: số nào lớn hơn?,Which is greater: 25 or 37?,"25,37",37,2,So sánh từng chữ số từ trái sang phải
+SK04_0157,SK04,multiple_choice,26 và 27: số nào lớn hơn?,Which is greater: 26 or 27?,"26,27",27,2,So sánh từng chữ số từ trái sang phải
+SK04_0158,SK04,multiple_choice,26 và 28: số nào lớn hơn?,Which is greater: 26 or 28?,"26,28",28,2,So sánh từng chữ số từ trái sang phải
+SK04_0159,SK04,multiple_choice,26 và 29: số nào lớn hơn?,Which is greater: 26 or 29?,"26,29",29,2,So sánh từng chữ số từ trái sang phải
+SK04_0160,SK04,multiple_choice,26 và 31: số nào lớn hơn?,Which is greater: 26 or 31?,"26,31",31,2,So sánh từng chữ số từ trái sang phải
+SK04_0161,SK04,multiple_choice,26 và 34: số nào lớn hơn?,Which is greater: 26 or 34?,"26,34",34,2,So sánh từng chữ số từ trái sang phải
+SK04_0162,SK04,multiple_choice,26 và 38: số nào lớn hơn?,Which is greater: 26 or 38?,"26,38",38,2,So sánh từng chữ số từ trái sang phải
+SK04_0163,SK04,multiple_choice,27 và 28: số nào lớn hơn?,Which is greater: 27 or 28?,"27,28",28,2,So sánh từng chữ số từ trái sang phải
+SK04_0164,SK04,multiple_choice,27 và 29: số nào lớn hơn?,Which is greater: 27 or 29?,"27,29",29,2,So sánh từng chữ số từ trái sang phải
+SK04_0165,SK04,multiple_choice,27 và 30: số nào lớn hơn?,Which is greater: 27 or 30?,"27,30",30,2,So sánh từng chữ số từ trái sang phải
+SK04_0166,SK04,multiple_choice,27 và 32: số nào lớn hơn?,Which is greater: 27 or 32?,"27,32",32,2,So sánh từng chữ số từ trái sang phải
+SK04_0167,SK04,multiple_choice,27 và 35: số nào lớn hơn?,Which is greater: 27 or 35?,"27,35",35,2,So sánh từng chữ số từ trái sang phải
+SK04_0168,SK04,multiple_choice,27 và 39: số nào lớn hơn?,Which is greater: 27 or 39?,"27,39",39,2,So sánh từng chữ số từ trái sang phải
+SK04_0169,SK04,multiple_choice,28 và 29: số nào lớn hơn?,Which is greater: 28 or 29?,"28,29",29,2,So sánh từng chữ số từ trái sang phải
+SK04_0170,SK04,multiple_choice,28 và 30: số nào lớn hơn?,Which is greater: 28 or 30?,"28,30",30,2,So sánh từng chữ số từ trái sang phải
+SK04_0171,SK04,multiple_choice,28 và 31: số nào lớn hơn?,Which is greater: 28 or 31?,"28,31",31,2,So sánh từng chữ số từ trái sang phải
+SK04_0172,SK04,multiple_choice,28 và 33: số nào lớn hơn?,Which is greater: 28 or 33?,"28,33",33,2,So sánh từng chữ số từ trái sang phải
+SK04_0173,SK04,multiple_choice,28 và 36: số nào lớn hơn?,Which is greater: 28 or 36?,"28,36",36,2,So sánh từng chữ số từ trái sang phải
+SK04_0174,SK04,multiple_choice,28 và 40: số nào lớn hơn?,Which is greater: 28 or 40?,"28,40",40,2,So sánh từng chữ số từ trái sang phải
+SK04_0175,SK04,multiple_choice,29 và 30: số nào lớn hơn?,Which is greater: 29 or 30?,"29,30",30,2,So sánh từng chữ số từ trái sang phải
+SK04_0176,SK04,multiple_choice,29 và 31: số nào lớn hơn?,Which is greater: 29 or 31?,"29,31",31,2,So sánh từng chữ số từ trái sang phải
+SK04_0177,SK04,multiple_choice,29 và 32: số nào lớn hơn?,Which is greater: 29 or 32?,"29,32",32,2,So sánh từng chữ số từ trái sang phải
+SK04_0178,SK04,multiple_choice,29 và 34: số nào lớn hơn?,Which is greater: 29 or 34?,"29,34",34,2,So sánh từng chữ số từ trái sang phải
+SK04_0179,SK04,multiple_choice,29 và 37: số nào lớn hơn?,Which is greater: 29 or 37?,"29,37",37,2,So sánh từng chữ số từ trái sang phải
+SK04_0180,SK04,multiple_choice,29 và 41: số nào lớn hơn?,Which is greater: 29 or 41?,"29,41",41,2,So sánh từng chữ số từ trái sang phải
+SK04_0181,SK04,multiple_choice,30 và 31: số nào lớn hơn?,Which is greater: 30 or 31?,"30,31",31,2,So sánh từng chữ số từ trái sang phải
+SK04_0182,SK04,multiple_choice,30 và 32: số nào lớn hơn?,Which is greater: 30 or 32?,"30,32",32,2,So sánh từng chữ số từ trái sang phải
+SK04_0183,SK04,multiple_choice,30 và 33: số nào lớn hơn?,Which is greater: 30 or 33?,"30,33",33,2,So sánh từng chữ số từ trái sang phải
+SK04_0184,SK04,multiple_choice,30 và 35: số nào lớn hơn?,Which is greater: 30 or 35?,"30,35",35,2,So sánh từng chữ số từ trái sang phải
+SK04_0185,SK04,multiple_choice,30 và 38: số nào lớn hơn?,Which is greater: 30 or 38?,"30,38",38,2,So sánh từng chữ số từ trái sang phải
+SK04_0186,SK04,multiple_choice,30 và 42: số nào lớn hơn?,Which is greater: 30 or 42?,"30,42",42,2,So sánh từng chữ số từ trái sang phải
+SK04_0187,SK04,multiple_choice,31 và 32: số nào lớn hơn?,Which is greater: 31 or 32?,"31,32",32,2,So sánh từng chữ số từ trái sang phải
+SK04_0188,SK04,multiple_choice,31 và 33: số nào lớn hơn?,Which is greater: 31 or 33?,"31,33",33,2,So sánh từng chữ số từ trái sang phải
+SK04_0189,SK04,multiple_choice,31 và 34: số nào lớn hơn?,Which is greater: 31 or 34?,"31,34",34,2,So sánh từng chữ số từ trái sang phải
+SK04_0190,SK04,multiple_choice,31 và 36: số nào lớn hơn?,Which is greater: 31 or 36?,"31,36",36,2,So sánh từng chữ số từ trái sang phải
+SK04_0191,SK04,multiple_choice,31 và 39: số nào lớn hơn?,Which is greater: 31 or 39?,"31,39",39,2,So sánh từng chữ số từ trái sang phải
+SK04_0192,SK04,multiple_choice,31 và 43: số nào lớn hơn?,Which is greater: 31 or 43?,"31,43",43,2,So sánh từng chữ số từ trái sang phải
+SK04_0193,SK04,multiple_choice,32 và 33: số nào lớn hơn?,Which is greater: 32 or 33?,"32,33",33,2,So sánh từng chữ số từ trái sang phải
+SK04_0194,SK04,multiple_choice,32 và 34: số nào lớn hơn?,Which is greater: 32 or 34?,"32,34",34,2,So sánh từng chữ số từ trái sang phải
+SK04_0195,SK04,multiple_choice,32 và 35: số nào lớn hơn?,Which is greater: 32 or 35?,"32,35",35,2,So sánh từng chữ số từ trái sang phải
+SK04_0196,SK04,multiple_choice,32 và 37: số nào lớn hơn?,Which is greater: 32 or 37?,"32,37",37,2,So sánh từng chữ số từ trái sang phải
+SK04_0197,SK04,multiple_choice,32 và 40: số nào lớn hơn?,Which is greater: 32 or 40?,"32,40",40,2,So sánh từng chữ số từ trái sang phải
+SK04_0198,SK04,multiple_choice,32 và 44: số nào lớn hơn?,Which is greater: 32 or 44?,"32,44",44,2,So sánh từng chữ số từ trái sang phải
+SK04_0199,SK04,multiple_choice,33 và 34: số nào lớn hơn?,Which is greater: 33 or 34?,"33,34",34,2,So sánh từng chữ số từ trái sang phải
+SK04_0200,SK04,multiple_choice,33 và 35: số nào lớn hơn?,Which is greater: 33 or 35?,"33,35",35,2,So sánh từng chữ số từ trái sang phải
+SK04_0201,SK04,multiple_choice,33 và 36: số nào lớn hơn?,Which is greater: 33 or 36?,"33,36",36,2,So sánh từng chữ số từ trái sang phải
+SK04_0202,SK04,fill_blank,Điền dấu (> < =): 24 _ 34,Fill in (> < =): 24 _ 34,,<,2,24 nhỏ hơn 34
+SK04_0203,SK04,fill_blank,Điền dấu (> < =): 38 _ 48,Fill in (> < =): 38 _ 48,,<,2,38 nhỏ hơn 48
+SK04_0204,SK04,fill_blank,Điền dấu (> < =): 22 _ 32,Fill in (> < =): 22 _ 32,,<,2,22 nhỏ hơn 32
+SK04_0205,SK04,fill_blank,Điền dấu (> < =): 4 _ 3,Fill in (> < =): 4 _ 3,,>,1,4 lớn hơn 3
+SK04_0206,SK04,fill_blank,Điền dấu (> < =): 42 _ 52,Fill in (> < =): 42 _ 52,,<,3,42 nhỏ hơn 52
+SK04_0207,SK04,fill_blank,Điền dấu (> < =): 12 _ 11,Fill in (> < =): 12 _ 11,,>,2,12 lớn hơn 11
+SK04_0208,SK04,fill_blank,Điền dấu (> < =): 6 _ 6,Fill in (> < =): 6 _ 6,,=,1,6 bằng 6
+SK04_0209,SK04,fill_blank,Điền dấu (> < =): 42 _ 43,Fill in (> < =): 42 _ 43,,<,2,42 nhỏ hơn 43
+SK04_0210,SK04,fill_blank,Điền dấu (> < =): 20 _ 21,Fill in (> < =): 20 _ 21,,<,2,20 nhỏ hơn 21
+SK04_0211,SK04,fill_blank,Điền dấu (> < =): 30 _ 40,Fill in (> < =): 30 _ 40,,<,2,30 nhỏ hơn 40
+SK04_0212,SK04,fill_blank,Điền dấu (> < =): 18 _ 19,Fill in (> < =): 18 _ 19,,<,2,18 nhỏ hơn 19
+SK04_0213,SK04,fill_blank,Điền dấu (> < =): 28 _ 25,Fill in (> < =): 28 _ 25,,>,2,28 lớn hơn 25
+SK04_0214,SK04,fill_blank,Điền dấu (> < =): 50 _ 54,Fill in (> < =): 50 _ 54,,<,3,50 nhỏ hơn 54
+SK04_0215,SK04,fill_blank,Điền dấu (> < =): 32 _ 33,Fill in (> < =): 32 _ 33,,<,2,32 nhỏ hơn 33
+SK04_0216,SK04,fill_blank,Điền dấu (> < =): 16 _ 15,Fill in (> < =): 16 _ 15,,>,2,16 lớn hơn 15
+SK04_0217,SK04,fill_blank,Điền dấu (> < =): 0 _ 4,Fill in (> < =): 0 _ 4,,<,1,0 nhỏ hơn 4
+SK04_0218,SK04,fill_blank,Điền dấu (> < =): 0 _ 10,Fill in (> < =): 0 _ 10,,<,1,0 nhỏ hơn 10
+SK04_0219,SK04,fill_blank,Điền dấu (> < =): 26 _ 27,Fill in (> < =): 26 _ 27,,<,2,26 nhỏ hơn 27
+SK04_0220,SK04,fill_blank,Điền dấu (> < =): 36 _ 35,Fill in (> < =): 36 _ 35,,>,2,36 lớn hơn 35
+SK04_0221,SK04,fill_blank,Điền dấu (> < =): 26 _ 36,Fill in (> < =): 26 _ 36,,<,2,26 nhỏ hơn 36
+SK04_0222,SK04,fill_blank,Điền dấu (> < =): 20 _ 30,Fill in (> < =): 20 _ 30,,<,2,20 nhỏ hơn 30
+SK04_0223,SK04,fill_blank,Điền dấu (> < =): 38 _ 42,Fill in (> < =): 38 _ 42,,<,2,38 nhỏ hơn 42
+SK04_0224,SK04,fill_blank,Điền dấu (> < =): 26 _ 25,Fill in (> < =): 26 _ 25,,>,2,26 lớn hơn 25
+SK04_0225,SK04,fill_blank,Điền dấu (> < =): 50 _ 51,Fill in (> < =): 50 _ 51,,<,3,50 nhỏ hơn 51
+SK04_0226,SK04,fill_blank,Điền dấu (> < =): 46 _ 46,Fill in (> < =): 46 _ 46,,=,2,46 bằng 46
+SK04_0227,SK04,fill_blank,Điền dấu (> < =): 0 _ 1,Fill in (> < =): 0 _ 1,,<,1,0 nhỏ hơn 1
+SK04_0228,SK04,fill_blank,Điền dấu (> < =): 46 _ 43,Fill in (> < =): 46 _ 43,,>,2,46 lớn hơn 43
+SK04_0229,SK04,fill_blank,Điền dấu (> < =): 32 _ 36,Fill in (> < =): 32 _ 36,,<,2,32 nhỏ hơn 36
+SK04_0230,SK04,fill_blank,Điền dấu (> < =): 20 _ 24,Fill in (> < =): 20 _ 24,,<,2,20 nhỏ hơn 24
+SK04_0231,SK04,fill_blank,Điền dấu (> < =): 24 _ 25,Fill in (> < =): 24 _ 25,,<,2,24 nhỏ hơn 25
+SK04_0232,SK04,fill_blank,Điền dấu (> < =): 14 _ 18,Fill in (> < =): 14 _ 18,,<,2,14 nhỏ hơn 18
+SK04_0233,SK04,fill_blank,Điền dấu (> < =): 24 _ 28,Fill in (> < =): 24 _ 28,,<,2,24 nhỏ hơn 28
+SK04_0234,SK04,fill_blank,Điền dấu (> < =): 0 _ 0,Fill in (> < =): 0 _ 0,,=,1,0 bằng 0
+SK04_0235,SK04,fill_blank,Điền dấu (> < =): 44 _ 41,Fill in (> < =): 44 _ 41,,>,2,44 lớn hơn 41
+SK04_0236,SK04,fill_blank,Điền dấu (> < =): 50 _ 50,Fill in (> < =): 50 _ 50,,=,2,50 bằng 50
+SK04_0237,SK04,fill_blank,Điền dấu (> < =): 6 _ 5,Fill in (> < =): 6 _ 5,,>,1,6 lớn hơn 5
+SK04_0238,SK04,fill_blank,Điền dấu (> < =): 18 _ 28,Fill in (> < =): 18 _ 28,,<,2,18 nhỏ hơn 28
+SK04_0239,SK04,fill_blank,Điền dấu (> < =): 16 _ 26,Fill in (> < =): 16 _ 26,,<,2,16 nhỏ hơn 26
+SK04_0240,SK04,fill_blank,Điền dấu (> < =): 28 _ 38,Fill in (> < =): 28 _ 38,,<,2,28 nhỏ hơn 38
+SK04_0241,SK04,fill_blank,Điền dấu (> < =): 22 _ 22,Fill in (> < =): 22 _ 22,,=,2,22 bằng 22
+SK04_0242,SK04,fill_blank,Điền dấu (> < =): 34 _ 44,Fill in (> < =): 34 _ 44,,<,2,34 nhỏ hơn 44
+SK04_0243,SK04,fill_blank,Điền dấu (> < =): 22 _ 21,Fill in (> < =): 22 _ 21,,>,2,22 lớn hơn 21
+SK04_0244,SK04,fill_blank,Điền dấu (> < =): 38 _ 37,Fill in (> < =): 38 _ 37,,>,2,38 lớn hơn 37
+SK04_0245,SK04,fill_blank,Điền dấu (> < =): 20 _ 19,Fill in (> < =): 20 _ 19,,>,2,20 lớn hơn 19
+SK04_0246,SK04,fill_blank,Điền dấu (> < =): 2 _ 6,Fill in (> < =): 2 _ 6,,<,1,2 nhỏ hơn 6
+SK04_0247,SK04,fill_blank,Điền dấu (> < =): 28 _ 32,Fill in (> < =): 28 _ 32,,<,2,28 nhỏ hơn 32
+SK04_0248,SK04,fill_blank,Điền dấu (> < =): 4 _ 8,Fill in (> < =): 4 _ 8,,<,1,4 nhỏ hơn 8
+SK04_0249,SK04,fill_blank,Điền dấu (> < =): 50 _ 49,Fill in (> < =): 50 _ 49,,>,2,50 lớn hơn 49
+SK04_0250,SK04,fill_blank,Điền dấu (> < =): 22 _ 19,Fill in (> < =): 22 _ 19,,>,2,22 lớn hơn 19
+SK04_0251,SK04,fill_blank,Điền dấu (> < =): 50 _ 60,Fill in (> < =): 50 _ 60,,<,3,50 nhỏ hơn 60
+SK04_0252,SK04,fill_blank,Điền dấu (> < =): 42 _ 46,Fill in (> < =): 42 _ 46,,<,2,42 nhỏ hơn 46
+SK04_0253,SK04,fill_blank,Điền dấu (> < =): 46 _ 56,Fill in (> < =): 46 _ 56,,<,3,46 nhỏ hơn 56
+SK04_0254,SK04,fill_blank,Điền dấu (> < =): 28 _ 27,Fill in (> < =): 28 _ 27,,>,2,28 lớn hơn 27
+SK04_0255,SK04,fill_blank,Điền dấu (> < =): 16 _ 16,Fill in (> < =): 16 _ 16,,=,2,16 bằng 16
+SK04_0256,SK04,fill_blank,Điền dấu (> < =): 18 _ 17,Fill in (> < =): 18 _ 17,,>,2,18 lớn hơn 17
+SK04_0257,SK04,fill_blank,Điền dấu (> < =): 34 _ 38,Fill in (> < =): 34 _ 38,,<,2,34 nhỏ hơn 38
+SK04_0258,SK04,fill_blank,Điền dấu (> < =): 30 _ 27,Fill in (> < =): 30 _ 27,,>,2,30 lớn hơn 27
+SK04_0259,SK04,fill_blank,Điền dấu (> < =): 8 _ 5,Fill in (> < =): 8 _ 5,,>,1,8 lớn hơn 5
+SK04_0260,SK04,fill_blank,Điền dấu (> < =): 46 _ 47,Fill in (> < =): 46 _ 47,,<,2,46 nhỏ hơn 47
+SK04_0261,SK04,fill_blank,Điền dấu (> < =): 26 _ 30,Fill in (> < =): 26 _ 30,,<,2,26 nhỏ hơn 30
+SK04_0262,SK04,fill_blank,Điền dấu (> < =): 16 _ 17,Fill in (> < =): 16 _ 17,,<,2,16 nhỏ hơn 17
+SK04_0263,SK04,fill_blank,Điền dấu (> < =): 14 _ 13,Fill in (> < =): 14 _ 13,,>,2,14 lớn hơn 13
+SK04_0264,SK04,fill_blank,Điền dấu (> < =): 30 _ 31,Fill in (> < =): 30 _ 31,,<,2,30 nhỏ hơn 31
+SK04_0265,SK04,fill_blank,Điền dấu (> < =): 34 _ 31,Fill in (> < =): 34 _ 31,,>,2,34 lớn hơn 31
+SK04_0266,SK04,fill_blank,Điền dấu (> < =): 36 _ 36,Fill in (> < =): 36 _ 36,,=,2,36 bằng 36
+SK04_0267,SK04,fill_blank,Điền dấu (> < =): 44 _ 48,Fill in (> < =): 44 _ 48,,<,2,44 nhỏ hơn 48
+SK04_0268,SK04,fill_blank,Điền dấu (> < =): 8 _ 18,Fill in (> < =): 8 _ 18,,<,2,8 nhỏ hơn 18
+SK04_0269,SK04,fill_blank,Điền dấu (> < =): 44 _ 45,Fill in (> < =): 44 _ 45,,<,2,44 nhỏ hơn 45
+SK04_0270,SK04,fill_blank,Điền dấu (> < =): 32 _ 42,Fill in (> < =): 32 _ 42,,<,2,32 nhỏ hơn 42
+SK04_0271,SK04,fill_blank,Điền dấu (> < =): 14 _ 15,Fill in (> < =): 14 _ 15,,<,2,14 nhỏ hơn 15
+SK04_0272,SK04,fill_blank,Điền dấu (> < =): 34 _ 34,Fill in (> < =): 34 _ 34,,=,2,34 bằng 34
+SK04_0273,SK04,fill_blank,Điền dấu (> < =): 10 _ 14,Fill in (> < =): 10 _ 14,,<,2,10 nhỏ hơn 14
+SK04_0274,SK04,fill_blank,Điền dấu (> < =): 40 _ 50,Fill in (> < =): 40 _ 50,,<,2,40 nhỏ hơn 50
+SK04_0275,SK04,fill_blank,Điền dấu (> < =): 36 _ 46,Fill in (> < =): 36 _ 46,,<,2,36 nhỏ hơn 46
+SK04_0276,SK04,fill_blank,Điền dấu (> < =): 48 _ 49,Fill in (> < =): 48 _ 49,,<,2,48 nhỏ hơn 49
+SK04_0277,SK04,fill_blank,Điền dấu (> < =): 14 _ 11,Fill in (> < =): 14 _ 11,,>,2,14 lớn hơn 11
+SK04_0278,SK04,fill_blank,Điền dấu (> < =): 2 _ 1,Fill in (> < =): 2 _ 1,,>,1,2 lớn hơn 1
+SK04_0279,SK04,fill_blank,Điền dấu (> < =): 10 _ 11,Fill in (> < =): 10 _ 11,,<,2,10 nhỏ hơn 11
+SK04_0280,SK04,fill_blank,Điền dấu (> < =): 4 _ 14,Fill in (> < =): 4 _ 14,,<,2,4 nhỏ hơn 14
+SK04_0281,SK04,fill_blank,Điền dấu (> < =): 36 _ 33,Fill in (> < =): 36 _ 33,,>,2,36 lớn hơn 33
+SK04_0282,SK04,fill_blank,Điền dấu (> < =): 12 _ 12,Fill in (> < =): 12 _ 12,,=,2,12 bằng 12
+SK04_0283,SK04,fill_blank,Điền dấu (> < =): 42 _ 41,Fill in (> < =): 42 _ 41,,>,2,42 lớn hơn 41
+SK04_0284,SK04,fill_blank,Điền dấu (> < =): 28 _ 29,Fill in (> < =): 28 _ 29,,<,2,28 nhỏ hơn 29
+SK04_0285,SK04,fill_blank,Điền dấu (> < =): 38 _ 35,Fill in (> < =): 38 _ 35,,>,2,38 lớn hơn 35
+SK04_0286,SK04,fill_blank,Điền dấu (> < =): 12 _ 9,Fill in (> < =): 12 _ 9,,>,2,12 lớn hơn 9
+SK04_0287,SK04,fill_blank,Điền dấu (> < =): 12 _ 22,Fill in (> < =): 12 _ 22,,<,2,12 nhỏ hơn 22
+SK04_0288,SK04,fill_blank,Điền dấu (> < =): 4 _ 1,Fill in (> < =): 4 _ 1,,>,1,4 lớn hơn 1
+SK04_0289,SK04,fill_blank,Điền dấu (> < =): 36 _ 37,Fill in (> < =): 36 _ 37,,<,2,36 nhỏ hơn 37
+SK04_0290,SK04,fill_blank,Điền dấu (> < =): 10 _ 9,Fill in (> < =): 10 _ 9,,>,1,10 lớn hơn 9
+SK04_0291,SK04,fill_blank,Điền dấu (> < =): 26 _ 23,Fill in (> < =): 26 _ 23,,>,2,26 lớn hơn 23
+SK04_0292,SK04,fill_blank,Điền dấu (> < =): 6 _ 7,Fill in (> < =): 6 _ 7,,<,1,6 nhỏ hơn 7
+SK04_0293,SK04,fill_blank,Điền dấu (> < =): 8 _ 7,Fill in (> < =): 8 _ 7,,>,1,8 lớn hơn 7
+SK04_0294,SK04,fill_blank,Điền dấu (> < =): 24 _ 24,Fill in (> < =): 24 _ 24,,=,2,24 bằng 24
+SK04_0295,SK04,fill_blank,Điền dấu (> < =): 30 _ 34,Fill in (> < =): 30 _ 34,,<,2,30 nhỏ hơn 34
+SK04_0296,SK04,fill_blank,Điền dấu (> < =): 48 _ 45,Fill in (> < =): 48 _ 45,,>,2,48 lớn hơn 45
+SK04_0297,SK04,fill_blank,Điền dấu (> < =): 18 _ 22,Fill in (> < =): 18 _ 22,,<,2,18 nhỏ hơn 22
+SK04_0298,SK04,fill_blank,Điền dấu (> < =): 46 _ 45,Fill in (> < =): 46 _ 45,,>,2,46 lớn hơn 45
+SK04_0299,SK04,fill_blank,Điền dấu (> < =): 16 _ 20,Fill in (> < =): 16 _ 20,,<,2,16 nhỏ hơn 20
+SK04_0300,SK04,fill_blank,Điền dấu (> < =): 16 _ 13,Fill in (> < =): 16 _ 13,,>,2,16 lớn hơn 13
+SK04_0301,SK04,fill_blank,Điền dấu (> < =): 34 _ 33,Fill in (> < =): 34 _ 33,,>,2,34 lớn hơn 33
+SK04_0302,SK04,fill_blank,Điền dấu (> < =): 32 _ 29,Fill in (> < =): 32 _ 29,,>,2,32 lớn hơn 29
+SK04_0303,SK04,fill_blank,Điền dấu (> < =): 38 _ 38,Fill in (> < =): 38 _ 38,,=,2,38 bằng 38
+SK04_0304,SK04,fill_blank,Điền dấu (> < =): 38 _ 39,Fill in (> < =): 38 _ 39,,<,2,38 nhỏ hơn 39
+SK04_0305,SK04,fill_blank,Điền dấu (> < =): 12 _ 13,Fill in (> < =): 12 _ 13,,<,2,12 nhỏ hơn 13
+SK04_0306,SK04,fill_blank,Điền dấu (> < =): 20 _ 20,Fill in (> < =): 20 _ 20,,=,2,20 bằng 20
+SK04_0307,SK04,fill_blank,Điền dấu (> < =): 4 _ 5,Fill in (> < =): 4 _ 5,,<,1,4 nhỏ hơn 5
+SK04_0308,SK04,fill_blank,Điền dấu (> < =): 48 _ 48,Fill in (> < =): 48 _ 48,,=,2,48 bằng 48
+SK04_0309,SK04,fill_blank,Điền dấu (> < =): 34 _ 35,Fill in (> < =): 34 _ 35,,<,2,34 nhỏ hơn 35
+SK04_0310,SK04,fill_blank,Điền dấu (> < =): 8 _ 9,Fill in (> < =): 8 _ 9,,<,1,8 nhỏ hơn 9
+SK04_0311,SK04,fill_blank,Điền dấu (> < =): 2 _ 12,Fill in (> < =): 2 _ 12,,<,2,2 nhỏ hơn 12
+SK04_0312,SK04,fill_blank,Điền dấu (> < =): 14 _ 14,Fill in (> < =): 14 _ 14,,=,2,14 bằng 14
+SK04_0313,SK04,fill_blank,Điền dấu (> < =): 48 _ 47,Fill in (> < =): 48 _ 47,,>,2,48 lớn hơn 47
+SK04_0314,SK04,fill_blank,Điền dấu (> < =): 6 _ 16,Fill in (> < =): 6 _ 16,,<,2,6 nhỏ hơn 16
+SK04_0315,SK04,fill_blank,Điền dấu (> < =): 2 _ 3,Fill in (> < =): 2 _ 3,,<,1,2 nhỏ hơn 3
+SK04_0316,SK04,fill_blank,Điền dấu (> < =): 44 _ 44,Fill in (> < =): 44 _ 44,,=,2,44 bằng 44
+SK04_0317,SK04,fill_blank,Điền dấu (> < =): 32 _ 31,Fill in (> < =): 32 _ 31,,>,2,32 lớn hơn 31
+SK04_0318,SK04,fill_blank,Điền dấu (> < =): 22 _ 23,Fill in (> < =): 22 _ 23,,<,2,22 nhỏ hơn 23
+SK04_0319,SK04,fill_blank,Điền dấu (> < =): 42 _ 42,Fill in (> < =): 42 _ 42,,=,2,42 bằng 42
+SK04_0320,SK04,fill_blank,Điền dấu (> < =): 40 _ 44,Fill in (> < =): 40 _ 44,,<,2,40 nhỏ hơn 44
+SK04_0321,SK04,fill_blank,Điền dấu (> < =): 10 _ 20,Fill in (> < =): 10 _ 20,,<,2,10 nhỏ hơn 20
+SK04_0322,SK04,fill_blank,Điền dấu (> < =): 26 _ 26,Fill in (> < =): 26 _ 26,,=,2,26 bằng 26
+SK04_0323,SK04,fill_blank,Điền dấu (> < =): 48 _ 52,Fill in (> < =): 48 _ 52,,<,3,48 nhỏ hơn 52
+SK04_0324,SK04,fill_blank,Điền dấu (> < =): 36 _ 40,Fill in (> < =): 36 _ 40,,<,2,36 nhỏ hơn 40
+SK04_0325,SK04,fill_blank,Điền dấu (> < =): 50 _ 47,Fill in (> < =): 50 _ 47,,>,2,50 lớn hơn 47
+SK04_0326,SK04,fill_blank,Điền dấu (> < =): 30 _ 29,Fill in (> < =): 30 _ 29,,>,2,30 lớn hơn 29
+SK04_0327,SK04,fill_blank,Điền dấu (> < =): 6 _ 10,Fill in (> < =): 6 _ 10,,<,1,6 nhỏ hơn 10
+SK04_0328,SK04,fill_blank,Điền dấu (> < =): 28 _ 28,Fill in (> < =): 28 _ 28,,=,2,28 bằng 28
+SK04_0329,SK04,fill_blank,Điền dấu (> < =): 46 _ 50,Fill in (> < =): 46 _ 50,,<,2,46 nhỏ hơn 50
+SK04_0330,SK04,fill_blank,Điền dấu (> < =): 14 _ 24,Fill in (> < =): 14 _ 24,,<,2,14 nhỏ hơn 24
+SK04_0331,SK04,fill_blank,Điền dấu (> < =): 24 _ 23,Fill in (> < =): 24 _ 23,,>,2,24 lớn hơn 23
+SK04_0332,SK04,fill_blank,Điền dấu (> < =): 2 _ 2,Fill in (> < =): 2 _ 2,,=,1,2 bằng 2
+SK04_0333,SK04,fill_blank,Điền dấu (> < =): 12 _ 16,Fill in (> < =): 12 _ 16,,<,2,12 nhỏ hơn 16
+SK04_0334,SK04,fill_blank,Điền dấu (> < =): 20 _ 17,Fill in (> < =): 20 _ 17,,>,2,20 lớn hơn 17
+SK04_0335,SK04,fill_blank,Điền dấu (> < =): 18 _ 18,Fill in (> < =): 18 _ 18,,=,2,18 bằng 18
+SK04_0336,SK04,fill_blank,Điền dấu (> < =): 24 _ 21,Fill in (> < =): 24 _ 21,,>,2,24 lớn hơn 21
+SK04_0337,SK04,fill_blank,Điền dấu (> < =): 30 _ 30,Fill in (> < =): 30 _ 30,,=,2,30 bằng 30
+SK04_0338,SK04,fill_blank,Điền dấu (> < =): 6 _ 3,Fill in (> < =): 6 _ 3,,>,1,6 lớn hơn 3
+SK04_0339,SK04,fill_blank,Điền dấu (> < =): 10 _ 10,Fill in (> < =): 10 _ 10,,=,1,10 bằng 10
+SK04_0340,SK04,fill_blank,Điền dấu (> < =): 18 _ 15,Fill in (> < =): 18 _ 15,,>,2,18 lớn hơn 15
+SK04_0341,SK04,fill_blank,Điền dấu (> < =): 44 _ 54,Fill in (> < =): 44 _ 54,,<,3,44 nhỏ hơn 54
+SK04_0342,SK04,fill_blank,Điền dấu (> < =): 44 _ 43,Fill in (> < =): 44 _ 43,,>,2,44 lớn hơn 43
+SK04_0343,SK04,fill_blank,Điền dấu (> < =): 8 _ 8,Fill in (> < =): 8 _ 8,,=,1,8 bằng 8
+SK04_0344,SK04,fill_blank,Điền dấu (> < =): 48 _ 58,Fill in (> < =): 48 _ 58,,<,3,48 nhỏ hơn 58
+SK04_0345,SK04,fill_blank,Điền dấu (> < =): 8 _ 12,Fill in (> < =): 8 _ 12,,<,2,8 nhỏ hơn 12
+SK04_0346,SK04,fill_blank,Điền dấu (> < =): 40 _ 41,Fill in (> < =): 40 _ 41,,<,2,40 nhỏ hơn 41
+SK04_0347,SK04,fill_blank,Điền dấu (> < =): 42 _ 39,Fill in (> < =): 42 _ 39,,>,2,42 lớn hơn 39
+SK04_0348,SK04,fill_blank,Điền dấu (> < =): 10 _ 7,Fill in (> < =): 10 _ 7,,>,1,10 lớn hơn 7
+SK04_0349,SK04,fill_blank,Điền dấu (> < =): 22 _ 26,Fill in (> < =): 22 _ 26,,<,2,22 nhỏ hơn 26
+SK04_0350,SK04,fill_blank,Điền dấu (> < =): 32 _ 32,Fill in (> < =): 32 _ 32,,=,2,32 bằng 32
+SK04_0351,SK04,fill_blank,Điền dấu (> < =): 40 _ 40,Fill in (> < =): 40 _ 40,,=,2,40 bằng 40
+SK04_0352,SK04,fill_blank,Điền dấu (> < =): 40 _ 39,Fill in (> < =): 40 _ 39,,>,2,40 lớn hơn 39
+SK04_0353,SK04,fill_blank,Điền dấu (> < =): 40 _ 37,Fill in (> < =): 40 _ 37,,>,2,40 lớn hơn 37
+SK04_0354,SK04,fill_blank,Điền dấu (> < =): 4 _ 4,Fill in (> < =): 4 _ 4,,=,1,4 bằng 4
+SK04_0355,SK04,multiple_choice,Số nào lớn nhất: 0 2 8?,Greatest of 0 2 8?,"2,7,8,0",8,1,So sánh từng cặp
+SK04_0356,SK04,multiple_choice,Số nào lớn nhất: 3 5 12?,Greatest of 3 5 12?,"11,12,5,3",12,2,So sánh từng cặp
+SK04_0357,SK04,multiple_choice,Số nào lớn nhất: 6 8 15?,Greatest of 6 8 15?,"6,14,8,15",15,2,So sánh từng cặp
+SK04_0358,SK04,multiple_choice,Số nào lớn nhất: 9 12 19?,Greatest of 9 12 19?,"19,12,18,9",19,2,So sánh từng cặp
+SK04_0359,SK04,multiple_choice,Số nào lớn nhất: 12 17 21?,Greatest of 12 17 21?,"17,12,20,21",21,2,So sánh từng cặp
+SK04_0360,SK04,multiple_choice,Số nào lớn nhất: 15 18 22?,Greatest of 15 18 22?,"18,21,15,22",22,2,So sánh từng cặp
+SK04_0361,SK04,multiple_choice,Số nào lớn nhất: 18 22 25?,Greatest of 18 22 25?,"25,24,18,22",25,2,So sánh từng cặp
+SK04_0362,SK04,multiple_choice,Số nào lớn nhất: 21 24 31?,Greatest of 21 24 31?,"21,24,31,30",31,2,So sánh từng cặp
+SK04_0363,SK04,multiple_choice,Số nào lớn nhất: 24 27 30?,Greatest of 24 27 30?,"29,24,27,30",30,2,So sánh từng cặp
+SK04_0364,SK04,multiple_choice,Số nào lớn nhất: 27 30 37?,Greatest of 27 30 37?,"36,30,37,27",37,2,So sánh từng cặp
+SK04_0365,SK04,multiple_choice,Số nào lớn nhất: 30 35 40?,Greatest of 30 35 40?,"35,40,30,39",40,2,So sánh từng cặp
+SK04_0366,SK04,multiple_choice,Số nào lớn nhất: 33 35 39?,Greatest of 33 35 39?,"33,39,35,38",39,2,So sánh từng cặp
+SK04_0367,SK04,multiple_choice,Số nào lớn nhất: 36 37 44?,Greatest of 36 37 44?,"36,37,43,44",44,2,So sánh từng cặp
+SK04_0368,SK04,multiple_choice,Số nào lớn nhất: 39 40 46?,Greatest of 39 40 46?,"40,45,39,46",46,2,So sánh từng cặp
+SK04_0369,SK04,multiple_choice,Số nào lớn nhất: 42 46 52?,Greatest of 42 46 52?,"51,46,42,52",52,3,So sánh từng cặp
+SK04_0370,SK04,multiple_choice,Số nào lớn nhất: 45 49 55?,Greatest of 45 49 55?,"49,55,54,45",55,3,So sánh từng cặp
+SK04_0371,SK04,multiple_choice,Số nào lớn nhất: 48 51 54?,Greatest of 48 51 54?,"48,51,54,53",54,3,So sánh từng cặp
+SK04_0372,SK04,multiple_choice,Số nào lớn nhất: 51 55 61?,Greatest of 51 55 61?,"55,60,51,61",61,3,So sánh từng cặp
+SK04_0373,SK04,multiple_choice,Số nào lớn nhất: 54 56 62?,Greatest of 54 56 62?,"54,62,56,61",62,3,So sánh từng cặp
+SK04_0374,SK04,multiple_choice,Số nào lớn nhất: 57 60 65?,Greatest of 57 60 65?,"65,57,64,60",65,3,So sánh từng cặp
+SK04_0375,SK04,multiple_choice,Số nào lớn nhất: 60 64 69?,Greatest of 60 64 69?,"69,68,64,60",69,3,So sánh từng cặp
+SK04_0376,SK04,multiple_choice,Số nào lớn nhất: 63 68 70?,Greatest of 63 68 70?,"63,68,70,69",70,3,So sánh từng cặp
+SK04_0377,SK04,multiple_choice,Số nào lớn nhất: 66 69 73?,Greatest of 66 69 73?,"69,73,66,72",73,3,So sánh từng cặp
+SK04_0378,SK04,multiple_choice,Số nào lớn nhất: 69 72 79?,Greatest of 69 72 79?,"72,69,79,78",79,3,So sánh từng cặp
+SK04_0379,SK04,multiple_choice,Số nào lớn nhất: 72 75 79?,Greatest of 72 75 79?,"78,79,72,75",79,3,So sánh từng cặp
+SK04_0380,SK04,multiple_choice,Số nào lớn nhất: 75 77 83?,Greatest of 75 77 83?,"75,82,83,77",83,3,So sánh từng cặp
+SK04_0381,SK04,multiple_choice,Số nào lớn nhất: 78 82 87?,Greatest of 78 82 87?,"82,86,87,78",87,3,So sánh từng cặp
+SK04_0382,SK04,multiple_choice,Số nào lớn nhất: 81 85 89?,Greatest of 81 85 89?,"89,88,81,85",89,3,So sánh từng cặp
+SK04_0383,SK04,multiple_choice,Số nào lớn nhất: 84 88 94?,Greatest of 84 88 94?,"88,93,94,84",94,3,So sánh từng cặp
+SK04_0384,SK04,multiple_choice,Số nào lớn nhất: 87 92 93?,Greatest of 87 92 93?,"92,87,92,93",93,3,So sánh từng cặp
+SK04_0385,SK04,multiple_choice,Số nào lớn nhất: 90 94 98?,Greatest of 90 94 98?,"94,98,97,90",98,3,So sánh từng cặp
+SK04_0386,SK04,multiple_choice,Số nào nhỏ nhất: 5 1 10?,Smallest of 5 1 10?,"5,1,10,2",1,1,Tìm số nhỏ nhất trong 3 số
+SK04_0387,SK04,multiple_choice,Số nào nhỏ nhất: 8 4 12?,Smallest of 8 4 12?,"8,4,5,12",4,2,Tìm số nhỏ nhất trong 3 số
+SK04_0388,SK04,multiple_choice,Số nào nhỏ nhất: 11 7 18?,Smallest of 11 7 18?,"8,7,18,11",7,2,Tìm số nhỏ nhất trong 3 số
+SK04_0389,SK04,multiple_choice,Số nào nhỏ nhất: 14 10 19?,Smallest of 14 10 19?,"10,11,19,14",10,2,Tìm số nhỏ nhất trong 3 số
+SK04_0390,SK04,multiple_choice,Số nào nhỏ nhất: 17 13 19?,Smallest of 17 13 19?,"14,17,13,19",13,2,Tìm số nhỏ nhất trong 3 số
+SK04_0391,SK04,multiple_choice,Số nào nhỏ nhất: 20 17 27?,Smallest of 20 17 27?,"17,20,27,18",17,2,Tìm số nhỏ nhất trong 3 số
+SK04_0392,SK04,multiple_choice,Số nào nhỏ nhất: 23 19 26?,Smallest of 23 19 26?,"19,23,20,26",19,2,Tìm số nhỏ nhất trong 3 số
+SK04_0393,SK04,multiple_choice,Số nào nhỏ nhất: 26 25 29?,Smallest of 26 25 29?,"29,26,26,25",25,2,Tìm số nhỏ nhất trong 3 số
+SK04_0394,SK04,multiple_choice,Số nào nhỏ nhất: 29 28 36?,Smallest of 29 28 36?,"28,29,29,36",28,2,Tìm số nhỏ nhất trong 3 số
+SK04_0395,SK04,multiple_choice,Số nào nhỏ nhất: 32 30 39?,Smallest of 32 30 39?,"39,30,31,32",30,2,Tìm số nhỏ nhất trong 3 số
+SK04_0396,SK04,multiple_choice,Số nào nhỏ nhất: 35 31 41?,Smallest of 35 31 41?,"35,32,31,41",31,2,Tìm số nhỏ nhất trong 3 số
+SK04_0397,SK04,multiple_choice,Số nào nhỏ nhất: 38 35 43?,Smallest of 38 35 43?,"38,36,43,35",35,2,Tìm số nhỏ nhất trong 3 số
+SK04_0398,SK04,multiple_choice,Số nào nhỏ nhất: 41 39 43?,Smallest of 41 39 43?,"41,39,40,43",39,2,Tìm số nhỏ nhất trong 3 số
+SK04_0399,SK04,multiple_choice,Số nào nhỏ nhất: 44 41 46?,Smallest of 44 41 46?,"44,41,42,46",41,2,Tìm số nhỏ nhất trong 3 số
+SK04_0400,SK04,multiple_choice,Số nào nhỏ nhất: 47 43 50?,Smallest of 47 43 50?,"50,44,47,43",43,2,Tìm số nhỏ nhất trong 3 số
+SK04_0401,SK04,multiple_choice,Số nào nhỏ nhất: 50 46 55?,Smallest of 50 46 55?,"47,46,50,55",46,3,Tìm số nhỏ nhất trong 3 số
+SK04_0402,SK04,multiple_choice,Số nào nhỏ nhất: 53 52 58?,Smallest of 53 52 58?,"58,52,53,53",52,3,Tìm số nhỏ nhất trong 3 số
+SK04_0403,SK04,multiple_choice,Số nào nhỏ nhất: 56 55 63?,Smallest of 56 55 63?,"56,56,63,55",55,3,Tìm số nhỏ nhất trong 3 số
+SK04_0404,SK04,multiple_choice,Số nào nhỏ nhất: 59 57 63?,Smallest of 59 57 63?,"59,58,63,57",57,3,Tìm số nhỏ nhất trong 3 số
+SK04_0405,SK04,multiple_choice,Số nào nhỏ nhất: 62 59 68?,Smallest of 62 59 68?,"68,62,59,60",59,3,Tìm số nhỏ nhất trong 3 số
+SK04_0406,SK04,multiple_choice,Số nào nhỏ nhất: 65 63 71?,Smallest of 65 63 71?,"65,64,71,63",63,3,Tìm số nhỏ nhất trong 3 số
+SK04_0407,SK04,multiple_choice,Số nào nhỏ nhất: 68 65 71?,Smallest of 68 65 71?,"71,65,66,68",65,3,Tìm số nhỏ nhất trong 3 số
+SK04_0408,SK04,multiple_choice,Số nào nhỏ nhất: 71 67 76?,Smallest of 71 67 76?,"67,76,71,68",67,3,Tìm số nhỏ nhất trong 3 số
+SK04_0409,SK04,multiple_choice,Số nào nhỏ nhất: 74 70 76?,Smallest of 74 70 76?,"71,70,76,74",70,3,Tìm số nhỏ nhất trong 3 số
+SK04_0410,SK04,multiple_choice,Số nào nhỏ nhất: 77 75 83?,Smallest of 77 75 83?,"77,76,83,75",75,3,Tìm số nhỏ nhất trong 3 số
+SK04_0411,SK04,multiple_choice,Số nào nhỏ nhất: 80 79 87?,Smallest of 80 79 87?,"87,79,80,80",79,3,Tìm số nhỏ nhất trong 3 số
+SK04_0412,SK04,multiple_choice,Số nào nhỏ nhất: 83 81 90?,Smallest of 83 81 90?,"82,83,90,81",81,3,Tìm số nhỏ nhất trong 3 số
+SK04_0413,SK04,multiple_choice,Số nào nhỏ nhất: 86 85 90?,Smallest of 86 85 90?,"86,85,90,86",85,3,Tìm số nhỏ nhất trong 3 số
+SK04_0414,SK04,multiple_choice,Số nào nhỏ nhất: 89 86 95?,Smallest of 89 86 95?,"87,95,86,89",86,3,Tìm số nhỏ nhất trong 3 số
+SK04_0415,SK04,multiple_choice,Số nào nhỏ nhất: 92 90 98?,Smallest of 92 90 98?,"92,98,91,90",90,3,Tìm số nhỏ nhất trong 3 số
+SK04_0416,SK04,multiple_choice,Số nào nhỏ nhất: 95 92 98?,Smallest of 95 92 98?,"93,95,98,92",92,3,Tìm số nhỏ nhất trong 3 số
+SK04_0417,SK04,multiple_choice,Sắp xếp tăng dần: 7 11 0 3,Sort ascending: 7 11 0 3,"0 3 7 11,11 7 3 0,7 11 0 3,3 0 7 11",0 3 7 11,3,Số nhỏ nhất đứng trước
+SK04_0418,SK04,multiple_choice,Sắp xếp tăng dần: 16 5 12 8,Sort ascending: 16 5 12 8,"5 8 12 16,16 12 8 5,16 5 12 8,8 5 12 16",5 8 12 16,3,Số nhỏ nhất đứng trước
+SK04_0419,SK04,multiple_choice,Sắp xếp tăng dần: 17 10 13 21,Sort ascending: 17 10 13 21,"10 13 17 21,21 17 13 10,17 10 13 21,13 10 17 21",10 13 17 21,3,Số nhỏ nhất đứng trước
+SK04_0420,SK04,multiple_choice,Sắp xếp tăng dần: 26 22 18 15,Sort ascending: 26 22 18 15,"15 18 22 26,26 22 18 15,26 22 18 15,18 15 22 26",15 18 22 26,3,Số nhỏ nhất đứng trước
+SK04_0421,SK04,multiple_choice,Sắp xếp tăng dần: 23 31 27 20,Sort ascending: 23 31 27 20,"20 23 27 31,31 27 23 20,23 31 27 20,23 20 27 31",20 23 27 31,3,Số nhỏ nhất đứng trước
+SK04_0422,SK04,multiple_choice,Sắp xếp tăng dần: 28 25 36 32,Sort ascending: 28 25 36 32,"25 28 32 36,36 32 28 25,28 25 36 32,28 25 32 36",25 28 32 36,3,Số nhỏ nhất đứng trước
+SK04_0423,SK04,multiple_choice,Sắp xếp tăng dần: 37 33 41 30,Sort ascending: 37 33 41 30,"30 33 37 41,41 37 33 30,37 33 41 30,33 30 37 41",30 33 37 41,3,Số nhỏ nhất đứng trước
+SK04_0424,SK04,multiple_choice,Sắp xếp tăng dần: 35 42 46 38,Sort ascending: 35 42 46 38,"35 38 42 46,46 42 38 35,35 42 46 38,38 35 42 46",35 38 42 46,3,Số nhỏ nhất đứng trước
+SK04_0425,SK04,multiple_choice,Sắp xếp tăng dần: 43 40 47 51,Sort ascending: 43 40 47 51,"40 43 47 51,51 47 43 40,43 40 47 51,43 40 47 51",40 43 47 51,3,Số nhỏ nhất đứng trước
+SK04_0426,SK04,multiple_choice,Sắp xếp tăng dần: 56 45 48 52,Sort ascending: 56 45 48 52,"45 48 52 56,56 52 48 45,56 45 48 52,48 45 52 56",45 48 52 56,3,Số nhỏ nhất đứng trước
+SK04_0427,SK04,multiple_choice,Sắp xếp tăng dần: 50 53 61 57,Sort ascending: 50 53 61 57,"50 53 57 61,61 57 53 50,50 53 61 57,53 50 57 61",50 53 57 61,3,Số nhỏ nhất đứng trước
+SK04_0428,SK04,multiple_choice,Sắp xếp tăng dần: 55 62 66 58,Sort ascending: 55 62 66 58,"55 58 62 66,66 62 58 55,55 62 66 58,58 55 62 66",55 58 62 66,3,Số nhỏ nhất đứng trước
+SK04_0429,SK04,multiple_choice,Sắp xếp tăng dần: 63 71 67 60,Sort ascending: 63 71 67 60,"60 63 67 71,71 67 63 60,63 71 67 60,63 60 67 71",60 63 67 71,3,Số nhỏ nhất đứng trước
+SK04_0430,SK04,multiple_choice,Sắp xếp tăng dần: 65 68 72 76,Sort ascending: 65 68 72 76,"65 68 72 76,76 72 68 65,65 68 72 76,68 65 72 76",65 68 72 76,3,Số nhỏ nhất đứng trước
+SK04_0431,SK04,multiple_choice,Sắp xếp tăng dần: 77 70 73 81,Sort ascending: 77 70 73 81,"70 73 77 81,81 77 73 70,77 70 73 81,73 70 77 81",70 73 77 81,3,Số nhỏ nhất đứng trước
+SK04_0432,SK04,multiple_choice,Sắp xếp tăng dần: 75 78 86 82,Sort ascending: 75 78 86 82,"75 78 82 86,86 82 78 75,75 78 86 82,78 75 82 86",75 78 82 86,3,Số nhỏ nhất đứng trước
+SK04_0433,SK04,multiple_choice,Sắp xếp tăng dần: 80 91 83 87,Sort ascending: 80 91 83 87,"80 83 87 91,91 87 83 80,80 91 83 87,83 80 87 91",80 83 87 91,3,Số nhỏ nhất đứng trước
