@@ -73,10 +73,11 @@ export class SessionsController {
   @ApiBody({ schema: { example: { totalDurationMs: 300000 } } })
   @ApiResponse({ status: 201, description: 'session, stars, xpEarned, accuracy, correctCount' })
   endSession(
+    @CurrentUser() user: any,
     @Param('id') id: string,
     @Body('totalDurationMs') totalDurationMs: number,
   ) {
-    return this.sessionsService.endSession(id, totalDurationMs);
+    return this.sessionsService.endSession(id, totalDurationMs, user._id.toString());
   }
 
   @Get('history')

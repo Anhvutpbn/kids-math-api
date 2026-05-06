@@ -4,7 +4,7 @@ import { QuestionsService } from '../questions/questions.service';
 import { UsersService } from '../users/users.service';
 import { SubmitPlacementTestDto } from './dto/submit-placement-test.dto';
 
-const SKILL_ORDER = ['SK01', 'SK02', 'SK03', 'SK04', 'SK05', 'SK06', 'SK07'];
+const SKILL_ORDER = ['SK01', 'SK02', 'SK03', 'SK04', 'SK05', 'SK06', 'SK07', 'SK08'];
 const CORRECT_INITIAL_MASTERY = 50;
 
 @Injectable()
@@ -28,10 +28,13 @@ export class PlacementTestService {
     const initialScores: Record<string, number> = {};
 
     for (const ans of dto.answers) {
-      if (ans.isCorrect) {
-        initialScores[ans.skillId] = CORRECT_INITIAL_MASTERY;
+      const question = await this.questionsService.findById(ans.questionId);
+      if (!question) continue;
+      const isCorrect = question.correctAnswer === ans.answer;
+      if (isCorrect) {
+        initialScores[question.skillId] = CORRECT_INITIAL_MASTERY;
       } else {
-        initialScores[ans.skillId] = initialScores[ans.skillId] ?? 0;
+        initialScores[question.skillId] = initialScores[question.skillId] ?? 0;
       }
     }
 

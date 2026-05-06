@@ -11,16 +11,18 @@ export class CreateUserDto {
   @MinLength(6)
   password: string;
 
-  @ApiProperty({ example: 'Minh', minLength: 2 })
+  @ApiPropertyOptional({ example: 'Minh', minLength: 2 })
+  @IsOptional()
   @IsString()
   @MinLength(2)
-  childName: string;
+  childName?: string;
 
-  @ApiProperty({ example: 6, minimum: 5, maximum: 7 })
+  @ApiPropertyOptional({ example: 6, minimum: 5, maximum: 7 })
+  @IsOptional()
   @IsInt()
   @Min(5)
   @Max(7)
-  childAge: number;
+  childAge?: number;
 
   @ApiPropertyOptional({ example: 'vi', enum: ['vi', 'en'] })
   @IsOptional()

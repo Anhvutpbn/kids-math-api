@@ -15,15 +15,20 @@ export class LessonQueueController {
   @ApiOperation({
     summary: 'Lấy hàng đợi bài học tiếp theo',
     description:
-      'Trả về queue pending gần nhất. Nếu chưa có, tự động tạo daily queue mới ' +
-      '(50% skill yếu + 30% trung bình + 20% ôn tập).',
+      'Trả về queue pending gần nhất. Nếu chưa có hoặc queue rỗng, tự động tạo daily queue mới ' +
+      '(50% skill yếu + 30% trung bình + 20% ôn tập; fallback toàn bộ skills khi tất cả đã thành thạo).',
   })
   @ApiResponse({ status: 200, description: 'LessonQueue với danh sách { questionId, skillId, difficulty }' })
   async getNext(@CurrentUser() user: any) {
     const userId = user._id.toString();
     const existing = await this.lessonQueueService.getNextQueue(userId);
-    if (existing) return existing;
-    return this.lessonQueueService.generateDailyQueue(userId);
+    // Skip empty queues (e.g. created before all-mastered fallback was added)
+    if (existing && existing.questions.length > 0) return existing;
+    if (existing) {
+      await this.lessonQueueService.markDone((existing as any)._id.toString());
+    }
+    const newQueue = await this.lessonQueueService.generateDailyQueue(userId);
+    return this.lessonQueueService.populateQueueQuestions(newQueue);
   }
 
   @Post('generate')

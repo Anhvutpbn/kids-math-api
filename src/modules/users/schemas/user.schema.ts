@@ -11,7 +11,7 @@ export class User {
   @Prop({ required: true })
   password: string;
 
-  @Prop({ required: true })
+  @Prop({ default: '' })
   childName: string;
 
   @Prop({ default: 6 })
@@ -20,7 +20,7 @@ export class User {
   @Prop({ default: 'vi' })
   language: string;
 
-  @Prop({ default: 'bear' })
+  @Prop({ default: 'avatar_01' })
   avatarId: string;
 
   @Prop({ default: 0 })

@@ -3,12 +3,16 @@ import { InjectModel } from '@nestjs/mongoose';
 import { Model, Types } from 'mongoose';
 import { LearningSession, SessionDocument } from './schemas/session.schema';
 import { QuestionResult, QuestionResultDocument } from './schemas/question-result.schema';
+import { LessonQueueService } from '../lesson-queue/lesson-queue.service';
+import { QuestionsService } from '../questions/questions.service';
 
 @Injectable()
 export class SessionsService {
   constructor(
     @InjectModel(LearningSession.name) private sessionModel: Model<SessionDocument>,
     @InjectModel(QuestionResult.name) private resultModel: Model<QuestionResultDocument>,
+    private lessonQueueService: LessonQueueService,
+    private questionsService: QuestionsService,
   ) {}
 
   async startSession(userId: string) {
@@ -50,7 +54,7 @@ export class SessionsService {
     return { accepted: true, inject_tutorial: false };
   }
 
-  async endSession(sessionId: string, totalDurationMs: number) {
+  async endSession(sessionId: string, totalDurationMs: number, userId?: string) {
     const results = await this.resultModel.find({ sessionId: new Types.ObjectId(sessionId) });
     const correctCount = results.filter((r) => r.isCorrect).length;
     const totalQuestions = results.length;
@@ -70,6 +74,9 @@ export class SessionsService {
       { endedAt: new Date(), totalQuestions, correctCount, xpEarned, stars, totalDurationMs },
       { new: true },
     );
+    if (userId) {
+      await this.lessonQueueService.markCurrentQueueDone(userId);
+    }
     return { session, accuracy, avgTimeMs, xpEarned, stars, correctCount, totalQuestions };
   }
 
@@ -78,7 +85,24 @@ export class SessionsService {
   }
 
   async getSessionResults(sessionId: string) {
-    return this.resultModel.find({ sessionId: new Types.ObjectId(sessionId) });
+    const results = await this.resultModel.find({ sessionId: new Types.ObjectId(sessionId) });
+    const questionIds = [...new Set(results.map((r) => r.questionId))];
+    const questions = await this.questionsService.findMany(questionIds);
+    const qMap = new Map(questions.map((q) => [q.id, q]));
+
+    return results.map((r) => {
+      const q = qMap.get(r.questionId);
+      return {
+        questionId: r.questionId,
+        skillId: r.skillId,
+        questionVi: q?.questionVi ?? r.questionId,
+        correctAnswer: q?.correctAnswer ?? '',
+        submittedAnswer: r.userAnswer,
+        isCorrect: r.isCorrect,
+        timeSpentMs: r.timeSpentMs,
+        attemptNumber: r.attemptNumber,
+      };
+    });
   }
 
   async getUserSessions(userId: string, limitDays = 7) {

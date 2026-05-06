@@ -14,10 +14,41 @@ export class LessonQueueService {
   ) {}
 
   async getNextQueue(userId: string) {
-    return this.queueModel.findOne({
+    const queue = await this.queueModel.findOne({
       userId: new Types.ObjectId(userId),
       status: 'pending',
     }).sort({ createdAt: -1 });
+    if (!queue) return null;
+    return this.populateQueueQuestions(queue);
+  }
+
+  async populateQueueQuestions(queue: LessonQueueDocument) {
+    const populated = await Promise.all(
+      queue.questions.map(async (item) => {
+        const q = await this.questionsService.findById(item.questionId);
+        if (!q) return null;
+        return {
+          id: q.id,
+          skillId: q.skillId,
+          type: q.type,
+          questionVi: q.questionVi,
+          questionEn: q.questionEn,
+          options: q.options,
+          correctAnswer: q.correctAnswer,
+          difficulty: q.difficulty,
+          hintVi: q.hintVi,
+        };
+      }),
+    );
+    return {
+      _id: queue._id,
+      userId: queue.userId,
+      queueType: queue.queueType,
+      status: queue.status,
+      createdAt: (queue as any).createdAt,
+      updatedAt: (queue as any).updatedAt,
+      questions: populated.filter(Boolean),
+    };
   }
 
   async generateDailyQueue(userId: string): Promise<LessonQueueDocument> {
@@ -42,8 +73,18 @@ export class LessonQueueService {
     await this.addQuestions(questions, medium, mediumCount, [2, 3]);
     await this.addQuestions(questions, review, reviewCount, [2]);
 
+    // Fallback: all skills mastered with no reviews due → maintenance session from all unlocked skills
+    if (questions.length === 0 && unlockedSkills.length > 0) {
+      await this.addQuestions(questions, unlockedSkills, TARGET, [1, 2, 3]);
+    }
+
+    // Deduplicate before shuffling
+    const unique = questions.filter(
+      (q, i, arr) => arr.findIndex((x) => x.questionId === q.questionId) === i,
+    );
+
     // Shuffle: no 2 same skill in a row
-    const shuffled = this.shuffleNoAdjacentSkill(questions);
+    const shuffled = this.shuffleNoAdjacentSkill(unique);
 
     return this.queueModel.create({
       userId: new Types.ObjectId(userId),
@@ -79,6 +120,14 @@ export class LessonQueueService {
 
   async markDone(queueId: string) {
     await this.queueModel.findByIdAndUpdate(queueId, { status: 'done' });
+  }
+
+  async markCurrentQueueDone(userId: string) {
+    await this.queueModel.findOneAndUpdate(
+      { userId: new Types.ObjectId(userId), status: { $in: ['pending', 'in_progress'] } },
+      { status: 'done' },
+      { sort: { createdAt: -1 } },
+    );
   }
 
   private async addQuestions(

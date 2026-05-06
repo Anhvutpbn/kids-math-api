@@ -1,4 +1,4 @@
-import { IsArray, IsBoolean, IsString, ValidateNested } from 'class-validator';
+import { IsArray, IsNumber, IsString, Min, ValidateNested } from 'class-validator';
 import { Type } from 'class-transformer';
 import { ApiProperty } from '@nestjs/swagger';
 
@@ -7,17 +7,14 @@ export class PlacementAnswerDto {
   @IsString()
   questionId: string;
 
-  @ApiProperty({ example: 'SK01' })
-  @IsString()
-  skillId: string;
-
   @ApiProperty({ example: '3' })
   @IsString()
   answer: string;
 
-  @ApiProperty({ example: true })
-  @IsBoolean()
-  isCorrect: boolean;
+  @ApiProperty({ example: 3073 })
+  @IsNumber()
+  @Min(0)
+  timeSpentMs: number;
 }
 
 export class SubmitPlacementTestDto {

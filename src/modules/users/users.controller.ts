@@ -6,10 +6,12 @@ import { CurrentUser } from '../../common/decorators/current-user.decorator';
 import { IsIn, IsString } from 'class-validator';
 import { ApiProperty } from '@nestjs/swagger';
 
+const VALID_AVATAR_IDS = ['avatar_01','avatar_02','avatar_03','avatar_04','avatar_05','avatar_06','avatar_07','avatar_08'];
+
 class UpdateAvatarDto {
-  @ApiProperty({ example: 'bear', enum: ['bear', 'cat', 'dog', 'rabbit', 'fox', 'panda', 'lion'] })
+  @ApiProperty({ example: 'avatar_01', enum: VALID_AVATAR_IDS })
   @IsString()
-  @IsIn(['bear', 'cat', 'dog', 'rabbit', 'fox', 'panda', 'lion'])
+  @IsIn(VALID_AVATAR_IDS)
   avatarId: string;
 }
 

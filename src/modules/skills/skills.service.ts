@@ -4,7 +4,7 @@ import { Model, Types } from 'mongoose';
 import { Skill, SkillDocument } from './schemas/skill.schema';
 import { SkillMap, SkillMapDocument } from './schemas/skill-map.schema';
 
-const SKILL_ORDER = ['SK01','SK02','SK03','SK04','SK05','SK06','SK07'];
+const SKILL_ORDER = ['SK01','SK02','SK03','SK04','SK05','SK06','SK07','SK08'];
 const UNLOCK_THRESHOLD = 30;
 
 @Injectable()
@@ -23,7 +23,37 @@ export class SkillsService {
   }
 
   async getSkillMap(userId: string) {
-    return this.skillMapModel.find({ userId: new Types.ObjectId(userId) }).sort({ skillId: 1 });
+    const uid = new Types.ObjectId(userId);
+    const entries = await this.skillMapModel.find({ userId: uid }).sort({ skillId: 1 });
+    const allSkills = await this.skillModel.find();
+    const skillDefs = new Map(allSkills.map((s) => [s.id, s]));
+
+    // Lazily create entries for any skills added after initial init (e.g. SK08)
+    const existingIds = new Set(entries.map((e) => e.skillId));
+    const missing = SKILL_ORDER.filter((id) => !existingIds.has(id));
+    for (const skillId of missing) {
+      await this.skillMapModel.create({ userId: uid, skillId, masteryScore: 0, locked: skillId !== 'SK01' });
+    }
+
+    // Re-fetch after any inserts
+    const allEntries = missing.length > 0
+      ? await this.skillMapModel.find({ userId: uid }).sort({ skillId: 1 })
+      : entries;
+    const masteryMap = new Map(allEntries.map((e) => [e.skillId, e.masteryScore]));
+
+    // Re-evaluate lock status for every locked skill — catches stale locks and new additions
+    for (const entry of allEntries) {
+      if (!entry.locked) continue;
+      const def = skillDefs.get(entry.skillId);
+      if (!def?.dependsOn?.length) continue;
+      const allPrereqsMet = def.dependsOn.every((dep) => (masteryMap.get(dep) ?? 0) >= UNLOCK_THRESHOLD);
+      if (allPrereqsMet) {
+        await this.skillMapModel.findOneAndUpdate({ userId: uid, skillId: entry.skillId }, { locked: false });
+        masteryMap.set(entry.skillId, entry.masteryScore); // keep map consistent for downstream skills
+      }
+    }
+
+    return this.skillMapModel.find({ userId: uid }).sort({ skillId: 1 });
   }
 
   async getSkillEntry(userId: string, skillId: string) {

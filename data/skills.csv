@@ -6,3 +6,4 @@ SK04,So sánh số,Number Comparison,So sánh hai số dùng dấu > < =,SK02,4
 SK05,Phép cộng đơn giản,Simple Addition,Cộng hai số trong phạm vi 10,SK03,5
 SK06,Phép trừ đơn giản,Simple Subtraction,Trừ hai số trong phạm vi 10,SK05,6
 SK07,Điền số còn thiếu,Missing Number,Tìm số còn thiếu trong dãy hoặc phép tính,SK04 SK05,7
+SK08,Chọn min/max,Min/Max Selection,Chọn số lớn nhất hoặc bé nhất trong nhóm số,SK04,8
