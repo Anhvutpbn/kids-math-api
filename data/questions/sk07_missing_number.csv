@@ -1,574 +1,71 @@
 id,skill_id,type,question_vi,question_en,options,correct_answer,difficulty,hint_vi
-SK07_0001,SK07,multiple_choice,_ + 1 = 1,_ + 1 = 1,"0,2,3,1",0,2,Số nào cộng 1 bằng 1?
-SK07_0002,SK07,multiple_choice,_ + 1 = 3,_ + 1 = 3,"2,0,5,4",2,2,Số nào cộng 1 bằng 3?
-SK07_0003,SK07,multiple_choice,_ + 1 = 5,_ + 1 = 5,"3,4,5,6",4,2,Số nào cộng 1 bằng 5?
-SK07_0004,SK07,multiple_choice,_ + 1 = 7,_ + 1 = 7,"8,9,4,6",6,2,Số nào cộng 1 bằng 7?
-SK07_0005,SK07,multiple_choice,_ + 1 = 9,_ + 1 = 9,"8,10,11,9",8,2,Số nào cộng 1 bằng 9?
-SK07_0006,SK07,multiple_choice,_ + 1 = 11,_ + 1 = 11,"10,9,8,11",10,2,Số nào cộng 1 bằng 11?
-SK07_0007,SK07,multiple_choice,_ + 1 = 13,_ + 1 = 13,"15,10,12,14",12,2,Số nào cộng 1 bằng 13?
-SK07_0008,SK07,multiple_choice,_ + 1 = 15,_ + 1 = 15,"14,13,12,15",14,2,Số nào cộng 1 bằng 15?
-SK07_0009,SK07,multiple_choice,_ + 1 = 17,_ + 1 = 17,"17,15,16,14",16,3,Số nào cộng 1 bằng 17?
-SK07_0010,SK07,multiple_choice,_ + 1 = 19,_ + 1 = 19,"18,20,17,19",18,3,Số nào cộng 1 bằng 19?
-SK07_0011,SK07,multiple_choice,_ + 1 = 21,_ + 1 = 21,"18,22,19,20",20,3,Số nào cộng 1 bằng 21?
-SK07_0012,SK07,multiple_choice,_ + 1 = 23,_ + 1 = 23,"25,24,22,23",22,3,Số nào cộng 1 bằng 23?
-SK07_0013,SK07,multiple_choice,_ + 1 = 25,_ + 1 = 25,"23,27,24,25",24,3,Số nào cộng 1 bằng 25?
-SK07_0014,SK07,multiple_choice,_ + 1 = 27,_ + 1 = 27,"29,28,26,27",26,3,Số nào cộng 1 bằng 27?
-SK07_0015,SK07,multiple_choice,_ + 1 = 29,_ + 1 = 29,"29,26,30,28",28,3,Số nào cộng 1 bằng 29?
-SK07_0016,SK07,multiple_choice,_ + 1 = 31,_ + 1 = 31,"33,32,29,30",30,3,Số nào cộng 1 bằng 31?
-SK07_0017,SK07,multiple_choice,_ + 1 = 33,_ + 1 = 33,"34,33,31,32",32,3,Số nào cộng 1 bằng 33?
-SK07_0018,SK07,multiple_choice,_ + 1 = 35,_ + 1 = 35,"36,32,35,34",34,3,Số nào cộng 1 bằng 35?
-SK07_0019,SK07,multiple_choice,_ + 1 = 37,_ + 1 = 37,"34,37,36,39",36,3,Số nào cộng 1 bằng 37?
-SK07_0020,SK07,multiple_choice,_ + 1 = 39,_ + 1 = 39,"40,38,36,37",38,3,Số nào cộng 1 bằng 39?
-SK07_0021,SK07,multiple_choice,_ + 1 = 41,_ + 1 = 41,"40,39,43,38",40,3,Số nào cộng 1 bằng 41?
-SK07_0022,SK07,multiple_choice,_ + 1 = 43,_ + 1 = 43,"42,40,45,41",42,3,Số nào cộng 1 bằng 43?
-SK07_0023,SK07,multiple_choice,_ + 1 = 45,_ + 1 = 45,"47,44,45,42",44,3,Số nào cộng 1 bằng 45?
-SK07_0024,SK07,multiple_choice,_ + 1 = 47,_ + 1 = 47,"49,45,44,46",46,3,Số nào cộng 1 bằng 47?
-SK07_0025,SK07,multiple_choice,_ + 1 = 49,_ + 1 = 49,"46,51,47,48",48,3,Số nào cộng 1 bằng 49?
-SK07_0026,SK07,multiple_choice,_ + 2 = 2,_ + 2 = 2,"1,2,3,0",0,2,Số nào cộng 2 bằng 2?
-SK07_0027,SK07,multiple_choice,_ + 2 = 4,_ + 2 = 4,"3,5,2,1",2,2,Số nào cộng 2 bằng 4?
-SK07_0028,SK07,multiple_choice,_ + 2 = 6,_ + 2 = 6,"7,2,4,5",4,2,Số nào cộng 2 bằng 6?
-SK07_0029,SK07,multiple_choice,_ + 2 = 8,_ + 2 = 8,"6,9,5,8",6,2,Số nào cộng 2 bằng 8?
-SK07_0030,SK07,multiple_choice,_ + 2 = 10,_ + 2 = 10,"9,6,8,7",8,2,Số nào cộng 2 bằng 10?
-SK07_0031,SK07,multiple_choice,_ + 2 = 12,_ + 2 = 12,"10,8,11,13",10,2,Số nào cộng 2 bằng 12?
-SK07_0032,SK07,multiple_choice,_ + 2 = 14,_ + 2 = 14,"10,12,15,14",12,2,Số nào cộng 2 bằng 14?
-SK07_0033,SK07,multiple_choice,_ + 2 = 16,_ + 2 = 16,"15,16,17,14",14,3,Số nào cộng 2 bằng 16?
-SK07_0034,SK07,multiple_choice,_ + 2 = 18,_ + 2 = 18,"16,15,18,19",16,3,Số nào cộng 2 bằng 18?
-SK07_0035,SK07,multiple_choice,_ + 2 = 20,_ + 2 = 20,"17,19,21,18",18,3,Số nào cộng 2 bằng 20?
-SK07_0036,SK07,multiple_choice,_ + 2 = 22,_ + 2 = 22,"20,23,22,19",20,3,Số nào cộng 2 bằng 22?
-SK07_0037,SK07,multiple_choice,_ + 2 = 24,_ + 2 = 24,"21,25,22,24",22,3,Số nào cộng 2 bằng 24?
-SK07_0038,SK07,multiple_choice,_ + 2 = 26,_ + 2 = 26,"24,27,22,25",24,3,Số nào cộng 2 bằng 26?
-SK07_0039,SK07,multiple_choice,_ + 2 = 28,_ + 2 = 28,"29,24,27,26",26,3,Số nào cộng 2 bằng 28?
-SK07_0040,SK07,multiple_choice,_ + 2 = 30,_ + 2 = 30,"30,29,31,28",28,3,Số nào cộng 2 bằng 30?
-SK07_0041,SK07,multiple_choice,_ + 2 = 32,_ + 2 = 32,"29,30,31,28",30,3,Số nào cộng 2 bằng 32?
-SK07_0042,SK07,multiple_choice,_ + 2 = 34,_ + 2 = 34,"30,33,32,35",32,3,Số nào cộng 2 bằng 34?
-SK07_0043,SK07,multiple_choice,_ + 2 = 36,_ + 2 = 36,"34,37,32,35",34,3,Số nào cộng 2 bằng 36?
-SK07_0044,SK07,multiple_choice,_ + 2 = 38,_ + 2 = 38,"35,39,36,38",36,3,Số nào cộng 2 bằng 38?
-SK07_0045,SK07,multiple_choice,_ + 2 = 40,_ + 2 = 40,"39,40,38,41",38,3,Số nào cộng 2 bằng 40?
-SK07_0046,SK07,multiple_choice,_ + 2 = 42,_ + 2 = 42,"43,40,42,39",40,3,Số nào cộng 2 bằng 42?
-SK07_0047,SK07,multiple_choice,_ + 2 = 44,_ + 2 = 44,"43,42,40,45",42,3,Số nào cộng 2 bằng 44?
-SK07_0048,SK07,multiple_choice,_ + 2 = 46,_ + 2 = 46,"42,43,44,46",44,3,Số nào cộng 2 bằng 46?
-SK07_0049,SK07,multiple_choice,_ + 2 = 48,_ + 2 = 48,"48,46,49,45",46,3,Số nào cộng 2 bằng 48?
-SK07_0050,SK07,multiple_choice,_ + 2 = 50,_ + 2 = 50,"49,47,50,48",48,3,Số nào cộng 2 bằng 50?
-SK07_0051,SK07,multiple_choice,_ + 3 = 3,_ + 3 = 3,"1,0,2,3",0,2,Số nào cộng 3 bằng 3?
-SK07_0052,SK07,multiple_choice,_ + 3 = 5,_ + 3 = 5,"3,1,0,2",2,2,Số nào cộng 3 bằng 5?
-SK07_0053,SK07,multiple_choice,_ + 3 = 7,_ + 3 = 7,"5,4,7,2",4,2,Số nào cộng 3 bằng 7?
-SK07_0054,SK07,multiple_choice,_ + 3 = 9,_ + 3 = 9,"9,7,8,6",6,2,Số nào cộng 3 bằng 9?
-SK07_0055,SK07,multiple_choice,_ + 3 = 11,_ + 3 = 11,"9,6,8,10",8,2,Số nào cộng 3 bằng 11?
-SK07_0056,SK07,multiple_choice,_ + 3 = 13,_ + 3 = 13,"10,9,12,11",10,2,Số nào cộng 3 bằng 13?
-SK07_0057,SK07,multiple_choice,_ + 3 = 15,_ + 3 = 15,"13,10,12,14",12,2,Số nào cộng 3 bằng 15?
-SK07_0058,SK07,multiple_choice,_ + 3 = 17,_ + 3 = 17,"17,14,15,13",14,3,Số nào cộng 3 bằng 17?
-SK07_0059,SK07,multiple_choice,_ + 3 = 19,_ + 3 = 19,"15,17,14,16",16,3,Số nào cộng 3 bằng 19?
-SK07_0060,SK07,multiple_choice,_ + 3 = 21,_ + 3 = 21,"18,16,19,21",18,3,Số nào cộng 3 bằng 21?
-SK07_0061,SK07,multiple_choice,_ + 3 = 23,_ + 3 = 23,"22,20,23,18",20,3,Số nào cộng 3 bằng 23?
-SK07_0062,SK07,multiple_choice,_ + 3 = 25,_ + 3 = 25,"25,23,24,22",22,3,Số nào cộng 3 bằng 25?
-SK07_0063,SK07,multiple_choice,_ + 3 = 27,_ + 3 = 27,"27,22,26,24",24,3,Số nào cộng 3 bằng 27?
-SK07_0064,SK07,multiple_choice,_ + 3 = 29,_ + 3 = 29,"29,25,26,24",26,3,Số nào cộng 3 bằng 29?
-SK07_0065,SK07,multiple_choice,_ + 3 = 31,_ + 3 = 31,"30,27,28,31",28,3,Số nào cộng 3 bằng 31?
-SK07_0066,SK07,multiple_choice,_ + 3 = 33,_ + 3 = 33,"30,32,29,31",30,3,Số nào cộng 3 bằng 33?
-SK07_0067,SK07,multiple_choice,_ + 3 = 35,_ + 3 = 35,"32,34,31,35",32,3,Số nào cộng 3 bằng 35?
-SK07_0068,SK07,multiple_choice,_ + 3 = 37,_ + 3 = 37,"32,34,33,37",34,3,Số nào cộng 3 bằng 37?
-SK07_0069,SK07,multiple_choice,_ + 3 = 39,_ + 3 = 39,"39,36,35,38",36,3,Số nào cộng 3 bằng 39?
-SK07_0070,SK07,multiple_choice,_ + 3 = 41,_ + 3 = 41,"39,38,36,41",38,3,Số nào cộng 3 bằng 41?
-SK07_0071,SK07,multiple_choice,_ + 3 = 43,_ + 3 = 43,"42,43,38,40",40,3,Số nào cộng 3 bằng 43?
-SK07_0072,SK07,multiple_choice,_ + 3 = 45,_ + 3 = 45,"44,42,45,40",42,3,Số nào cộng 3 bằng 45?
-SK07_0073,SK07,multiple_choice,_ + 3 = 47,_ + 3 = 47,"44,45,47,42",44,3,Số nào cộng 3 bằng 47?
-SK07_0074,SK07,multiple_choice,_ + 3 = 49,_ + 3 = 49,"46,44,49,47",46,3,Số nào cộng 3 bằng 49?
-SK07_0075,SK07,multiple_choice,_ + 4 = 4,_ + 4 = 4,"0,3,2,1",0,2,Số nào cộng 4 bằng 4?
-SK07_0076,SK07,multiple_choice,_ + 4 = 6,_ + 4 = 6,"0,1,2,4",2,2,Số nào cộng 4 bằng 6?
-SK07_0077,SK07,multiple_choice,_ + 4 = 8,_ + 4 = 8,"3,4,7,5",4,2,Số nào cộng 4 bằng 8?
-SK07_0078,SK07,multiple_choice,_ + 4 = 10,_ + 4 = 10,"8,4,5,6",6,2,Số nào cộng 4 bằng 10?
-SK07_0079,SK07,multiple_choice,_ + 4 = 12,_ + 4 = 12,"8,7,11,9",8,2,Số nào cộng 4 bằng 12?
-SK07_0080,SK07,multiple_choice,_ + 4 = 14,_ + 4 = 14,"13,9,12,10",10,2,Số nào cộng 4 bằng 14?
-SK07_0081,SK07,multiple_choice,_ + 4 = 16,_ + 4 = 16,"12,13,14,11",12,3,Số nào cộng 4 bằng 16?
-SK07_0082,SK07,multiple_choice,_ + 4 = 18,_ + 4 = 18,"17,15,14,16",14,3,Số nào cộng 4 bằng 18?
-SK07_0083,SK07,multiple_choice,_ + 4 = 20,_ + 4 = 20,"14,15,16,19",16,3,Số nào cộng 4 bằng 20?
-SK07_0084,SK07,multiple_choice,_ + 4 = 22,_ + 4 = 22,"19,21,17,18",18,3,Số nào cộng 4 bằng 22?
-SK07_0085,SK07,multiple_choice,_ + 4 = 24,_ + 4 = 24,"22,21,23,20",20,3,Số nào cộng 4 bằng 24?
-SK07_0086,SK07,multiple_choice,_ + 4 = 26,_ + 4 = 26,"22,24,20,23",22,3,Số nào cộng 4 bằng 26?
-SK07_0087,SK07,multiple_choice,_ + 4 = 28,_ + 4 = 28,"24,22,27,23",24,3,Số nào cộng 4 bằng 28?
-SK07_0088,SK07,multiple_choice,_ + 4 = 30,_ + 4 = 30,"24,28,26,27",26,3,Số nào cộng 4 bằng 30?
-SK07_0089,SK07,multiple_choice,_ + 4 = 32,_ + 4 = 32,"29,30,28,26",28,3,Số nào cộng 4 bằng 32?
-SK07_0090,SK07,multiple_choice,_ + 4 = 34,_ + 4 = 34,"33,31,30,29",30,3,Số nào cộng 4 bằng 34?
-SK07_0091,SK07,multiple_choice,_ + 4 = 36,_ + 4 = 36,"32,33,30,34",32,3,Số nào cộng 4 bằng 36?
-SK07_0092,SK07,multiple_choice,_ + 4 = 38,_ + 4 = 38,"36,33,34,37",34,3,Số nào cộng 4 bằng 38?
-SK07_0093,SK07,multiple_choice,_ + 4 = 40,_ + 4 = 40,"36,35,38,34",36,3,Số nào cộng 4 bằng 40?
-SK07_0094,SK07,multiple_choice,_ + 4 = 42,_ + 4 = 42,"38,36,41,40",38,3,Số nào cộng 4 bằng 42?
-SK07_0095,SK07,multiple_choice,_ + 4 = 44,_ + 4 = 44,"42,40,38,39",40,3,Số nào cộng 4 bằng 44?
-SK07_0096,SK07,multiple_choice,_ + 4 = 46,_ + 4 = 46,"45,40,43,42",42,3,Số nào cộng 4 bằng 46?
-SK07_0097,SK07,multiple_choice,_ + 4 = 48,_ + 4 = 48,"44,46,42,47",44,3,Số nào cộng 4 bằng 48?
-SK07_0098,SK07,multiple_choice,_ + 4 = 50,_ + 4 = 50,"45,48,46,49",46,3,Số nào cộng 4 bằng 50?
-SK07_0099,SK07,multiple_choice,_ + 5 = 5,_ + 5 = 5,"1,0,3,2",0,2,Số nào cộng 5 bằng 5?
-SK07_0100,SK07,multiple_choice,_ + 5 = 7,_ + 5 = 7,"0,5,2,4",2,2,Số nào cộng 5 bằng 7?
-SK07_0101,SK07,multiple_choice,_ + 5 = 9,_ + 5 = 9,"3,4,2,6",4,2,Số nào cộng 5 bằng 9?
-SK07_0102,SK07,multiple_choice,_ + 5 = 11,_ + 5 = 11,"9,4,5,6",6,2,Số nào cộng 5 bằng 11?
-SK07_0103,SK07,multiple_choice,_ + 5 = 13,_ + 5 = 13,"9,10,8,7",8,2,Số nào cộng 5 bằng 13?
-SK07_0104,SK07,multiple_choice,_ + 5 = 15,_ + 5 = 15,"12,10,9,8",10,2,Số nào cộng 5 bằng 15?
-SK07_0105,SK07,multiple_choice,_ + 5 = 17,_ + 5 = 17,"12,15,11,13",12,3,Số nào cộng 5 bằng 17?
-SK07_0106,SK07,multiple_choice,_ + 5 = 19,_ + 5 = 19,"15,14,16,17",14,3,Số nào cộng 5 bằng 19?
-SK07_0107,SK07,multiple_choice,_ + 5 = 21,_ + 5 = 21,"16,18,14,15",16,3,Số nào cộng 5 bằng 21?
-SK07_0108,SK07,multiple_choice,_ + 5 = 23,_ + 5 = 23,"21,19,18,16",18,3,Số nào cộng 5 bằng 23?
-SK07_0109,SK07,multiple_choice,_ + 5 = 25,_ + 5 = 25,"18,23,20,22",20,3,Số nào cộng 5 bằng 25?
-SK07_0110,SK07,multiple_choice,_ + 5 = 27,_ + 5 = 27,"22,25,20,24",22,3,Số nào cộng 5 bằng 27?
-SK07_0111,SK07,multiple_choice,_ + 5 = 29,_ + 5 = 29,"22,23,27,24",24,3,Số nào cộng 5 bằng 29?
-SK07_0112,SK07,multiple_choice,_ + 5 = 31,_ + 5 = 31,"26,25,24,29",26,3,Số nào cộng 5 bằng 31?
-SK07_0113,SK07,multiple_choice,_ + 5 = 33,_ + 5 = 33,"28,27,29,30",28,3,Số nào cộng 5 bằng 33?
-SK07_0114,SK07,multiple_choice,_ + 5 = 35,_ + 5 = 35,"33,28,32,30",30,3,Số nào cộng 5 bằng 35?
-SK07_0115,SK07,multiple_choice,_ + 5 = 37,_ + 5 = 37,"33,32,31,34",32,3,Số nào cộng 5 bằng 37?
-SK07_0116,SK07,multiple_choice,_ + 5 = 39,_ + 5 = 39,"34,37,36,35",34,3,Số nào cộng 5 bằng 39?
-SK07_0117,SK07,multiple_choice,_ + 5 = 41,_ + 5 = 41,"37,38,39,36",36,3,Số nào cộng 5 bằng 41?
-SK07_0118,SK07,multiple_choice,_ + 5 = 43,_ + 5 = 43,"40,38,41,37",38,3,Số nào cộng 5 bằng 43?
-SK07_0119,SK07,multiple_choice,_ + 5 = 45,_ + 5 = 45,"38,39,40,42",40,3,Số nào cộng 5 bằng 45?
-SK07_0120,SK07,multiple_choice,_ + 5 = 47,_ + 5 = 47,"44,43,42,40",42,3,Số nào cộng 5 bằng 47?
-SK07_0121,SK07,multiple_choice,_ + 5 = 49,_ + 5 = 49,"44,47,46,43",44,3,Số nào cộng 5 bằng 49?
-SK07_0122,SK07,multiple_choice,_ + 6 = 6,_ + 6 = 6,"0,3,2,1",0,2,Số nào cộng 6 bằng 6?
-SK07_0123,SK07,multiple_choice,_ + 6 = 8,_ + 6 = 8,"0,4,1,2",2,2,Số nào cộng 6 bằng 8?
-SK07_0124,SK07,multiple_choice,_ + 6 = 10,_ + 6 = 10,"4,2,7,5",4,2,Số nào cộng 6 bằng 10?
-SK07_0125,SK07,multiple_choice,_ + 6 = 12,_ + 6 = 12,"9,4,8,6",6,2,Số nào cộng 6 bằng 12?
-SK07_0126,SK07,multiple_choice,_ + 6 = 14,_ + 6 = 14,"10,6,8,11",8,2,Số nào cộng 6 bằng 14?
-SK07_0127,SK07,multiple_choice,_ + 6 = 16,_ + 6 = 16,"8,12,10,11",10,3,Số nào cộng 6 bằng 16?
-SK07_0128,SK07,multiple_choice,_ + 6 = 18,_ + 6 = 18,"14,13,10,12",12,3,Số nào cộng 6 bằng 18?
-SK07_0129,SK07,multiple_choice,_ + 6 = 20,_ + 6 = 20,"14,15,13,16",14,3,Số nào cộng 6 bằng 20?
-SK07_0130,SK07,multiple_choice,_ + 6 = 22,_ + 6 = 22,"14,19,17,16",16,3,Số nào cộng 6 bằng 22?
-SK07_0131,SK07,multiple_choice,_ + 6 = 24,_ + 6 = 24,"21,19,18,17",18,3,Số nào cộng 6 bằng 24?
-SK07_0132,SK07,multiple_choice,_ + 6 = 26,_ + 6 = 26,"21,19,22,20",20,3,Số nào cộng 6 bằng 26?
-SK07_0133,SK07,multiple_choice,_ + 6 = 28,_ + 6 = 28,"21,25,22,20",22,3,Số nào cộng 6 bằng 28?
-SK07_0134,SK07,multiple_choice,_ + 6 = 30,_ + 6 = 30,"22,26,24,27",24,3,Số nào cộng 6 bằng 30?
-SK07_0135,SK07,multiple_choice,_ + 6 = 32,_ + 6 = 32,"27,29,24,26",26,3,Số nào cộng 6 bằng 32?
-SK07_0136,SK07,multiple_choice,_ + 6 = 34,_ + 6 = 34,"28,31,29,30",28,3,Số nào cộng 6 bằng 34?
-SK07_0137,SK07,multiple_choice,_ + 6 = 36,_ + 6 = 36,"33,30,32,28",30,3,Số nào cộng 6 bằng 36?
-SK07_0138,SK07,multiple_choice,_ + 6 = 38,_ + 6 = 38,"35,32,31,30",32,3,Số nào cộng 6 bằng 38?
-SK07_0139,SK07,multiple_choice,_ + 6 = 40,_ + 6 = 40,"33,32,34,36",34,3,Số nào cộng 6 bằng 40?
-SK07_0140,SK07,multiple_choice,_ + 6 = 42,_ + 6 = 42,"39,35,36,34",36,3,Số nào cộng 6 bằng 42?
-SK07_0141,SK07,multiple_choice,_ + 6 = 44,_ + 6 = 44,"40,37,38,36",38,3,Số nào cộng 6 bằng 44?
-SK07_0142,SK07,multiple_choice,_ + 6 = 46,_ + 6 = 46,"39,41,40,38",40,3,Số nào cộng 6 bằng 46?
-SK07_0143,SK07,multiple_choice,_ + 6 = 48,_ + 6 = 48,"45,41,40,42",42,3,Số nào cộng 6 bằng 48?
-SK07_0144,SK07,multiple_choice,_ + 6 = 50,_ + 6 = 50,"43,44,45,47",44,3,Số nào cộng 6 bằng 50?
-SK07_0145,SK07,multiple_choice,_ + 7 = 7,_ + 7 = 7,"1,2,3,0",0,2,Số nào cộng 7 bằng 7?
-SK07_0146,SK07,multiple_choice,_ + 7 = 9,_ + 7 = 9,"1,3,2,4",2,2,Số nào cộng 7 bằng 9?
-SK07_0147,SK07,multiple_choice,_ + 7 = 11,_ + 7 = 11,"4,5,3,2",4,2,Số nào cộng 7 bằng 11?
-SK07_0148,SK07,multiple_choice,_ + 7 = 13,_ + 7 = 13,"9,6,4,8",6,2,Số nào cộng 7 bằng 13?
-SK07_0149,SK07,multiple_choice,_ + 7 = 15,_ + 7 = 15,"10,11,8,6",8,2,Số nào cộng 7 bằng 15?
-SK07_0150,SK07,multiple_choice,_ + 7 = 17,_ + 7 = 17,"10,8,13,12",10,3,Số nào cộng 7 bằng 17?
-SK07_0151,SK07,multiple_choice,_ + 7 = 19,_ + 7 = 19,"15,12,11,13",12,3,Số nào cộng 7 bằng 19?
-SK07_0152,SK07,multiple_choice,_ + 7 = 21,_ + 7 = 21,"16,14,12,15",14,3,Số nào cộng 7 bằng 21?
-SK07_0153,SK07,multiple_choice,_ + 7 = 23,_ + 7 = 23,"15,16,18,17",16,3,Số nào cộng 7 bằng 23?
-SK07_0154,SK07,multiple_choice,_ + 7 = 25,_ + 7 = 25,"16,21,18,17",18,3,Số nào cộng 7 bằng 25?
-SK07_0155,SK07,multiple_choice,_ + 7 = 27,_ + 7 = 27,"20,19,18,23",20,3,Số nào cộng 7 bằng 27?
-SK07_0156,SK07,multiple_choice,_ + 7 = 29,_ + 7 = 29,"23,25,21,22",22,3,Số nào cộng 7 bằng 29?
-SK07_0157,SK07,multiple_choice,_ + 7 = 31,_ + 7 = 31,"26,24,27,23",24,3,Số nào cộng 7 bằng 31?
-SK07_0158,SK07,multiple_choice,_ + 7 = 33,_ + 7 = 33,"25,29,28,26",26,3,Số nào cộng 7 bằng 33?
-SK07_0159,SK07,multiple_choice,_ + 7 = 35,_ + 7 = 35,"31,28,27,30",28,3,Số nào cộng 7 bằng 35?
-SK07_0160,SK07,multiple_choice,_ + 7 = 37,_ + 7 = 37,"29,30,33,28",30,3,Số nào cộng 7 bằng 37?
-SK07_0161,SK07,multiple_choice,_ + 7 = 39,_ + 7 = 39,"34,30,32,33",32,3,Số nào cộng 7 bằng 39?
-SK07_0162,SK07,multiple_choice,_ + 7 = 41,_ + 7 = 41,"32,36,37,34",34,3,Số nào cộng 7 bằng 41?
-SK07_0163,SK07,multiple_choice,_ + 7 = 43,_ + 7 = 43,"35,37,36,38",36,3,Số nào cộng 7 bằng 43?
-SK07_0164,SK07,multiple_choice,_ + 7 = 45,_ + 7 = 45,"38,39,36,41",38,3,Số nào cộng 7 bằng 45?
-SK07_0165,SK07,multiple_choice,_ + 7 = 47,_ + 7 = 47,"42,39,41,40",40,3,Số nào cộng 7 bằng 47?
-SK07_0166,SK07,multiple_choice,_ + 7 = 49,_ + 7 = 49,"41,44,40,42",42,3,Số nào cộng 7 bằng 49?
-SK07_0167,SK07,multiple_choice,_ + 8 = 8,_ + 8 = 8,"0,3,2,1",0,2,Số nào cộng 8 bằng 8?
-SK07_0168,SK07,multiple_choice,_ + 8 = 10,_ + 8 = 10,"0,2,5,1",2,2,Số nào cộng 8 bằng 10?
-SK07_0169,SK07,multiple_choice,_ + 8 = 12,_ + 8 = 12,"4,6,3,5",4,2,Số nào cộng 8 bằng 12?
-SK07_0170,SK07,multiple_choice,_ + 8 = 14,_ + 8 = 14,"6,5,8,9",6,2,Số nào cộng 8 bằng 14?
-SK07_0171,SK07,multiple_choice,_ + 8 = 16,_ + 8 = 16,"9,11,10,8",8,3,Số nào cộng 8 bằng 16?
-SK07_0172,SK07,multiple_choice,_ + 8 = 18,_ + 8 = 18,"10,8,13,12",10,3,Số nào cộng 8 bằng 18?
-SK07_0173,SK07,multiple_choice,_ + 8 = 20,_ + 8 = 20,"10,13,11,12",12,3,Số nào cộng 8 bằng 20?
-SK07_0174,SK07,multiple_choice,_ + 8 = 22,_ + 8 = 22,"13,14,12,15",14,3,Số nào cộng 8 bằng 22?
-SK07_0175,SK07,multiple_choice,_ + 8 = 24,_ + 8 = 24,"17,18,16,15",16,3,Số nào cộng 8 bằng 24?
-SK07_0176,SK07,multiple_choice,_ + 8 = 26,_ + 8 = 26,"16,18,19,20",18,3,Số nào cộng 8 bằng 26?
-SK07_0177,SK07,multiple_choice,_ + 8 = 28,_ + 8 = 28,"20,19,21,18",20,3,Số nào cộng 8 bằng 28?
-SK07_0178,SK07,multiple_choice,_ + 8 = 30,_ + 8 = 30,"22,20,24,21",22,3,Số nào cộng 8 bằng 30?
-SK07_0179,SK07,multiple_choice,_ + 8 = 32,_ + 8 = 32,"24,26,27,23",24,3,Số nào cộng 8 bằng 32?
-SK07_0180,SK07,multiple_choice,_ + 8 = 34,_ + 8 = 34,"26,27,29,25",26,3,Số nào cộng 8 bằng 34?
-SK07_0181,SK07,multiple_choice,_ + 8 = 36,_ + 8 = 36,"26,28,31,27",28,3,Số nào cộng 8 bằng 36?
-SK07_0182,SK07,multiple_choice,_ + 8 = 38,_ + 8 = 38,"28,30,32,29",30,3,Số nào cộng 8 bằng 38?
-SK07_0183,SK07,multiple_choice,_ + 8 = 40,_ + 8 = 40,"33,31,32,30",32,3,Số nào cộng 8 bằng 40?
-SK07_0184,SK07,multiple_choice,_ + 8 = 42,_ + 8 = 42,"35,36,33,34",34,3,Số nào cộng 8 bằng 42?
-SK07_0185,SK07,multiple_choice,_ + 8 = 44,_ + 8 = 44,"34,39,36,37",36,3,Số nào cộng 8 bằng 44?
-SK07_0186,SK07,multiple_choice,_ + 8 = 46,_ + 8 = 46,"37,39,38,41",38,3,Số nào cộng 8 bằng 46?
-SK07_0187,SK07,multiple_choice,_ + 8 = 48,_ + 8 = 48,"42,40,38,39",40,3,Số nào cộng 8 bằng 48?
-SK07_0188,SK07,multiple_choice,_ + 8 = 50,_ + 8 = 50,"43,40,41,42",42,3,Số nào cộng 8 bằng 50?
-SK07_0189,SK07,multiple_choice,_ + 9 = 9,_ + 9 = 9,"1,0,2,3",0,2,Số nào cộng 9 bằng 9?
-SK07_0190,SK07,multiple_choice,_ + 9 = 11,_ + 9 = 11,"1,4,0,2",2,2,Số nào cộng 9 bằng 11?
-SK07_0191,SK07,multiple_choice,_ + 9 = 13,_ + 9 = 13,"3,4,6,7",4,2,Số nào cộng 9 bằng 13?
-SK07_0192,SK07,multiple_choice,_ + 9 = 15,_ + 9 = 15,"9,4,6,7",6,2,Số nào cộng 9 bằng 15?
-SK07_0193,SK07,multiple_choice,_ + 9 = 17,_ + 9 = 17,"8,11,9,10",8,3,Số nào cộng 9 bằng 17?
-SK07_0194,SK07,multiple_choice,_ + 9 = 19,_ + 9 = 19,"10,13,8,11",10,3,Số nào cộng 9 bằng 19?
-SK07_0195,SK07,multiple_choice,_ + 9 = 21,_ + 9 = 21,"14,10,12,13",12,3,Số nào cộng 9 bằng 21?
-SK07_0196,SK07,multiple_choice,_ + 9 = 23,_ + 9 = 23,"12,17,14,16",14,3,Số nào cộng 9 bằng 23?
-SK07_0197,SK07,multiple_choice,_ + 9 = 25,_ + 9 = 25,"15,14,18,16",16,3,Số nào cộng 9 bằng 25?
-SK07_0198,SK07,multiple_choice,_ + 9 = 27,_ + 9 = 27,"19,18,21,20",18,3,Số nào cộng 9 bằng 27?
-SK07_0199,SK07,multiple_choice,_ + 9 = 29,_ + 9 = 29,"20,23,19,18",20,3,Số nào cộng 9 bằng 29?
-SK07_0200,SK07,multiple_choice,_ + 9 = 31,_ + 9 = 31,"24,22,21,25",22,3,Số nào cộng 9 bằng 31?
-SK07_0201,SK07,multiple_choice,_ + 9 = 33,_ + 9 = 33,"24,27,26,22",24,3,Số nào cộng 9 bằng 33?
-SK07_0202,SK07,multiple_choice,2 - _ = 0,2 - _ = 0,"0,4,1,2",2,2,Lấy 2 bỏ mấy để còn 0?
-SK07_0203,SK07,multiple_choice,5 - _ = 0,5 - _ = 0,"3,7,5,6",5,2,Lấy 5 bỏ mấy để còn 0?
-SK07_0204,SK07,multiple_choice,5 - _ = 2,5 - _ = 2,"4,3,1,2",3,2,Lấy 5 bỏ mấy để còn 2?
-SK07_0205,SK07,multiple_choice,5 - _ = 4,5 - _ = 4,"1,2,3,0",1,2,Lấy 5 bỏ mấy để còn 4?
-SK07_0206,SK07,multiple_choice,8 - _ = 0,8 - _ = 0,"9,10,8,7",8,2,Lấy 8 bỏ mấy để còn 0?
-SK07_0207,SK07,multiple_choice,8 - _ = 2,8 - _ = 2,"5,8,4,6",6,2,Lấy 8 bỏ mấy để còn 2?
-SK07_0208,SK07,multiple_choice,8 - _ = 4,8 - _ = 4,"4,3,2,6",4,2,Lấy 8 bỏ mấy để còn 4?
-SK07_0209,SK07,multiple_choice,8 - _ = 6,8 - _ = 6,"0,3,2,1",2,2,Lấy 8 bỏ mấy để còn 6?
-SK07_0210,SK07,multiple_choice,11 - _ = 0,11 - _ = 0,"11,10,12,9",11,2,Lấy 11 bỏ mấy để còn 0?
-SK07_0211,SK07,multiple_choice,11 - _ = 2,11 - _ = 2,"9,7,8,10",9,2,Lấy 11 bỏ mấy để còn 2?
-SK07_0212,SK07,multiple_choice,11 - _ = 4,11 - _ = 4,"5,9,7,8",7,2,Lấy 11 bỏ mấy để còn 4?
-SK07_0213,SK07,multiple_choice,11 - _ = 6,11 - _ = 6,"3,5,7,4",5,2,Lấy 11 bỏ mấy để còn 6?
-SK07_0214,SK07,multiple_choice,11 - _ = 8,11 - _ = 8,"4,2,3,5",3,2,Lấy 11 bỏ mấy để còn 8?
-SK07_0215,SK07,multiple_choice,11 - _ = 10,11 - _ = 10,"2,3,1,0",1,2,Lấy 11 bỏ mấy để còn 10?
-SK07_0216,SK07,multiple_choice,14 - _ = 0,14 - _ = 0,"16,14,13,12",14,2,Lấy 14 bỏ mấy để còn 0?
-SK07_0217,SK07,multiple_choice,14 - _ = 2,14 - _ = 2,"13,10,12,14",12,2,Lấy 14 bỏ mấy để còn 2?
-SK07_0218,SK07,multiple_choice,14 - _ = 4,14 - _ = 4,"12,8,10,11",10,2,Lấy 14 bỏ mấy để còn 4?
-SK07_0219,SK07,multiple_choice,14 - _ = 6,14 - _ = 6,"9,10,8,6",8,2,Lấy 14 bỏ mấy để còn 6?
-SK07_0220,SK07,multiple_choice,14 - _ = 8,14 - _ = 8,"7,6,8,5",6,2,Lấy 14 bỏ mấy để còn 8?
-SK07_0221,SK07,multiple_choice,14 - _ = 10,14 - _ = 10,"4,5,6,3",4,2,Lấy 14 bỏ mấy để còn 10?
-SK07_0222,SK07,multiple_choice,14 - _ = 12,14 - _ = 12,"1,2,3,0",2,2,Lấy 14 bỏ mấy để còn 12?
-SK07_0223,SK07,multiple_choice,17 - _ = 0,17 - _ = 0,"17,16,18,19",17,3,Lấy 17 bỏ mấy để còn 0?
-SK07_0224,SK07,multiple_choice,17 - _ = 2,17 - _ = 2,"15,17,16,14",15,3,Lấy 17 bỏ mấy để còn 2?
-SK07_0225,SK07,multiple_choice,17 - _ = 4,17 - _ = 4,"12,11,13,15",13,3,Lấy 17 bỏ mấy để còn 4?
-SK07_0226,SK07,multiple_choice,17 - _ = 6,17 - _ = 6,"9,13,11,10",11,3,Lấy 17 bỏ mấy để còn 6?
-SK07_0227,SK07,multiple_choice,17 - _ = 8,17 - _ = 8,"10,11,9,8",9,3,Lấy 17 bỏ mấy để còn 8?
-SK07_0228,SK07,multiple_choice,17 - _ = 10,17 - _ = 10,"6,5,7,8",7,3,Lấy 17 bỏ mấy để còn 10?
-SK07_0229,SK07,multiple_choice,17 - _ = 12,17 - _ = 12,"6,5,4,7",5,3,Lấy 17 bỏ mấy để còn 12?
-SK07_0230,SK07,multiple_choice,17 - _ = 14,17 - _ = 14,"1,2,4,3",3,3,Lấy 17 bỏ mấy để còn 14?
-SK07_0231,SK07,multiple_choice,17 - _ = 16,17 - _ = 16,"2,0,3,1",1,3,Lấy 17 bỏ mấy để còn 16?
-SK07_0232,SK07,multiple_choice,20 - _ = 0,20 - _ = 0,"20,22,21,18",20,3,Lấy 20 bỏ mấy để còn 0?
-SK07_0233,SK07,multiple_choice,20 - _ = 2,20 - _ = 2,"16,20,19,18",18,3,Lấy 20 bỏ mấy để còn 2?
-SK07_0234,SK07,multiple_choice,20 - _ = 4,20 - _ = 4,"18,15,17,16",16,3,Lấy 20 bỏ mấy để còn 4?
-SK07_0235,SK07,multiple_choice,20 - _ = 6,20 - _ = 6,"12,14,15,16",14,3,Lấy 20 bỏ mấy để còn 6?
-SK07_0236,SK07,multiple_choice,20 - _ = 8,20 - _ = 8,"12,14,11,13",12,3,Lấy 20 bỏ mấy để còn 8?
-SK07_0237,SK07,multiple_choice,20 - _ = 10,20 - _ = 10,"12,8,10,9",10,3,Lấy 20 bỏ mấy để còn 10?
-SK07_0238,SK07,multiple_choice,20 - _ = 12,20 - _ = 12,"8,7,9,6",8,3,Lấy 20 bỏ mấy để còn 12?
-SK07_0239,SK07,multiple_choice,20 - _ = 14,20 - _ = 14,"8,5,6,4",6,3,Lấy 20 bỏ mấy để còn 14?
-SK07_0240,SK07,multiple_choice,20 - _ = 16,20 - _ = 16,"6,5,2,4",4,3,Lấy 20 bỏ mấy để còn 16?
-SK07_0241,SK07,multiple_choice,20 - _ = 18,20 - _ = 18,"1,3,2,4",2,3,Lấy 20 bỏ mấy để còn 18?
-SK07_0242,SK07,multiple_choice,23 - _ = 0,23 - _ = 0,"22,21,24,23",23,3,Lấy 23 bỏ mấy để còn 0?
-SK07_0243,SK07,multiple_choice,23 - _ = 2,23 - _ = 2,"19,22,23,21",21,3,Lấy 23 bỏ mấy để còn 2?
-SK07_0244,SK07,multiple_choice,23 - _ = 4,23 - _ = 4,"19,17,21,18",19,3,Lấy 23 bỏ mấy để còn 4?
-SK07_0245,SK07,multiple_choice,23 - _ = 6,23 - _ = 6,"15,16,17,19",17,3,Lấy 23 bỏ mấy để còn 6?
-SK07_0246,SK07,multiple_choice,23 - _ = 8,23 - _ = 8,"16,13,15,17",15,3,Lấy 23 bỏ mấy để còn 8?
-SK07_0247,SK07,multiple_choice,23 - _ = 10,23 - _ = 10,"13,14,11,12",13,3,Lấy 23 bỏ mấy để còn 10?
-SK07_0248,SK07,multiple_choice,23 - _ = 12,23 - _ = 12,"13,12,10,11",11,3,Lấy 23 bỏ mấy để còn 12?
-SK07_0249,SK07,multiple_choice,23 - _ = 14,23 - _ = 14,"8,11,10,9",9,3,Lấy 23 bỏ mấy để còn 14?
-SK07_0250,SK07,multiple_choice,23 - _ = 16,23 - _ = 16,"5,7,8,9",7,3,Lấy 23 bỏ mấy để còn 16?
-SK07_0251,SK07,multiple_choice,23 - _ = 18,23 - _ = 18,"5,3,6,7",5,3,Lấy 23 bỏ mấy để còn 18?
-SK07_0252,SK07,multiple_choice,23 - _ = 20,23 - _ = 20,"3,5,4,1",3,3,Lấy 23 bỏ mấy để còn 20?
-SK07_0253,SK07,multiple_choice,23 - _ = 22,23 - _ = 22,"1,0,2,3",1,3,Lấy 23 bỏ mấy để còn 22?
-SK07_0254,SK07,multiple_choice,26 - _ = 0,26 - _ = 0,"28,26,25,24",26,3,Lấy 26 bỏ mấy để còn 0?
-SK07_0255,SK07,multiple_choice,26 - _ = 2,26 - _ = 2,"23,26,24,25",24,3,Lấy 26 bỏ mấy để còn 2?
-SK07_0256,SK07,multiple_choice,26 - _ = 4,26 - _ = 4,"24,22,20,23",22,3,Lấy 26 bỏ mấy để còn 4?
-SK07_0257,SK07,multiple_choice,26 - _ = 6,26 - _ = 6,"19,18,22,20",20,3,Lấy 26 bỏ mấy để còn 6?
-SK07_0258,SK07,multiple_choice,26 - _ = 8,26 - _ = 8,"17,18,19,20",18,3,Lấy 26 bỏ mấy để còn 8?
-SK07_0259,SK07,multiple_choice,26 - _ = 10,26 - _ = 10,"17,14,16,15",16,3,Lấy 26 bỏ mấy để còn 10?
-SK07_0260,SK07,multiple_choice,26 - _ = 12,26 - _ = 12,"16,13,15,14",14,3,Lấy 26 bỏ mấy để còn 12?
-SK07_0261,SK07,multiple_choice,26 - _ = 14,26 - _ = 14,"10,14,12,11",12,3,Lấy 26 bỏ mấy để còn 14?
-SK07_0262,SK07,multiple_choice,26 - _ = 16,26 - _ = 16,"12,11,9,10",10,3,Lấy 26 bỏ mấy để còn 16?
-SK07_0263,SK07,multiple_choice,26 - _ = 18,26 - _ = 18,"10,8,9,7",8,3,Lấy 26 bỏ mấy để còn 18?
-SK07_0264,SK07,multiple_choice,26 - _ = 20,26 - _ = 20,"4,7,6,8",6,3,Lấy 26 bỏ mấy để còn 20?
-SK07_0265,SK07,multiple_choice,26 - _ = 22,26 - _ = 22,"4,5,6,3",4,3,Lấy 26 bỏ mấy để còn 22?
-SK07_0266,SK07,multiple_choice,26 - _ = 24,26 - _ = 24,"0,4,1,2",2,3,Lấy 26 bỏ mấy để còn 24?
-SK07_0267,SK07,multiple_choice,29 - _ = 0,29 - _ = 0,"28,27,29,30",29,3,Lấy 29 bỏ mấy để còn 0?
-SK07_0268,SK07,multiple_choice,29 - _ = 2,29 - _ = 2,"27,29,28,26",27,3,Lấy 29 bỏ mấy để còn 2?
-SK07_0269,SK07,multiple_choice,29 - _ = 4,29 - _ = 4,"24,26,25,23",25,3,Lấy 29 bỏ mấy để còn 4?
-SK07_0270,SK07,multiple_choice,29 - _ = 6,29 - _ = 6,"25,24,23,21",23,3,Lấy 29 bỏ mấy để còn 6?
-SK07_0271,SK07,multiple_choice,29 - _ = 8,29 - _ = 8,"19,20,21,23",21,3,Lấy 29 bỏ mấy để còn 8?
-SK07_0272,SK07,multiple_choice,29 - _ = 10,29 - _ = 10,"20,19,21,18",19,3,Lấy 29 bỏ mấy để còn 10?
-SK07_0273,SK07,multiple_choice,29 - _ = 12,29 - _ = 12,"16,17,19,15",17,3,Lấy 29 bỏ mấy để còn 12?
-SK07_0274,SK07,multiple_choice,29 - _ = 14,29 - _ = 14,"15,17,13,14",15,3,Lấy 29 bỏ mấy để còn 14?
-SK07_0275,SK07,multiple_choice,29 - _ = 16,29 - _ = 16,"14,11,13,15",13,3,Lấy 29 bỏ mấy để còn 16?
-SK07_0276,SK07,multiple_choice,29 - _ = 18,29 - _ = 18,"10,11,13,12",11,3,Lấy 29 bỏ mấy để còn 18?
-SK07_0277,SK07,multiple_choice,29 - _ = 20,29 - _ = 20,"7,9,8,10",9,3,Lấy 29 bỏ mấy để còn 20?
-SK07_0278,SK07,multiple_choice,29 - _ = 22,29 - _ = 22,"5,6,7,8",7,3,Lấy 29 bỏ mấy để còn 22?
-SK07_0279,SK07,multiple_choice,29 - _ = 24,29 - _ = 24,"6,3,5,7",5,3,Lấy 29 bỏ mấy để còn 24?
-SK07_0280,SK07,multiple_choice,29 - _ = 26,29 - _ = 26,"1,5,4,3",3,3,Lấy 29 bỏ mấy để còn 26?
-SK07_0281,SK07,multiple_choice,29 - _ = 28,29 - _ = 28,"1,0,2,3",1,3,Lấy 29 bỏ mấy để còn 28?
-SK07_0282,SK07,multiple_choice,32 - _ = 0,32 - _ = 0,"34,30,32,31",32,3,Lấy 32 bỏ mấy để còn 0?
-SK07_0283,SK07,multiple_choice,32 - _ = 2,32 - _ = 2,"28,32,31,30",30,3,Lấy 32 bỏ mấy để còn 2?
-SK07_0284,SK07,multiple_choice,32 - _ = 4,32 - _ = 4,"28,29,27,26",28,3,Lấy 32 bỏ mấy để còn 4?
-SK07_0285,SK07,multiple_choice,32 - _ = 6,32 - _ = 6,"28,26,24,27",26,3,Lấy 32 bỏ mấy để còn 6?
-SK07_0286,SK07,multiple_choice,32 - _ = 8,32 - _ = 8,"22,26,24,25",24,3,Lấy 32 bỏ mấy để còn 8?
-SK07_0287,SK07,multiple_choice,32 - _ = 10,32 - _ = 10,"24,21,22,23",22,3,Lấy 32 bỏ mấy để còn 10?
-SK07_0288,SK07,multiple_choice,32 - _ = 12,32 - _ = 12,"18,20,22,19",20,3,Lấy 32 bỏ mấy để còn 12?
-SK07_0289,SK07,multiple_choice,32 - _ = 14,32 - _ = 14,"17,20,18,16",18,3,Lấy 32 bỏ mấy để còn 14?
-SK07_0290,SK07,multiple_choice,32 - _ = 16,32 - _ = 16,"15,16,14,18",16,3,Lấy 32 bỏ mấy để còn 16?
-SK07_0291,SK07,multiple_choice,32 - _ = 18,32 - _ = 18,"14,13,15,12",14,3,Lấy 32 bỏ mấy để còn 18?
-SK07_0292,SK07,multiple_choice,32 - _ = 20,32 - _ = 20,"10,14,12,11",12,3,Lấy 32 bỏ mấy để còn 20?
-SK07_0293,SK07,multiple_choice,32 - _ = 22,32 - _ = 22,"10,8,12,9",10,3,Lấy 32 bỏ mấy để còn 22?
-SK07_0294,SK07,multiple_choice,32 - _ = 24,32 - _ = 24,"8,7,10,9",8,3,Lấy 32 bỏ mấy để còn 24?
-SK07_0295,SK07,multiple_choice,32 - _ = 26,32 - _ = 26,"7,6,8,5",6,3,Lấy 32 bỏ mấy để còn 26?
-SK07_0296,SK07,multiple_choice,32 - _ = 28,32 - _ = 28,"2,3,4,5",4,3,Lấy 32 bỏ mấy để còn 28?
-SK07_0297,SK07,multiple_choice,32 - _ = 30,32 - _ = 30,"4,2,3,0",2,3,Lấy 32 bỏ mấy để còn 30?
-SK07_0298,SK07,multiple_choice,35 - _ = 0,35 - _ = 0,"34,33,35,36",35,3,Lấy 35 bỏ mấy để còn 0?
-SK07_0299,SK07,multiple_choice,35 - _ = 2,35 - _ = 2,"33,32,34,35",33,3,Lấy 35 bỏ mấy để còn 2?
-SK07_0300,SK07,multiple_choice,35 - _ = 4,35 - _ = 4,"32,31,30,33",31,3,Lấy 35 bỏ mấy để còn 4?
-SK07_0301,SK07,multiple_choice,35 - _ = 6,35 - _ = 6,"28,29,30,31",29,3,Lấy 35 bỏ mấy để còn 6?
-SK07_0302,SK07,multiple_choice,35 - _ = 8,35 - _ = 8,"25,27,29,26",27,3,Lấy 35 bỏ mấy để còn 8?
-SK07_0303,SK07,multiple_choice,35 - _ = 10,35 - _ = 10,"26,27,24,25",25,3,Lấy 35 bỏ mấy để còn 10?
-SK07_0304,SK07,multiple_choice,35 - _ = 12,35 - _ = 12,"21,24,23,22",23,3,Lấy 35 bỏ mấy để còn 12?
-SK07_0305,SK07,multiple_choice,35 - _ = 14,35 - _ = 14,"22,19,23,21",21,3,Lấy 35 bỏ mấy để còn 14?
-SK07_0306,SK07,multiple_choice,35 - _ = 16,35 - _ = 16,"20,19,17,21",19,3,Lấy 35 bỏ mấy để còn 16?
-SK07_0307,SK07,multiple_choice,35 - _ = 18,35 - _ = 18,"17,19,15,18",17,3,Lấy 35 bỏ mấy để còn 18?
-SK07_0308,SK07,multiple_choice,35 - _ = 20,35 - _ = 20,"14,15,16,13",15,3,Lấy 35 bỏ mấy để còn 20?
-SK07_0309,SK07,multiple_choice,35 - _ = 22,35 - _ = 22,"11,15,14,13",13,3,Lấy 35 bỏ mấy để còn 22?
-SK07_0310,SK07,multiple_choice,35 - _ = 24,35 - _ = 24,"9,13,11,10",11,3,Lấy 35 bỏ mấy để còn 24?
-SK07_0311,SK07,multiple_choice,35 - _ = 26,35 - _ = 26,"11,10,7,9",9,3,Lấy 35 bỏ mấy để còn 26?
-SK07_0312,SK07,multiple_choice,35 - _ = 28,35 - _ = 28,"5,7,6,9",7,3,Lấy 35 bỏ mấy để còn 28?
-SK07_0313,SK07,multiple_choice,35 - _ = 30,35 - _ = 30,"5,6,3,7",5,3,Lấy 35 bỏ mấy để còn 30?
-SK07_0314,SK07,multiple_choice,35 - _ = 32,35 - _ = 32,"3,1,4,5",3,3,Lấy 35 bỏ mấy để còn 32?
-SK07_0315,SK07,multiple_choice,35 - _ = 34,35 - _ = 34,"1,0,2,3",1,3,Lấy 35 bỏ mấy để còn 34?
-SK07_0316,SK07,multiple_choice,38 - _ = 0,38 - _ = 0,"40,39,38,37",38,3,Lấy 38 bỏ mấy để còn 0?
-SK07_0317,SK07,multiple_choice,38 - _ = 2,38 - _ = 2,"37,38,35,36",36,3,Lấy 38 bỏ mấy để còn 2?
-SK07_0318,SK07,multiple_choice,38 - _ = 4,38 - _ = 4,"34,33,35,36",34,3,Lấy 38 bỏ mấy để còn 4?
-SK07_0319,SK07,multiple_choice,38 - _ = 6,38 - _ = 6,"33,32,34,30",32,3,Lấy 38 bỏ mấy để còn 6?
-SK07_0320,SK07,multiple_choice,38 - _ = 8,38 - _ = 8,"30,32,31,28",30,3,Lấy 38 bỏ mấy để còn 8?
-SK07_0321,SK07,multiple_choice,38 - _ = 10,38 - _ = 10,"26,30,27,28",28,3,Lấy 38 bỏ mấy để còn 10?
-SK07_0322,SK07,multiple_choice,38 - _ = 12,38 - _ = 12,"25,24,27,26",26,3,Lấy 38 bỏ mấy để còn 12?
-SK07_0323,SK07,multiple_choice,38 - _ = 14,38 - _ = 14,"24,25,22,23",24,3,Lấy 38 bỏ mấy để còn 14?
-SK07_0324,SK07,multiple_choice,38 - _ = 16,38 - _ = 16,"20,24,22,21",22,3,Lấy 38 bỏ mấy để còn 16?
-SK07_0325,SK07,multiple_choice,38 - _ = 18,38 - _ = 18,"19,20,18,22",20,3,Lấy 38 bỏ mấy để còn 18?
-SK07_0326,SK07,multiple_choice,38 - _ = 20,38 - _ = 20,"17,16,18,19",18,3,Lấy 38 bỏ mấy để còn 20?
-SK07_0327,SK07,multiple_choice,38 - _ = 22,38 - _ = 22,"17,14,16,15",16,3,Lấy 38 bỏ mấy để còn 22?
-SK07_0328,SK07,multiple_choice,38 - _ = 24,38 - _ = 24,"16,12,14,15",14,3,Lấy 38 bỏ mấy để còn 24?
-SK07_0329,SK07,multiple_choice,38 - _ = 26,38 - _ = 26,"10,11,14,12",12,3,Lấy 38 bỏ mấy để còn 26?
-SK07_0330,SK07,multiple_choice,38 - _ = 28,38 - _ = 28,"8,11,12,10",10,3,Lấy 38 bỏ mấy để còn 28?
-SK07_0331,SK07,multiple_choice,38 - _ = 30,38 - _ = 30,"10,8,7,9",8,3,Lấy 38 bỏ mấy để còn 30?
-SK07_0332,SK07,multiple_choice,38 - _ = 32,38 - _ = 32,"7,5,6,8",6,3,Lấy 38 bỏ mấy để còn 32?
-SK07_0333,SK07,multiple_choice,38 - _ = 34,38 - _ = 34,"2,3,6,4",4,3,Lấy 38 bỏ mấy để còn 34?
-SK07_0334,SK07,multiple_choice,38 - _ = 36,38 - _ = 36,"4,3,2,1",2,3,Lấy 38 bỏ mấy để còn 36?
-SK07_0335,SK07,multiple_choice,41 - _ = 0,41 - _ = 0,"39,43,40,41",41,3,Lấy 41 bỏ mấy để còn 0?
-SK07_0336,SK07,multiple_choice,41 - _ = 2,41 - _ = 2,"37,39,38,41",39,3,Lấy 41 bỏ mấy để còn 2?
-SK07_0337,SK07,multiple_choice,41 - _ = 4,41 - _ = 4,"37,38,36,35",37,3,Lấy 41 bỏ mấy để còn 4?
-SK07_0338,SK07,multiple_choice,41 - _ = 6,41 - _ = 6,"33,34,36,35",35,3,Lấy 41 bỏ mấy để còn 6?
-SK07_0339,SK07,multiple_choice,41 - _ = 8,41 - _ = 8,"31,32,33,35",33,3,Lấy 41 bỏ mấy để còn 8?
-SK07_0340,SK07,multiple_choice,41 - _ = 10,41 - _ = 10,"31,32,29,30",31,3,Lấy 41 bỏ mấy để còn 10?
-SK07_0341,SK07,multiple_choice,41 - _ = 12,41 - _ = 12,"31,29,30,27",29,3,Lấy 41 bỏ mấy để còn 12?
-SK07_0342,SK07,multiple_choice,41 - _ = 14,41 - _ = 14,"28,25,27,26",27,3,Lấy 41 bỏ mấy để còn 14?
-SK07_0343,SK07,multiple_choice,41 - _ = 16,41 - _ = 16,"24,23,25,26",25,3,Lấy 41 bỏ mấy để còn 16?
-SK07_0344,SK07,multiple_choice,41 - _ = 18,41 - _ = 18,"24,23,21,25",23,3,Lấy 41 bỏ mấy để còn 18?
-SK07_0345,SK07,multiple_choice,41 - _ = 20,41 - _ = 20,"22,23,20,21",21,3,Lấy 41 bỏ mấy để còn 20?
-SK07_0346,SK07,multiple_choice,41 - _ = 22,41 - _ = 22,"19,18,20,21",19,3,Lấy 41 bỏ mấy để còn 22?
-SK07_0347,SK07,multiple_choice,41 - _ = 24,41 - _ = 24,"19,17,18,15",17,3,Lấy 41 bỏ mấy để còn 24?
-SK07_0348,SK07,multiple_choice,41 - _ = 26,41 - _ = 26,"13,14,15,17",15,3,Lấy 41 bỏ mấy để còn 26?
-SK07_0349,SK07,multiple_choice,41 - _ = 28,41 - _ = 28,"15,14,13,12",13,3,Lấy 41 bỏ mấy để còn 28?
-SK07_0350,SK07,multiple_choice,41 - _ = 30,41 - _ = 30,"13,11,12,10",11,3,Lấy 41 bỏ mấy để còn 30?
-SK07_0351,SK07,multiple_choice,41 - _ = 32,41 - _ = 32,"8,7,9,10",9,3,Lấy 41 bỏ mấy để còn 32?
-SK07_0352,SK07,multiple_choice,41 - _ = 34,41 - _ = 34,"5,7,8,6",7,3,Lấy 41 bỏ mấy để còn 34?
-SK07_0353,SK07,multiple_choice,41 - _ = 36,41 - _ = 36,"4,3,5,7",5,3,Lấy 41 bỏ mấy để còn 36?
-SK07_0354,SK07,multiple_choice,41 - _ = 38,41 - _ = 38,"3,1,4,2",3,3,Lấy 41 bỏ mấy để còn 38?
-SK07_0355,SK07,multiple_choice,41 - _ = 40,41 - _ = 40,"0,1,3,2",1,3,Lấy 41 bỏ mấy để còn 40?
-SK07_0356,SK07,multiple_choice,44 - _ = 0,44 - _ = 0,"46,44,42,43",44,3,Lấy 44 bỏ mấy để còn 0?
-SK07_0357,SK07,multiple_choice,44 - _ = 2,44 - _ = 2,"40,43,42,44",42,3,Lấy 44 bỏ mấy để còn 2?
-SK07_0358,SK07,multiple_choice,44 - _ = 4,44 - _ = 4,"40,38,42,39",40,3,Lấy 44 bỏ mấy để còn 4?
-SK07_0359,SK07,multiple_choice,44 - _ = 6,44 - _ = 6,"39,38,40,36",38,3,Lấy 44 bỏ mấy để còn 6?
-SK07_0360,SK07,multiple_choice,44 - _ = 8,44 - _ = 8,"36,34,35,37",36,3,Lấy 44 bỏ mấy để còn 8?
-SK07_0361,SK07,multiple_choice,44 - _ = 10,44 - _ = 10,"34,36,32,33",34,3,Lấy 44 bỏ mấy để còn 10?
-SK07_0362,SK07,multiple_choice,44 - _ = 12,44 - _ = 12,"32,30,31,34",32,3,Lấy 44 bỏ mấy để còn 12?
-SK07_0363,SK07,multiple_choice,44 - _ = 14,44 - _ = 14,"32,28,30,31",30,3,Lấy 44 bỏ mấy để còn 14?
-SK07_0364,SK07,multiple_choice,44 - _ = 16,44 - _ = 16,"26,27,28,29",28,3,Lấy 44 bỏ mấy để còn 16?
-SK07_0365,SK07,multiple_choice,44 - _ = 18,44 - _ = 18,"25,24,26,27",26,3,Lấy 44 bỏ mấy để còn 18?
-SK07_0366,SK07,multiple_choice,44 - _ = 20,44 - _ = 20,"24,25,22,26",24,3,Lấy 44 bỏ mấy để còn 20?
-SK07_0367,SK07,multiple_choice,44 - _ = 22,44 - _ = 22,"20,24,22,21",22,3,Lấy 44 bỏ mấy để còn 22?
-SK07_0368,SK07,multiple_choice,44 - _ = 24,44 - _ = 24,"18,20,19,21",20,3,Lấy 44 bỏ mấy để còn 24?
-SK07_0369,SK07,multiple_choice,44 - _ = 26,44 - _ = 26,"17,18,20,19",18,3,Lấy 44 bỏ mấy để còn 26?
-SK07_0370,SK07,multiple_choice,44 - _ = 28,44 - _ = 28,"17,14,18,16",16,3,Lấy 44 bỏ mấy để còn 28?
-SK07_0371,SK07,multiple_choice,44 - _ = 30,44 - _ = 30,"14,15,16,13",14,3,Lấy 44 bỏ mấy để còn 30?
-SK07_0372,SK07,multiple_choice,44 - _ = 32,44 - _ = 32,"14,11,12,10",12,3,Lấy 44 bỏ mấy để còn 32?
-SK07_0373,SK07,multiple_choice,44 - _ = 34,44 - _ = 34,"12,10,8,9",10,3,Lấy 44 bỏ mấy để còn 34?
-SK07_0374,SK07,multiple_choice,44 - _ = 36,44 - _ = 36,"8,7,6,10",8,3,Lấy 44 bỏ mấy để còn 36?
-SK07_0375,SK07,multiple_choice,44 - _ = 38,44 - _ = 38,"6,8,4,7",6,3,Lấy 44 bỏ mấy để còn 38?
-SK07_0376,SK07,multiple_choice,44 - _ = 40,44 - _ = 40,"4,5,3,2",4,3,Lấy 44 bỏ mấy để còn 40?
-SK07_0377,SK07,multiple_choice,44 - _ = 42,44 - _ = 42,"3,0,1,2",2,3,Lấy 44 bỏ mấy để còn 42?
-SK07_0378,SK07,multiple_choice,47 - _ = 0,47 - _ = 0,"46,47,49,48",47,3,Lấy 47 bỏ mấy để còn 0?
-SK07_0379,SK07,multiple_choice,47 - _ = 2,47 - _ = 2,"44,45,43,46",45,3,Lấy 47 bỏ mấy để còn 2?
-SK07_0380,SK07,multiple_choice,47 - _ = 4,47 - _ = 4,"42,41,43,45",43,3,Lấy 47 bỏ mấy để còn 4?
-SK07_0381,SK07,multiple_choice,47 - _ = 6,47 - _ = 6,"41,40,43,39",41,3,Lấy 47 bỏ mấy để còn 6?
-SK07_0382,SK07,multiple_choice,47 - _ = 8,47 - _ = 8,"38,40,37,39",39,3,Lấy 47 bỏ mấy để còn 8?
-SK07_0383,SK07,multiple_choice,47 - _ = 10,47 - _ = 10,"39,37,35,36",37,3,Lấy 47 bỏ mấy để còn 10?
-SK07_0384,SK07,multiple_choice,47 - _ = 12,47 - _ = 12,"37,34,36,35",35,3,Lấy 47 bỏ mấy để còn 12?
-SK07_0385,SK07,multiple_choice,47 - _ = 14,47 - _ = 14,"33,32,31,35",33,3,Lấy 47 bỏ mấy để còn 14?
-SK07_0386,SK07,multiple_choice,47 - _ = 16,47 - _ = 16,"32,31,33,29",31,3,Lấy 47 bỏ mấy để còn 16?
-SK07_0387,SK07,multiple_choice,47 - _ = 18,47 - _ = 18,"31,28,27,29",29,3,Lấy 47 bỏ mấy để còn 18?
-SK07_0388,SK07,multiple_choice,47 - _ = 20,47 - _ = 20,"29,27,28,25",27,3,Lấy 47 bỏ mấy để còn 20?
-SK07_0389,SK07,multiple_choice,47 - _ = 22,47 - _ = 22,"26,25,23,24",25,3,Lấy 47 bỏ mấy để còn 22?
-SK07_0390,SK07,multiple_choice,47 - _ = 24,47 - _ = 24,"22,21,24,23",23,3,Lấy 47 bỏ mấy để còn 24?
-SK07_0391,SK07,multiple_choice,47 - _ = 26,47 - _ = 26,"21,19,22,20",21,3,Lấy 47 bỏ mấy để còn 26?
-SK07_0392,SK07,multiple_choice,47 - _ = 28,47 - _ = 28,"18,19,21,17",19,3,Lấy 47 bỏ mấy để còn 28?
-SK07_0393,SK07,multiple_choice,47 - _ = 30,47 - _ = 30,"18,17,16,15",17,3,Lấy 47 bỏ mấy để còn 30?
-SK07_0394,SK07,multiple_choice,47 - _ = 32,47 - _ = 32,"16,13,17,15",15,3,Lấy 47 bỏ mấy để còn 32?
-SK07_0395,SK07,multiple_choice,47 - _ = 34,47 - _ = 34,"11,12,14,13",13,3,Lấy 47 bỏ mấy để còn 34?
-SK07_0396,SK07,multiple_choice,47 - _ = 36,47 - _ = 36,"13,9,10,11",11,3,Lấy 47 bỏ mấy để còn 36?
-SK07_0397,SK07,multiple_choice,47 - _ = 38,47 - _ = 38,"9,7,11,10",9,3,Lấy 47 bỏ mấy để còn 38?
-SK07_0398,SK07,multiple_choice,47 - _ = 40,47 - _ = 40,"5,8,7,9",7,3,Lấy 47 bỏ mấy để còn 40?
-SK07_0399,SK07,multiple_choice,47 - _ = 42,47 - _ = 42,"3,7,6,5",5,3,Lấy 47 bỏ mấy để còn 42?
-SK07_0400,SK07,multiple_choice,47 - _ = 44,47 - _ = 44,"2,3,1,4",3,3,Lấy 47 bỏ mấy để còn 44?
-SK07_0401,SK07,multiple_choice,47 - _ = 46,47 - _ = 46,"1,3,2,0",1,3,Lấy 47 bỏ mấy để còn 46?
-SK07_0402,SK07,fill_blank,Điền số còn thiếu: 1 3 5 7 _,Fill the blank: 1 3 5 7 _,,9,2,Quy luật: mỗi bước cộng 2
-SK07_0403,SK07,fill_blank,Điền số còn thiếu: _ 5 7 9 11,Fill the blank: _ 5 7 9 11,,3,2,Quy luật: mỗi bước cộng 2
-SK07_0404,SK07,fill_blank,Điền số còn thiếu: _ 7 9 11 13,Fill the blank: _ 7 9 11 13,,5,2,Quy luật: mỗi bước cộng 2
-SK07_0405,SK07,fill_blank,Điền số còn thiếu: 7 9 11 13 _,Fill the blank: 7 9 11 13 _,,15,2,Quy luật: mỗi bước cộng 2
-SK07_0406,SK07,fill_blank,Điền số còn thiếu: 9 11 13 15 _,Fill the blank: 9 11 13 15 _,,17,2,Quy luật: mỗi bước cộng 2
-SK07_0407,SK07,fill_blank,Điền số còn thiếu: 11 13 15 17 _,Fill the blank: 11 13 15 17 _,,19,2,Quy luật: mỗi bước cộng 2
-SK07_0408,SK07,fill_blank,Điền số còn thiếu: 13 15 17 19 _,Fill the blank: 13 15 17 19 _,,21,3,Quy luật: mỗi bước cộng 2
-SK07_0409,SK07,fill_blank,Điền số còn thiếu: 15 _ 19 21 23,Fill the blank: 15 _ 19 21 23,,17,3,Quy luật: mỗi bước cộng 2
-SK07_0410,SK07,fill_blank,Điền số còn thiếu: 17 19 _ 23 25,Fill the blank: 17 19 _ 23 25,,21,3,Quy luật: mỗi bước cộng 2
-SK07_0411,SK07,fill_blank,Điền số còn thiếu: 19 21 _ 25 27,Fill the blank: 19 21 _ 25 27,,23,3,Quy luật: mỗi bước cộng 2
-SK07_0412,SK07,fill_blank,Điền số còn thiếu: _ 23 25 27 29,Fill the blank: _ 23 25 27 29,,21,3,Quy luật: mỗi bước cộng 2
-SK07_0413,SK07,fill_blank,Điền số còn thiếu: _ 25 27 29 31,Fill the blank: _ 25 27 29 31,,23,3,Quy luật: mỗi bước cộng 2
-SK07_0414,SK07,fill_blank,Điền số còn thiếu: 25 27 _ 31 33,Fill the blank: 25 27 _ 31 33,,29,3,Quy luật: mỗi bước cộng 2
-SK07_0415,SK07,fill_blank,Điền số còn thiếu: 27 _ 31 33 35,Fill the blank: 27 _ 31 33 35,,29,3,Quy luật: mỗi bước cộng 2
-SK07_0416,SK07,fill_blank,Điền số còn thiếu: _ 31 33 35 37,Fill the blank: _ 31 33 35 37,,29,3,Quy luật: mỗi bước cộng 2
-SK07_0417,SK07,fill_blank,Điền số còn thiếu: 31 33 35 37 _,Fill the blank: 31 33 35 37 _,,39,3,Quy luật: mỗi bước cộng 2
-SK07_0418,SK07,fill_blank,Điền số còn thiếu: _ 35 37 39 41,Fill the blank: _ 35 37 39 41,,33,3,Quy luật: mỗi bước cộng 2
-SK07_0419,SK07,fill_blank,Điền số còn thiếu: 35 37 _ 41 43,Fill the blank: 35 37 _ 41 43,,39,3,Quy luật: mỗi bước cộng 2
-SK07_0420,SK07,fill_blank,Điền số còn thiếu: 37 _ 41 43 45,Fill the blank: 37 _ 41 43 45,,39,3,Quy luật: mỗi bước cộng 2
-SK07_0421,SK07,fill_blank,Điền số còn thiếu: 39 41 43 _ 47,Fill the blank: 39 41 43 _ 47,,45,3,Quy luật: mỗi bước cộng 2
-SK07_0422,SK07,fill_blank,Điền số còn thiếu: 1 4 _ 10 13,Fill the blank: 1 4 _ 10 13,,7,2,Quy luật: mỗi bước cộng 3
-SK07_0423,SK07,fill_blank,Điền số còn thiếu: 4 7 _ 13 16,Fill the blank: 4 7 _ 13 16,,10,2,Quy luật: mỗi bước cộng 3
-SK07_0424,SK07,fill_blank,Điền số còn thiếu: 7 10 13 _ 19,Fill the blank: 7 10 13 _ 19,,16,2,Quy luật: mỗi bước cộng 3
-SK07_0425,SK07,fill_blank,Điền số còn thiếu: _ 13 16 19 22,Fill the blank: _ 13 16 19 22,,10,3,Quy luật: mỗi bước cộng 3
-SK07_0426,SK07,fill_blank,Điền số còn thiếu: 13 16 19 22 _,Fill the blank: 13 16 19 22 _,,25,3,Quy luật: mỗi bước cộng 3
-SK07_0427,SK07,fill_blank,Điền số còn thiếu: 16 19 22 25 _,Fill the blank: 16 19 22 25 _,,28,3,Quy luật: mỗi bước cộng 3
-SK07_0428,SK07,fill_blank,Điền số còn thiếu: _ 22 25 28 31,Fill the blank: _ 22 25 28 31,,19,3,Quy luật: mỗi bước cộng 3
-SK07_0429,SK07,fill_blank,Điền số còn thiếu: 22 25 28 _ 34,Fill the blank: 22 25 28 _ 34,,31,3,Quy luật: mỗi bước cộng 3
-SK07_0430,SK07,fill_blank,Điền số còn thiếu: 25 28 31 34 _,Fill the blank: 25 28 31 34 _,,37,3,Quy luật: mỗi bước cộng 3
-SK07_0431,SK07,fill_blank,Điền số còn thiếu: 28 _ 34 37 40,Fill the blank: 28 _ 34 37 40,,31,3,Quy luật: mỗi bước cộng 3
-SK07_0432,SK07,fill_blank,Điền số còn thiếu: 31 _ 37 40 43,Fill the blank: 31 _ 37 40 43,,34,3,Quy luật: mỗi bước cộng 3
-SK07_0433,SK07,fill_blank,Điền số còn thiếu: 34 37 40 43 _,Fill the blank: 34 37 40 43 _,,46,3,Quy luật: mỗi bước cộng 3
-SK07_0434,SK07,fill_blank,Điền số còn thiếu: 37 40 _ 46 49,Fill the blank: 37 40 _ 46 49,,43,3,Quy luật: mỗi bước cộng 3
-SK07_0435,SK07,fill_blank,Điền số còn thiếu: 40 43 _ 49 52,Fill the blank: 40 43 _ 49 52,,46,3,Quy luật: mỗi bước cộng 3
-SK07_0436,SK07,fill_blank,Điền số còn thiếu: 1 5 _ 13,Fill the blank: 1 5 _ 13,,9,2,Quy luật: mỗi bước cộng 4
-SK07_0437,SK07,fill_blank,Điền số còn thiếu: _ 9 13 17,Fill the blank: _ 9 13 17,,5,2,Quy luật: mỗi bước cộng 4
-SK07_0438,SK07,fill_blank,Điền số còn thiếu: _ 13 17 21,Fill the blank: _ 13 17 21,,9,3,Quy luật: mỗi bước cộng 4
-SK07_0439,SK07,fill_blank,Điền số còn thiếu: 13 17 21 _,Fill the blank: 13 17 21 _,,25,3,Quy luật: mỗi bước cộng 4
-SK07_0440,SK07,fill_blank,Điền số còn thiếu: _ 21 25 29,Fill the blank: _ 21 25 29,,17,3,Quy luật: mỗi bước cộng 4
-SK07_0441,SK07,fill_blank,Điền số còn thiếu: 21 _ 29 33,Fill the blank: 21 _ 29 33,,25,3,Quy luật: mỗi bước cộng 4
-SK07_0442,SK07,fill_blank,Điền số còn thiếu: 25 29 _ 37,Fill the blank: 25 29 _ 37,,33,3,Quy luật: mỗi bước cộng 4
-SK07_0443,SK07,fill_blank,Điền số còn thiếu: 29 33 _ 41,Fill the blank: 29 33 _ 41,,37,3,Quy luật: mỗi bước cộng 4
-SK07_0444,SK07,fill_blank,Điền số còn thiếu: 33 37 41 _,Fill the blank: 33 37 41 _,,45,3,Quy luật: mỗi bước cộng 4
-SK07_0445,SK07,fill_blank,Điền số còn thiếu: 37 41 _ 49,Fill the blank: 37 41 _ 49,,45,3,Quy luật: mỗi bước cộng 4
-SK07_0446,SK07,fill_blank,Điền số còn thiếu: 1 6 _ 16,Fill the blank: 1 6 _ 16,,11,2,Quy luật: mỗi bước cộng 5
-SK07_0447,SK07,fill_blank,Điền số còn thiếu: _ 11 16 21,Fill the blank: _ 11 16 21,,6,3,Quy luật: mỗi bước cộng 5
-SK07_0448,SK07,fill_blank,Điền số còn thiếu: 11 16 21 _,Fill the blank: 11 16 21 _,,26,3,Quy luật: mỗi bước cộng 5
-SK07_0449,SK07,fill_blank,Điền số còn thiếu: 16 _ 26 31,Fill the blank: 16 _ 26 31,,21,3,Quy luật: mỗi bước cộng 5
-SK07_0450,SK07,fill_blank,Điền số còn thiếu: 21 26 _ 36,Fill the blank: 21 26 _ 36,,31,3,Quy luật: mỗi bước cộng 5
-SK07_0451,SK07,fill_blank,Điền số còn thiếu: 26 31 36 _,Fill the blank: 26 31 36 _,,41,3,Quy luật: mỗi bước cộng 5
-SK07_0452,SK07,fill_blank,Điền số còn thiếu: 31 _ 41 46,Fill the blank: 31 _ 41 46,,36,3,Quy luật: mỗi bước cộng 5
-SK07_0453,SK07,fill_blank,Điền số còn thiếu: 36 41 46 _,Fill the blank: 36 41 46 _,,51,3,Quy luật: mỗi bước cộng 5
-SK07_0454,SK07,fill_blank,Điền số còn thiếu: 1 11 _ 31,Fill the blank: 1 11 _ 31,,21,3,Quy luật: mỗi bước cộng 10
-SK07_0455,SK07,fill_blank,Điền số còn thiếu: 11 21 _ 41,Fill the blank: 11 21 _ 41,,31,3,Quy luật: mỗi bước cộng 10
-SK07_0456,SK07,fill_blank,Điền số còn thiếu: 21 31 41 _,Fill the blank: 21 31 41 _,,51,3,Quy luật: mỗi bước cộng 10
-SK07_0457,SK07,fill_blank,Điền số còn thiếu: 31 _ 51 61,Fill the blank: 31 _ 51 61,,41,3,Quy luật: mỗi bước cộng 10
-SK07_0458,SK07,fill_blank,Điền số còn thiếu: 7 6 5 4 _,Fill the blank: 7 6 5 4 _,,3,2,Quy luật: mỗi bước trừ 1
-SK07_0459,SK07,fill_blank,Điền số còn thiếu: 8 7 _ 5 4,Fill the blank: 8 7 _ 5 4,,6,2,Quy luật: mỗi bước trừ 1
-SK07_0460,SK07,fill_blank,Điền số còn thiếu: 9 8 7 _ 5,Fill the blank: 9 8 7 _ 5,,6,2,Quy luật: mỗi bước trừ 1
-SK07_0461,SK07,fill_blank,Điền số còn thiếu: 10 9 8 _ 6,Fill the blank: 10 9 8 _ 6,,7,2,Quy luật: mỗi bước trừ 1
-SK07_0462,SK07,fill_blank,Điền số còn thiếu: 11 10 9 _ 7,Fill the blank: 11 10 9 _ 7,,8,2,Quy luật: mỗi bước trừ 1
-SK07_0463,SK07,fill_blank,Điền số còn thiếu: 12 _ 10 9 8,Fill the blank: 12 _ 10 9 8,,11,2,Quy luật: mỗi bước trừ 1
-SK07_0464,SK07,fill_blank,Điền số còn thiếu: 13 12 11 _ 9,Fill the blank: 13 12 11 _ 9,,10,2,Quy luật: mỗi bước trừ 1
-SK07_0465,SK07,fill_blank,Điền số còn thiếu: 14 _ 12 11 10,Fill the blank: 14 _ 12 11 10,,13,2,Quy luật: mỗi bước trừ 1
-SK07_0466,SK07,fill_blank,Điền số còn thiếu: _ 14 13 12 11,Fill the blank: _ 14 13 12 11,,15,2,Quy luật: mỗi bước trừ 1
-SK07_0467,SK07,fill_blank,Điền số còn thiếu: 16 15 _ 13 12,Fill the blank: 16 15 _ 13 12,,14,2,Quy luật: mỗi bước trừ 1
-SK07_0468,SK07,fill_blank,Điền số còn thiếu: 17 _ 15 14 13,Fill the blank: 17 _ 15 14 13,,16,2,Quy luật: mỗi bước trừ 1
-SK07_0469,SK07,fill_blank,Điền số còn thiếu: 18 _ 16 15 14,Fill the blank: 18 _ 16 15 14,,17,2,Quy luật: mỗi bước trừ 1
-SK07_0470,SK07,fill_blank,Điền số còn thiếu: 19 18 _ 16 15,Fill the blank: 19 18 _ 16 15,,17,2,Quy luật: mỗi bước trừ 1
-SK07_0471,SK07,fill_blank,Điền số còn thiếu: 20 19 18 17 _,Fill the blank: 20 19 18 17 _,,16,2,Quy luật: mỗi bước trừ 1
-SK07_0472,SK07,fill_blank,Điền số còn thiếu: 21 20 19 18 _,Fill the blank: 21 20 19 18 _,,17,3,Quy luật: mỗi bước trừ 1
-SK07_0473,SK07,fill_blank,Điền số còn thiếu: 22 21 _ 19 18,Fill the blank: 22 21 _ 19 18,,20,3,Quy luật: mỗi bước trừ 1
-SK07_0474,SK07,fill_blank,Điền số còn thiếu: _ 22 21 20 19,Fill the blank: _ 22 21 20 19,,23,3,Quy luật: mỗi bước trừ 1
-SK07_0475,SK07,fill_blank,Điền số còn thiếu: 24 23 22 21 _,Fill the blank: 24 23 22 21 _,,20,3,Quy luật: mỗi bước trừ 1
-SK07_0476,SK07,fill_blank,Điền số còn thiếu: 25 24 23 _ 21,Fill the blank: 25 24 23 _ 21,,22,3,Quy luật: mỗi bước trừ 1
-SK07_0477,SK07,fill_blank,Điền số còn thiếu: _ 25 24 23 22,Fill the blank: _ 25 24 23 22,,26,3,Quy luật: mỗi bước trừ 1
-SK07_0478,SK07,fill_blank,Điền số còn thiếu: 27 26 25 24 _,Fill the blank: 27 26 25 24 _,,23,3,Quy luật: mỗi bước trừ 1
-SK07_0479,SK07,fill_blank,Điền số còn thiếu: _ 27 26 25 24,Fill the blank: _ 27 26 25 24,,28,3,Quy luật: mỗi bước trừ 1
-SK07_0480,SK07,fill_blank,Điền số còn thiếu: 29 28 27 _ 25,Fill the blank: 29 28 27 _ 25,,26,3,Quy luật: mỗi bước trừ 1
-SK07_0481,SK07,fill_blank,Điền số còn thiếu: _ 29 28 27 26,Fill the blank: _ 29 28 27 26,,30,3,Quy luật: mỗi bước trừ 1
-SK07_0482,SK07,fill_blank,Điền số còn thiếu: 31 _ 29 28 27,Fill the blank: 31 _ 29 28 27,,30,3,Quy luật: mỗi bước trừ 1
-SK07_0483,SK07,fill_blank,Điền số còn thiếu: 32 31 30 _ 28,Fill the blank: 32 31 30 _ 28,,29,3,Quy luật: mỗi bước trừ 1
-SK07_0484,SK07,fill_blank,Điền số còn thiếu: 33 32 _ 30 29,Fill the blank: 33 32 _ 30 29,,31,3,Quy luật: mỗi bước trừ 1
-SK07_0485,SK07,fill_blank,Điền số còn thiếu: _ 33 32 31 30,Fill the blank: _ 33 32 31 30,,34,3,Quy luật: mỗi bước trừ 1
-SK07_0486,SK07,fill_blank,Điền số còn thiếu: 35 _ 33 32 31,Fill the blank: 35 _ 33 32 31,,34,3,Quy luật: mỗi bước trừ 1
-SK07_0487,SK07,fill_blank,Điền số còn thiếu: 36 35 34 33 _,Fill the blank: 36 35 34 33 _,,32,3,Quy luật: mỗi bước trừ 1
-SK07_0488,SK07,fill_blank,Điền số còn thiếu: 37 _ 35 34 33,Fill the blank: 37 _ 35 34 33,,36,3,Quy luật: mỗi bước trừ 1
-SK07_0489,SK07,fill_blank,Điền số còn thiếu: 38 37 36 _ 34,Fill the blank: 38 37 36 _ 34,,35,3,Quy luật: mỗi bước trừ 1
-SK07_0490,SK07,fill_blank,Điền số còn thiếu: 39 _ 37 36 35,Fill the blank: 39 _ 37 36 35,,38,3,Quy luật: mỗi bước trừ 1
-SK07_0491,SK07,fill_blank,Điền số còn thiếu: 40 39 _ 37 36,Fill the blank: 40 39 _ 37 36,,38,3,Quy luật: mỗi bước trừ 1
-SK07_0492,SK07,fill_blank,Điền số còn thiếu: 12 _ 8 6 4,Fill the blank: 12 _ 8 6 4,,10,2,Quy luật: mỗi bước trừ 2
-SK07_0493,SK07,fill_blank,Điền số còn thiếu: 14 12 10 _ 6,Fill the blank: 14 12 10 _ 6,,8,2,Quy luật: mỗi bước trừ 2
-SK07_0494,SK07,fill_blank,Điền số còn thiếu: 16 14 12 _ 8,Fill the blank: 16 14 12 _ 8,,10,2,Quy luật: mỗi bước trừ 2
-SK07_0495,SK07,fill_blank,Điền số còn thiếu: 18 16 14 _ 10,Fill the blank: 18 16 14 _ 10,,12,2,Quy luật: mỗi bước trừ 2
-SK07_0496,SK07,fill_blank,Điền số còn thiếu: 20 18 _ 14 12,Fill the blank: 20 18 _ 14 12,,16,2,Quy luật: mỗi bước trừ 2
-SK07_0497,SK07,fill_blank,Điền số còn thiếu: 22 20 _ 16 14,Fill the blank: 22 20 _ 16 14,,18,3,Quy luật: mỗi bước trừ 2
-SK07_0498,SK07,fill_blank,Điền số còn thiếu: 24 22 20 18 _,Fill the blank: 24 22 20 18 _,,16,3,Quy luật: mỗi bước trừ 2
-SK07_0499,SK07,fill_blank,Điền số còn thiếu: 26 _ 22 20 18,Fill the blank: 26 _ 22 20 18,,24,3,Quy luật: mỗi bước trừ 2
-SK07_0500,SK07,fill_blank,Điền số còn thiếu: 28 _ 24 22 20,Fill the blank: 28 _ 24 22 20,,26,3,Quy luật: mỗi bước trừ 2
-SK07_0501,SK07,fill_blank,Điền số còn thiếu: 30 _ 26 24 22,Fill the blank: 30 _ 26 24 22,,28,3,Quy luật: mỗi bước trừ 2
-SK07_0502,SK07,fill_blank,Điền số còn thiếu: 32 30 28 26 _,Fill the blank: 32 30 28 26 _,,24,3,Quy luật: mỗi bước trừ 2
-SK07_0503,SK07,fill_blank,Điền số còn thiếu: _ 32 30 28 26,Fill the blank: _ 32 30 28 26,,34,3,Quy luật: mỗi bước trừ 2
-SK07_0504,SK07,fill_blank,Điền số còn thiếu: 36 _ 32 30 28,Fill the blank: 36 _ 32 30 28,,34,3,Quy luật: mỗi bước trừ 2
-SK07_0505,SK07,fill_blank,Điền số còn thiếu: 38 36 _ 32 30,Fill the blank: 38 36 _ 32 30,,34,3,Quy luật: mỗi bước trừ 2
-SK07_0506,SK07,fill_blank,Điền số còn thiếu: _ 38 36 34 32,Fill the blank: _ 38 36 34 32,,40,3,Quy luật: mỗi bước trừ 2
-SK07_0507,SK07,fill_blank,Điền số còn thiếu: _ 11 8 5,Fill the blank: _ 11 8 5,,14,2,Quy luật: mỗi bước trừ 3
-SK07_0508,SK07,fill_blank,Điền số còn thiếu: 17 14 11 _,Fill the blank: 17 14 11 _,,8,2,Quy luật: mỗi bước trừ 3
-SK07_0509,SK07,fill_blank,Điền số còn thiếu: 20 17 14 _,Fill the blank: 20 17 14 _,,11,2,Quy luật: mỗi bước trừ 3
-SK07_0510,SK07,fill_blank,Điền số còn thiếu: 23 20 17 _,Fill the blank: 23 20 17 _,,14,3,Quy luật: mỗi bước trừ 3
-SK07_0511,SK07,fill_blank,Điền số còn thiếu: _ 23 20 17,Fill the blank: _ 23 20 17,,26,3,Quy luật: mỗi bước trừ 3
-SK07_0512,SK07,fill_blank,Điền số còn thiếu: 29 26 23 _,Fill the blank: 29 26 23 _,,20,3,Quy luật: mỗi bước trừ 3
-SK07_0513,SK07,fill_blank,Điền số còn thiếu: 32 29 _ 23,Fill the blank: 32 29 _ 23,,26,3,Quy luật: mỗi bước trừ 3
-SK07_0514,SK07,fill_blank,Điền số còn thiếu: _ 32 29 26,Fill the blank: _ 32 29 26,,35,3,Quy luật: mỗi bước trừ 3
-SK07_0515,SK07,fill_blank,Điền số còn thiếu: 38 35 _ 29,Fill the blank: 38 35 _ 29,,32,3,Quy luật: mỗi bước trừ 3
-SK07_0516,SK07,fill_blank,Nếu 5 + 2 = _ thì _ - 2 = ?,If 5 + 2 = _ then _ - 2 = ?,,5,3,Tính 5+2 trước rồi trừ ngược lại
-SK07_0517,SK07,fill_blank,Nếu 5 + 7 = _ thì _ - 7 = ?,If 5 + 7 = _ then _ - 7 = ?,,5,3,Tính 5+7 trước rồi trừ ngược lại
-SK07_0518,SK07,fill_blank,Nếu 5 + 10 = _ thì _ - 10 = ?,If 5 + 10 = _ then _ - 10 = ?,,5,3,Tính 5+10 trước rồi trừ ngược lại
-SK07_0519,SK07,fill_blank,Nếu 7 + 4 = _ thì _ - 4 = ?,If 7 + 4 = _ then _ - 4 = ?,,7,3,Tính 7+4 trước rồi trừ ngược lại
-SK07_0520,SK07,fill_blank,Nếu 7 + 9 = _ thì _ - 9 = ?,If 7 + 9 = _ then _ - 9 = ?,,7,3,Tính 7+9 trước rồi trừ ngược lại
-SK07_0521,SK07,fill_blank,Nếu 7 + 12 = _ thì _ - 12 = ?,If 7 + 12 = _ then _ - 12 = ?,,7,3,Tính 7+12 trước rồi trừ ngược lại
-SK07_0522,SK07,fill_blank,Nếu 9 + 6 = _ thì _ - 6 = ?,If 9 + 6 = _ then _ - 6 = ?,,9,3,Tính 9+6 trước rồi trừ ngược lại
-SK07_0523,SK07,fill_blank,Nếu 9 + 11 = _ thì _ - 11 = ?,If 9 + 11 = _ then _ - 11 = ?,,9,3,Tính 9+11 trước rồi trừ ngược lại
-SK07_0524,SK07,fill_blank,Nếu 9 + 14 = _ thì _ - 14 = ?,If 9 + 14 = _ then _ - 14 = ?,,9,3,Tính 9+14 trước rồi trừ ngược lại
-SK07_0525,SK07,fill_blank,Nếu 11 + 8 = _ thì _ - 8 = ?,If 11 + 8 = _ then _ - 8 = ?,,11,3,Tính 11+8 trước rồi trừ ngược lại
-SK07_0526,SK07,fill_blank,Nếu 11 + 13 = _ thì _ - 13 = ?,If 11 + 13 = _ then _ - 13 = ?,,11,3,Tính 11+13 trước rồi trừ ngược lại
-SK07_0527,SK07,fill_blank,Nếu 11 + 16 = _ thì _ - 16 = ?,If 11 + 16 = _ then _ - 16 = ?,,11,3,Tính 11+16 trước rồi trừ ngược lại
-SK07_0528,SK07,fill_blank,Nếu 13 + 10 = _ thì _ - 10 = ?,If 13 + 10 = _ then _ - 10 = ?,,13,3,Tính 13+10 trước rồi trừ ngược lại
-SK07_0529,SK07,fill_blank,Nếu 13 + 15 = _ thì _ - 15 = ?,If 13 + 15 = _ then _ - 15 = ?,,13,3,Tính 13+15 trước rồi trừ ngược lại
-SK07_0530,SK07,fill_blank,Nếu 13 + 18 = _ thì _ - 18 = ?,If 13 + 18 = _ then _ - 18 = ?,,13,3,Tính 13+18 trước rồi trừ ngược lại
-SK07_0531,SK07,fill_blank,Nếu 15 + 12 = _ thì _ - 12 = ?,If 15 + 12 = _ then _ - 12 = ?,,15,3,Tính 15+12 trước rồi trừ ngược lại
-SK07_0532,SK07,fill_blank,Nếu 15 + 17 = _ thì _ - 17 = ?,If 15 + 17 = _ then _ - 17 = ?,,15,3,Tính 15+17 trước rồi trừ ngược lại
-SK07_0533,SK07,fill_blank,Nếu 15 + 20 = _ thì _ - 20 = ?,If 15 + 20 = _ then _ - 20 = ?,,15,3,Tính 15+20 trước rồi trừ ngược lại
-SK07_0534,SK07,fill_blank,Nếu 17 + 14 = _ thì _ - 14 = ?,If 17 + 14 = _ then _ - 14 = ?,,17,3,Tính 17+14 trước rồi trừ ngược lại
-SK07_0535,SK07,fill_blank,Nếu 17 + 19 = _ thì _ - 19 = ?,If 17 + 19 = _ then _ - 19 = ?,,17,3,Tính 17+19 trước rồi trừ ngược lại
-SK07_0536,SK07,fill_blank,Nếu 17 + 22 = _ thì _ - 22 = ?,If 17 + 22 = _ then _ - 22 = ?,,17,3,Tính 17+22 trước rồi trừ ngược lại
-SK07_0537,SK07,fill_blank,Nếu 19 + 16 = _ thì _ - 16 = ?,If 19 + 16 = _ then _ - 16 = ?,,19,3,Tính 19+16 trước rồi trừ ngược lại
-SK07_0538,SK07,fill_blank,Nếu 19 + 21 = _ thì _ - 21 = ?,If 19 + 21 = _ then _ - 21 = ?,,19,3,Tính 19+21 trước rồi trừ ngược lại
-SK07_0539,SK07,fill_blank,Nếu 19 + 24 = _ thì _ - 24 = ?,If 19 + 24 = _ then _ - 24 = ?,,19,3,Tính 19+24 trước rồi trừ ngược lại
-SK07_0540,SK07,fill_blank,Nếu 21 + 18 = _ thì _ - 18 = ?,If 21 + 18 = _ then _ - 18 = ?,,21,3,Tính 21+18 trước rồi trừ ngược lại
-SK07_0541,SK07,fill_blank,Nếu 21 + 23 = _ thì _ - 23 = ?,If 21 + 23 = _ then _ - 23 = ?,,21,3,Tính 21+23 trước rồi trừ ngược lại
-SK07_0542,SK07,fill_blank,Nếu 21 + 26 = _ thì _ - 26 = ?,If 21 + 26 = _ then _ - 26 = ?,,21,3,Tính 21+26 trước rồi trừ ngược lại
-SK07_0543,SK07,fill_blank,Nếu 23 + 20 = _ thì _ - 20 = ?,If 23 + 20 = _ then _ - 20 = ?,,23,3,Tính 23+20 trước rồi trừ ngược lại
-SK07_0544,SK07,fill_blank,Nếu 23 + 25 = _ thì _ - 25 = ?,If 23 + 25 = _ then _ - 25 = ?,,23,3,Tính 23+25 trước rồi trừ ngược lại
-SK07_0545,SK07,fill_blank,Nếu 23 + 28 = _ thì _ - 28 = ?,If 23 + 28 = _ then _ - 28 = ?,,23,3,Tính 23+28 trước rồi trừ ngược lại
-SK07_0546,SK07,fill_blank,Nếu 25 + 22 = _ thì _ - 22 = ?,If 25 + 22 = _ then _ - 22 = ?,,25,3,Tính 25+22 trước rồi trừ ngược lại
-SK07_0547,SK07,fill_blank,Nếu 25 + 27 = _ thì _ - 27 = ?,If 25 + 27 = _ then _ - 27 = ?,,25,3,Tính 25+27 trước rồi trừ ngược lại
-SK07_0548,SK07,fill_blank,Nếu 25 + 30 = _ thì _ - 30 = ?,If 25 + 30 = _ then _ - 30 = ?,,25,3,Tính 25+30 trước rồi trừ ngược lại
-SK07_0549,SK07,fill_blank,_ + _ = 2 (hai số bằng nhau),_ + _ = 2 (both equal),,1,3,Số nào cộng chính nó bằng 2?
-SK07_0550,SK07,fill_blank,_ + _ = 4 (hai số bằng nhau),_ + _ = 4 (both equal),,2,3,Số nào cộng chính nó bằng 4?
-SK07_0551,SK07,fill_blank,_ + _ = 6 (hai số bằng nhau),_ + _ = 6 (both equal),,3,3,Số nào cộng chính nó bằng 6?
-SK07_0552,SK07,fill_blank,_ + _ = 8 (hai số bằng nhau),_ + _ = 8 (both equal),,4,3,Số nào cộng chính nó bằng 8?
-SK07_0553,SK07,fill_blank,_ + _ = 10 (hai số bằng nhau),_ + _ = 10 (both equal),,5,3,Số nào cộng chính nó bằng 10?
-SK07_0554,SK07,fill_blank,_ + _ = 12 (hai số bằng nhau),_ + _ = 12 (both equal),,6,3,Số nào cộng chính nó bằng 12?
-SK07_0555,SK07,fill_blank,_ + _ = 14 (hai số bằng nhau),_ + _ = 14 (both equal),,7,3,Số nào cộng chính nó bằng 14?
-SK07_0556,SK07,fill_blank,_ + _ = 16 (hai số bằng nhau),_ + _ = 16 (both equal),,8,3,Số nào cộng chính nó bằng 16?
-SK07_0557,SK07,fill_blank,_ + _ = 18 (hai số bằng nhau),_ + _ = 18 (both equal),,9,3,Số nào cộng chính nó bằng 18?
-SK07_0558,SK07,fill_blank,_ + _ = 20 (hai số bằng nhau),_ + _ = 20 (both equal),,10,3,Số nào cộng chính nó bằng 20?
-SK07_0559,SK07,fill_blank,_ + _ = 22 (hai số bằng nhau),_ + _ = 22 (both equal),,11,3,Số nào cộng chính nó bằng 22?
-SK07_0560,SK07,fill_blank,_ + _ = 24 (hai số bằng nhau),_ + _ = 24 (both equal),,12,3,Số nào cộng chính nó bằng 24?
-SK07_0561,SK07,fill_blank,_ + _ = 26 (hai số bằng nhau),_ + _ = 26 (both equal),,13,3,Số nào cộng chính nó bằng 26?
-SK07_0562,SK07,fill_blank,_ + _ = 28 (hai số bằng nhau),_ + _ = 28 (both equal),,14,3,Số nào cộng chính nó bằng 28?
-SK07_0563,SK07,fill_blank,_ + _ = 30 (hai số bằng nhau),_ + _ = 30 (both equal),,15,3,Số nào cộng chính nó bằng 30?
-SK07_0564,SK07,fill_blank,_ + _ = 32 (hai số bằng nhau),_ + _ = 32 (both equal),,16,3,Số nào cộng chính nó bằng 32?
-SK07_0565,SK07,fill_blank,_ + _ = 34 (hai số bằng nhau),_ + _ = 34 (both equal),,17,3,Số nào cộng chính nó bằng 34?
-SK07_0566,SK07,fill_blank,_ + _ = 36 (hai số bằng nhau),_ + _ = 36 (both equal),,18,3,Số nào cộng chính nó bằng 36?
-SK07_0567,SK07,fill_blank,_ + _ = 38 (hai số bằng nhau),_ + _ = 38 (both equal),,19,3,Số nào cộng chính nó bằng 38?
-SK07_0568,SK07,fill_blank,_ + _ = 40 (hai số bằng nhau),_ + _ = 40 (both equal),,20,3,Số nào cộng chính nó bằng 40?
-SK07_0569,SK07,fill_blank,_ + _ = 42 (hai số bằng nhau),_ + _ = 42 (both equal),,21,3,Số nào cộng chính nó bằng 42?
-SK07_0570,SK07,fill_blank,_ + _ = 44 (hai số bằng nhau),_ + _ = 44 (both equal),,22,3,Số nào cộng chính nó bằng 44?
-SK07_0571,SK07,fill_blank,_ + _ = 46 (hai số bằng nhau),_ + _ = 46 (both equal),,23,3,Số nào cộng chính nó bằng 46?
-SK07_0572,SK07,fill_blank,_ + _ = 48 (hai số bằng nhau),_ + _ = 48 (both equal),,24,3,Số nào cộng chính nó bằng 48?
-SK07_0573,SK07,fill_blank,_ + _ = 50 (hai số bằng nhau),_ + _ = 50 (both equal),,25,3,Số nào cộng chính nó bằng 50?
+SK07_0001,SK07,multiple_choice,___ + 1 = 1,___ + 1 = 1,"3,2,0,4",0,2,1 - 1 = 0
+SK07_0002,SK07,multiple_choice,___ + 2 = 3,___ + 2 = 3,"7,1,4,2",1,2,3 - 2 = 1
+SK07_0003,SK07,multiple_choice,___ + 3 = 5,___ + 3 = 5,"2,0,5,6",2,2,5 - 3 = 2
+SK07_0004,SK07,multiple_choice,___ + 4 = 7,___ + 4 = 7,"3,7,5,8",3,2,7 - 4 = 3
+SK07_0005,SK07,multiple_choice,___ + 5 = 5,___ + 5 = 5,"3,1,4,0",0,2,5 - 5 = 0
+SK07_0006,SK07,multiple_choice,___ + 6 = 10,___ + 6 = 10,"4,0,7,5",4,2,10 - 6 = 4
+SK07_0007,SK07,multiple_choice,___ + 7 = 10,___ + 7 = 10,"0,3,6,1",3,2,10 - 7 = 3
+SK07_0008,SK07,multiple_choice,___ + 5 = 10,___ + 5 = 10,"0,4,3,5",5,2,10 - 5 = 5
+SK07_0009,SK07,multiple_choice,___ + 2 = 10,___ + 2 = 10,"4,14,8,12",8,2,10 - 2 = 8
+SK07_0010,SK07,multiple_choice,___ + 3 = 10,___ + 3 = 10,"11,8,12,7",7,2,10 - 3 = 7
+SK07_0011,SK07,multiple_choice,___ + 5 = 15,___ + 5 = 15,"10,16,12,7",10,2,15 - 5 = 10
+SK07_0012,SK07,multiple_choice,___ + 8 = 20,___ + 8 = 20,"12,13,7,11",12,2,20 - 8 = 12
+SK07_0013,SK07,multiple_choice,___ + 5 = 20,___ + 5 = 20,"15,19,11,13",15,2,20 - 5 = 15
+SK07_0014,SK07,multiple_choice,___ + 10 = 30,___ + 10 = 30,"20,23,19,17",20,2,30 - 10 = 20
+SK07_0015,SK07,multiple_choice,___ + 5 = 30,___ + 5 = 30,"30,21,25,22",25,2,30 - 5 = 25
+SK07_0016,SK07,multiple_choice,___ + 20 = 50,___ + 20 = 50,"31,33,34,30",30,2,50 - 20 = 30
+SK07_0017,SK07,multiple_choice,___ + 10 = 50,___ + 10 = 50,"42,40,36,35",40,2,50 - 10 = 40
+SK07_0018,SK07,multiple_choice,___ + 5 = 50,___ + 5 = 50,"48,42,45,49",45,2,50 - 5 = 45
+SK07_0019,SK07,multiple_choice,___ + 30 = 80,___ + 30 = 80,"53,54,49,50",50,2,80 - 30 = 50
+SK07_0020,SK07,multiple_choice,___ + 20 = 80,___ + 20 = 80,"66,64,60,63",60,2,80 - 20 = 60
+SK07_0021,SK07,multiple_choice,1 + ___ = 1,1 + ___ = 1,"3,2,0,5",0,2,1 - 1 = 0
+SK07_0022,SK07,multiple_choice,2 + ___ = 3,2 + ___ = 3,"7,2,1,4",1,2,3 - 2 = 1
+SK07_0023,SK07,multiple_choice,3 + ___ = 5,3 + ___ = 5,"2,5,0,4",2,2,5 - 3 = 2
+SK07_0024,SK07,multiple_choice,0 + ___ = 7,0 + ___ = 7,"12,7,9,6",7,2,7 - 0 = 7
+SK07_0025,SK07,multiple_choice,5 + ___ = 10,5 + ___ = 10,"6,0,5,9",5,2,10 - 5 = 5
+SK07_0026,SK07,multiple_choice,6 + ___ = 10,6 + ___ = 10,"6,4,8,2",4,2,10 - 6 = 4
+SK07_0027,SK07,multiple_choice,8 + ___ = 20,8 + ___ = 20,"12,7,11,13",12,2,20 - 8 = 12
+SK07_0028,SK07,multiple_choice,15 + ___ = 20,15 + ___ = 20,"0,10,4,5",5,2,20 - 15 = 5
+SK07_0029,SK07,multiple_choice,10 + ___ = 30,10 + ___ = 30,"20,16,17,26",20,2,30 - 10 = 20
+SK07_0030,SK07,multiple_choice,25 + ___ = 50,25 + ___ = 50,"30,26,25,24",25,2,50 - 25 = 25
+SK07_0031,SK07,multiple_choice,30 + ___ = 50,30 + ___ = 50,"20,26,17,15",20,2,50 - 30 = 20
+SK07_0032,SK07,multiple_choice,45 + ___ = 50,45 + ___ = 50,"7,6,2,5",5,2,50 - 45 = 5
+SK07_0033,SK07,multiple_choice,50 + ___ = 80,50 + ___ = 80,"35,28,34,30",30,2,80 - 50 = 30
+SK07_0034,SK07,multiple_choice,60 + ___ = 100,60 + ___ = 100,"37,46,36,40",40,2,100 - 60 = 40
+SK07_0035,SK07,multiple_choice,5 - ___ = 3,5 - ___ = 3,"2,6,3,5",2,3,5 - 3 = 2
+SK07_0036,SK07,multiple_choice,10 - ___ = 7,10 - ___ = 7,"2,5,0,3",3,3,10 - 7 = 3
+SK07_0037,SK07,multiple_choice,8 - ___ = 3,8 - ___ = 3,"4,3,5,2",5,3,8 - 3 = 5
+SK07_0038,SK07,multiple_choice,10 - ___ = 0,10 - ___ = 0,"12,6,16,10",10,3,10 - 0 = 10
+SK07_0039,SK07,multiple_choice,15 - ___ = 10,15 - ___ = 10,"7,0,3,5",5,3,15 - 10 = 5
+SK07_0040,SK07,multiple_choice,20 - ___ = 12,20 - ___ = 12,"4,11,7,8",8,3,20 - 12 = 8
+SK07_0041,SK07,multiple_choice,30 - ___ = 15,30 - ___ = 15,"21,11,10,15",15,3,30 - 15 = 15
+SK07_0042,SK07,multiple_choice,50 - ___ = 30,50 - ___ = 30,"25,17,20,18",20,3,50 - 30 = 20
+SK07_0043,SK07,multiple_choice,100 - ___ = 55,100 - ___ = 55,"42,46,45,44",45,3,100 - 55 = 45
+SK07_0044,SK07,multiple_choice,80 - ___ = 50,80 - ___ = 50,"34,26,35,30",30,3,80 - 50 = 30
+SK07_0045,SK07,multiple_choice,___ - 1 = 2,___ - 1 = 2,"4,3,6,9",3,3,1 + 2 = 3
+SK07_0046,SK07,multiple_choice,___ - 2 = 6,___ - 2 = 6,"8,4,3,12",8,3,2 + 6 = 8
+SK07_0047,SK07,multiple_choice,___ - 3 = 4,___ - 3 = 4,"8,7,12,4",7,3,3 + 4 = 7
+SK07_0048,SK07,multiple_choice,___ - 5 = 10,___ - 5 = 10,"12,16,15,17",15,3,5 + 10 = 15
+SK07_0049,SK07,multiple_choice,___ - 10 = 10,___ - 10 = 10,"16,21,22,20",20,3,10 + 10 = 20
+SK07_0050,SK07,multiple_choice,___ - 15 = 20,___ - 15 = 20,"35,39,38,32",35,3,15 + 20 = 35
+SK07_0051,SK07,multiple_choice,___ - 20 = 30,___ - 20 = 30,"46,50,54,45",50,3,20 + 30 = 50
+SK07_0052,SK07,multiple_choice,___ - 25 = 50,___ - 25 = 50,"75,77,78,74",75,3,25 + 50 = 75
+SK07_0053,SK07,multiple_choice,"Điền số còn thiếu: 1, 2, ___, 4, 5","Fill in: 1, 2, ___, 4, 5","4,7,3,2",3,1,Tìm quy luật dãy số
+SK07_0054,SK07,multiple_choice,"Điền số còn thiếu: 2, ___, 4, 5, 6","Fill in: 2, ___, 4, 5, 6","1,8,6,3",3,1,Tìm quy luật dãy số
+SK07_0055,SK07,multiple_choice,"Điền số còn thiếu: 3, 4, 5, ___, 7","Fill in: 3, 4, 5, ___, 7","12,6,2,8",6,1,Tìm quy luật dãy số
+SK07_0056,SK07,multiple_choice,"Điền số còn thiếu: 0, 1, ___, 3","Fill in: 0, 1, ___, 3","1,2,8,4",2,1,Tìm quy luật dãy số
+SK07_0057,SK07,multiple_choice,"Điền số còn thiếu: 5, 6, ___, 8","Fill in: 5, 6, ___, 8","3,7,8,4",7,1,Tìm quy luật dãy số
+SK07_0058,SK07,multiple_choice,"Điền số còn thiếu: 8, 9, ___, 11","Fill in: 8, 9, ___, 11","10,12,6,15",10,1,Tìm quy luật dãy số
+SK07_0059,SK07,multiple_choice,"Điền số còn thiếu: 10, ___, 12, 13","Fill in: 10, ___, 12, 13","11,16,10,17",11,2,Tìm quy luật dãy số
+SK07_0060,SK07,multiple_choice,"Điền số còn thiếu: 15, 16, 17, ___, 19","Fill in: 15, 16, 17, ___, 19","18,24,23,20",18,2,Tìm quy luật dãy số
+SK07_0061,SK07,multiple_choice,"Điền số còn thiếu: 2, 4, ___, 8, 10","Fill in: 2, 4, ___, 8, 10","2,9,3,6",6,2,Tìm quy luật dãy số
+SK07_0062,SK07,multiple_choice,"Điền số còn thiếu: 5, 10, ___, 20, 25","Fill in: 5, 10, ___, 20, 25","18,13,12,15",15,2,Tìm quy luật dãy số
+SK07_0063,SK07,multiple_choice,"Điền số còn thiếu: 10, 20, ___, 40, 50","Fill in: 10, 20, ___, 40, 50","30,33,25,26",30,2,Tìm quy luật dãy số
+SK07_0064,SK07,multiple_choice,"Điền số còn thiếu: 1, ___, 9, 13, 17","Fill in: 1, ___, 9, 13, 17","1,2,4,5",5,3,Tìm quy luật dãy số
+SK07_0065,SK07,multiple_choice,"Điền số còn thiếu: 3, 6, ___, 12, 15","Fill in: 3, 6, ___, 12, 15","9,7,12,8",9,3,Tìm quy luật dãy số
+SK07_0066,SK07,multiple_choice,"Điền số còn thiếu: 20, 18, ___, 14, 12","Fill in: 20, 18, ___, 14, 12","17,20,22,16",16,3,Tìm quy luật dãy số
+SK07_0067,SK07,multiple_choice,"Điền số còn thiếu: 50, 45, ___, 35, 30","Fill in: 50, 45, ___, 35, 30","40,43,36,42",40,3,Tìm quy luật dãy số
+SK07_0068,SK07,multiple_choice,"Điền số còn thiếu: 100, 90, ___, 70, 60","Fill in: 100, 90, ___, 70, 60","80,85,75,83",80,3,Tìm quy luật dãy số
+SK07_0069,SK07,multiple_choice,"Điền số còn thiếu: 4, 8, 12, ___, 20","Fill in: 4, 8, 12, ___, 20","16,19,18,13",16,3,Tìm quy luật dãy số
+SK07_0070,SK07,multiple_choice,"Điền số còn thiếu: 25, 50, ___, 100","Fill in: 25, 50, ___, 100","71,75,78,81",75,3,Tìm quy luật dãy số

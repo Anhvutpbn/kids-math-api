@@ -1,101 +1,41 @@
 id,skill_id,type,question_vi,question_en,options,correct_answer,difficulty,hint_vi
-SK01_0001,SK01,multiple_choice,Số nào đây là số 0?,Which one is number 0?,"9,7,2,0",0,1,Số không có gì cả là số 0
-SK01_0002,SK01,multiple_choice,Số nào đây là số 1?,Which one is number 1?,"1,6,0,8",1,1,Đếm từ 1 đến 1 nhé
-SK01_0003,SK01,multiple_choice,Số nào đây là số 2?,Which one is number 2?,"3,6,10,2",2,1,Đếm từ 1 đến 2 nhé
-SK01_0004,SK01,multiple_choice,Số nào đây là số 3?,Which one is number 3?,"8,4,3,7",3,1,Đếm từ 1 đến 3 nhé
-SK01_0005,SK01,multiple_choice,Số nào đây là số 4?,Which one is number 4?,"9,6,0,4",4,1,Đếm từ 1 đến 4 nhé
-SK01_0006,SK01,multiple_choice,Số nào đây là số 5?,Which one is number 5?,"5,8,9,0",5,1,Đếm từ 1 đến 5 nhé
-SK01_0007,SK01,multiple_choice,Số nào đây là số 6?,Which one is number 6?,"6,10,5,2",6,2,Đếm từ 1 đến 6 nhé
-SK01_0008,SK01,multiple_choice,Số nào đây là số 7?,Which one is number 7?,"8,7,6,10",7,2,Đếm từ 1 đến 7 nhé
-SK01_0009,SK01,multiple_choice,Số nào đây là số 8?,Which one is number 8?,"0,6,8,10",8,2,Đếm từ 1 đến 8 nhé
-SK01_0010,SK01,multiple_choice,Số nào đây là số 9?,Which one is number 9?,"4,5,0,9",9,2,Đếm từ 1 đến 9 nhé
-SK01_0011,SK01,multiple_choice,Số nào đây là số 10?,Which one is number 10?,"6,4,10,9",10,2,Đếm từ 1 đến 10 nhé
-SK01_0012,SK01,multiple_choice,Số nào đứng trước số 1?,Which number comes before 1?,"8,5,3,0",0,1,Đếm ngược từ 1
-SK01_0013,SK01,multiple_choice,Số nào đứng trước số 2?,Which number comes before 2?,"10,8,1,4",1,1,Đếm ngược từ 2
-SK01_0014,SK01,multiple_choice,Số nào đứng trước số 3?,Which number comes before 3?,"3,5,2,0",2,1,Đếm ngược từ 3
-SK01_0015,SK01,multiple_choice,Số nào đứng trước số 4?,Which number comes before 4?,"4,10,3,9",3,1,Đếm ngược từ 4
-SK01_0016,SK01,multiple_choice,Số nào đứng trước số 5?,Which number comes before 5?,"7,3,6,4",4,1,Đếm ngược từ 5
-SK01_0017,SK01,multiple_choice,Số nào đứng trước số 6?,Which number comes before 6?,"10,1,5,2",5,2,Đếm ngược từ 6
-SK01_0018,SK01,multiple_choice,Số nào đứng trước số 7?,Which number comes before 7?,"1,2,5,6",6,2,Đếm ngược từ 7
-SK01_0019,SK01,multiple_choice,Số nào đứng trước số 8?,Which number comes before 8?,"9,6,7,8",7,2,Đếm ngược từ 8
-SK01_0020,SK01,multiple_choice,Số nào đứng trước số 9?,Which number comes before 9?,"5,8,3,1",8,2,Đếm ngược từ 9
-SK01_0021,SK01,multiple_choice,Số nào đứng trước số 10?,Which number comes before 10?,"2,3,1,9",9,2,Đếm ngược từ 10
-SK01_0022,SK01,multiple_choice,Số nào đứng sau số 0?,Which number comes after 0?,"7,4,10,1",1,1,Đếm tiếp từ 0
-SK01_0023,SK01,multiple_choice,Số nào đứng sau số 1?,Which number comes after 1?,"2,1,0,3",2,1,Đếm tiếp từ 1
-SK01_0024,SK01,multiple_choice,Số nào đứng sau số 2?,Which number comes after 2?,"0,3,7,2",3,1,Đếm tiếp từ 2
-SK01_0025,SK01,multiple_choice,Số nào đứng sau số 3?,Which number comes after 3?,"4,10,2,5",4,1,Đếm tiếp từ 3
-SK01_0026,SK01,multiple_choice,Số nào đứng sau số 4?,Which number comes after 4?,"2,10,5,7",5,1,Đếm tiếp từ 4
-SK01_0027,SK01,multiple_choice,Số nào đứng sau số 5?,Which number comes after 5?,"2,6,10,3",6,2,Đếm tiếp từ 5
-SK01_0028,SK01,multiple_choice,Số nào đứng sau số 6?,Which number comes after 6?,"7,1,9,4",7,2,Đếm tiếp từ 6
-SK01_0029,SK01,multiple_choice,Số nào đứng sau số 7?,Which number comes after 7?,"8,10,7,0",8,2,Đếm tiếp từ 7
-SK01_0030,SK01,multiple_choice,Số nào đứng sau số 8?,Which number comes after 8?,"0,4,5,9",9,2,Đếm tiếp từ 8
-SK01_0031,SK01,multiple_choice,Số nào đứng sau số 9?,Which number comes after 9?,"8,10,1,7",10,2,Đếm tiếp từ 9
-SK01_0032,SK01,fill_blank,Điền số còn thiếu: 0 1 _ 3,Fill the blank: 0 1 _ 3,,2,1,Tìm số nằm đúng vị trí trong dãy
-SK01_0033,SK01,fill_blank,Điền số còn thiếu: 1 _ 3 4,Fill the blank: 1 _ 3 4,,2,1,Tìm số nằm đúng vị trí trong dãy
-SK01_0034,SK01,fill_blank,Điền số còn thiếu: 2 3 _ 5,Fill the blank: 2 3 _ 5,,4,1,Tìm số nằm đúng vị trí trong dãy
-SK01_0035,SK01,fill_blank,Điền số còn thiếu: 3 _ 5 6,Fill the blank: 3 _ 5 6,,4,1,Tìm số nằm đúng vị trí trong dãy
-SK01_0036,SK01,fill_blank,Điền số còn thiếu: 4 5 _ 7,Fill the blank: 4 5 _ 7,,6,1,Tìm số nằm đúng vị trí trong dãy
-SK01_0037,SK01,fill_blank,Điền số còn thiếu: _ 6 7 8,Fill the blank: _ 6 7 8,,5,1,Tìm số nằm đúng vị trí trong dãy
-SK01_0038,SK01,fill_blank,Điền số còn thiếu: 5 6 _ 8,Fill the blank: 5 6 _ 8,,7,1,Tìm số nằm đúng vị trí trong dãy
-SK01_0039,SK01,fill_blank,Điền số còn thiếu: 6 _ 8 9,Fill the blank: 6 _ 8 9,,7,1,Tìm số nằm đúng vị trí trong dãy
-SK01_0040,SK01,fill_blank,Điền số còn thiếu: 7 8 _ 10,Fill the blank: 7 8 _ 10,,9,1,Tìm số nằm đúng vị trí trong dãy
-SK01_0041,SK01,fill_blank,Điền số còn thiếu: _ 1 2 3,Fill the blank: _ 1 2 3,,0,1,Tìm số nằm đúng vị trí trong dãy
-SK01_0042,SK01,fill_blank,Điền số còn thiếu: 0 _ 2 3,Fill the blank: 0 _ 2 3,,1,1,Tìm số nằm đúng vị trí trong dãy
-SK01_0043,SK01,fill_blank,Điền số còn thiếu: 1 2 3 _,Fill the blank: 1 2 3 _,,4,1,Tìm số nằm đúng vị trí trong dãy
-SK01_0044,SK01,fill_blank,Điền số còn thiếu: 4 _ 6 7,Fill the blank: 4 _ 6 7,,5,1,Tìm số nằm đúng vị trí trong dãy
-SK01_0045,SK01,fill_blank,Điền số còn thiếu: 2 _ 4 5,Fill the blank: 2 _ 4 5,,3,1,Tìm số nằm đúng vị trí trong dãy
-SK01_0046,SK01,fill_blank,Điền số còn thiếu: _ 2 3 4 5,Fill the blank: _ 2 3 4 5,,1,2,Xem quy luật tăng dần của dãy số
-SK01_0047,SK01,fill_blank,Điền số còn thiếu: 3 4 _ 6 7,Fill the blank: 3 4 _ 6 7,,5,2,Xem quy luật tăng dần của dãy số
-SK01_0048,SK01,fill_blank,Điền số còn thiếu: 5 _ 7 8 9,Fill the blank: 5 _ 7 8 9,,6,2,Xem quy luật tăng dần của dãy số
-SK01_0049,SK01,fill_blank,Điền số còn thiếu: 6 7 8 _ 10,Fill the blank: 6 7 8 _ 10,,9,2,Xem quy luật tăng dần của dãy số
-SK01_0050,SK01,fill_blank,Điền số còn thiếu: _ 0 1 2,Fill the blank: _ 0 1 2,,-1,2,Xem quy luật tăng dần của dãy số
-SK01_0051,SK01,fill_blank,Điền số còn thiếu: 1 2 3 4 _,Fill the blank: 1 2 3 4 _,,5,2,Xem quy luật tăng dần của dãy số
-SK01_0052,SK01,fill_blank,Điền số còn thiếu: 0 1 _ 3 4,Fill the blank: 0 1 _ 3 4,,2,2,Xem quy luật tăng dần của dãy số
-SK01_0053,SK01,fill_blank,Điền số còn thiếu: 7 _ 9 10,Fill the blank: 7 _ 9 10,,8,2,Xem quy luật tăng dần của dãy số
-SK01_0054,SK01,multiple_choice,Số nào lớn nhất: 1 5 3?,Which is the greatest: 1 5 3?,"5,4,1,3",5,2,So sánh từng cặp số với nhau
-SK01_0055,SK01,multiple_choice,Số nào lớn nhất: 0 4 2?,Which is the greatest: 0 4 2?,"4,2,0,3",4,2,So sánh từng cặp số với nhau
-SK01_0056,SK01,multiple_choice,Số nào lớn nhất: 6 2 8?,Which is the greatest: 6 2 8?,"7,2,6,8",8,2,So sánh từng cặp số với nhau
-SK01_0057,SK01,multiple_choice,Số nào lớn nhất: 3 7 5?,Which is the greatest: 3 7 5?,"3,6,5,7",7,2,So sánh từng cặp số với nhau
-SK01_0058,SK01,multiple_choice,Số nào lớn nhất: 1 9 4?,Which is the greatest: 1 9 4?,"4,1,9,8",9,2,So sánh từng cặp số với nhau
-SK01_0059,SK01,multiple_choice,Số nào lớn nhất: 0 8 3?,Which is the greatest: 0 8 3?,"8,3,7,0",8,2,So sánh từng cặp số với nhau
-SK01_0060,SK01,multiple_choice,Số nào lớn nhất: 5 2 7?,Which is the greatest: 5 2 7?,"6,5,2,7",7,2,So sánh từng cặp số với nhau
-SK01_0061,SK01,multiple_choice,Số nào lớn nhất: 6 4 10?,Which is the greatest: 6 4 10?,"10,9,4,6",10,2,So sánh từng cặp số với nhau
-SK01_0062,SK01,multiple_choice,Số nào lớn nhất: 1 3 6?,Which is the greatest: 1 3 6?,"3,6,5,1",6,2,So sánh từng cặp số với nhau
-SK01_0063,SK01,multiple_choice,Số nào lớn nhất: 2 9 5?,Which is the greatest: 2 9 5?,"5,8,2,9",9,2,So sánh từng cặp số với nhau
-SK01_0064,SK01,multiple_choice,Số nào nhỏ nhất: 1 5 3?,Which is the smallest: 1 5 3?,"5,3,1,2",1,2,Tìm số nhỏ nhất trong 3 số
-SK01_0065,SK01,multiple_choice,Số nào nhỏ nhất: 0 4 2?,Which is the smallest: 0 4 2?,"4,1,0,2",0,2,Tìm số nhỏ nhất trong 3 số
-SK01_0066,SK01,multiple_choice,Số nào nhỏ nhất: 6 2 8?,Which is the smallest: 6 2 8?,"3,6,2,8",2,2,Tìm số nhỏ nhất trong 3 số
-SK01_0067,SK01,multiple_choice,Số nào nhỏ nhất: 3 7 5?,Which is the smallest: 3 7 5?,"5,7,3,4",3,2,Tìm số nhỏ nhất trong 3 số
-SK01_0068,SK01,multiple_choice,Số nào nhỏ nhất: 1 9 4?,Which is the smallest: 1 9 4?,"4,2,9,1",1,2,Tìm số nhỏ nhất trong 3 số
-SK01_0069,SK01,multiple_choice,Số nào nhỏ nhất: 0 8 3?,Which is the smallest: 0 8 3?,"0,8,3,1",0,2,Tìm số nhỏ nhất trong 3 số
-SK01_0070,SK01,multiple_choice,Số nào nhỏ nhất: 5 2 7?,Which is the smallest: 5 2 7?,"7,3,5,2",2,2,Tìm số nhỏ nhất trong 3 số
-SK01_0071,SK01,multiple_choice,Số nào nhỏ nhất: 6 4 10?,Which is the smallest: 6 4 10?,"4,10,6,5",4,2,Tìm số nhỏ nhất trong 3 số
-SK01_0072,SK01,multiple_choice,Số nào nhỏ nhất: 1 3 6?,Which is the smallest: 1 3 6?,"1,2,6,3",1,2,Tìm số nhỏ nhất trong 3 số
-SK01_0073,SK01,multiple_choice,Số nào nhỏ nhất: 2 9 5?,Which is the smallest: 2 9 5?,"2,9,5,3",2,2,Tìm số nhỏ nhất trong 3 số
-SK01_0074,SK01,multiple_choice,Sắp xếp tăng dần: 3 1 2,Sort ascending: 3 1 2,"1 2 3,2 1 3,3 1 2,1 3 2",1 2 3,3,Số nhỏ nhất đứng đầu tiên
-SK01_0075,SK01,multiple_choice,Sắp xếp tăng dần: 5 2 4,Sort ascending: 5 2 4,"2 4 5,4 2 5,5 2 4,2 5 4",2 4 5,3,Số nhỏ nhất đứng đầu tiên
-SK01_0076,SK01,multiple_choice,Sắp xếp tăng dần: 8 1 6,Sort ascending: 8 1 6,"1 6 8,6 1 8,8 1 6,1 8 6",1 6 8,3,Số nhỏ nhất đứng đầu tiên
-SK01_0077,SK01,multiple_choice,Sắp xếp tăng dần: 4 9 2,Sort ascending: 4 9 2,"2 4 9,2 9 4,4 9 2,9 4 2",2 4 9,3,Số nhỏ nhất đứng đầu tiên
-SK01_0078,SK01,multiple_choice,Sắp xếp tăng dần: 0 7 3,Sort ascending: 0 7 3,"0 3 7,3 7 0,0 7 3,7 0 3",0 3 7,3,Số nhỏ nhất đứng đầu tiên
-SK01_0079,SK01,multiple_choice,Sắp xếp tăng dần: 6 1 9,Sort ascending: 6 1 9,"1 6 9,9 1 6,6 1 9,1 6 9",1 6 9,3,Số nhỏ nhất đứng đầu tiên
-SK01_0080,SK01,multiple_choice,Sắp xếp tăng dần: 5 3 8,Sort ascending: 5 3 8,"3 5 8,8 3 5,5 3 8,3 5 8",3 5 8,3,Số nhỏ nhất đứng đầu tiên
-SK01_0081,SK01,multiple_choice,Sắp xếp tăng dần: 2 7 4,Sort ascending: 2 7 4,"2 4 7,4 7 2,2 7 4,7 2 4",2 4 7,3,Số nhỏ nhất đứng đầu tiên
-SK01_0082,SK01,multiple_choice,Sắp xếp tăng dần: 10 3 7,Sort ascending: 10 3 7,"3 7 10,7 3 10,10 3 7,3 10 7",3 7 10,3,Số nhỏ nhất đứng đầu tiên
-SK01_0083,SK01,multiple_choice,Sắp xếp tăng dần: 1 8 5,Sort ascending: 1 8 5,"1 5 8,5 8 1,1 8 5,8 1 5",1 5 8,3,Số nhỏ nhất đứng đầu tiên
-SK01_0084,SK01,multiple_choice,Sắp xếp giảm dần: 3 1 2,Sort descending: 3 1 2,"3 2 1,1 2 3,3 1 2,2 3 1",3 2 1,3,Số lớn nhất đứng đầu tiên
-SK01_0085,SK01,multiple_choice,Sắp xếp giảm dần: 5 2 4,Sort descending: 5 2 4,"5 4 2,2 4 5,5 2 4,4 5 2",5 4 2,3,Số lớn nhất đứng đầu tiên
-SK01_0086,SK01,multiple_choice,Sắp xếp giảm dần: 8 1 6,Sort descending: 8 1 6,"8 6 1,1 6 8,8 1 6,6 8 1",8 6 1,3,Số lớn nhất đứng đầu tiên
-SK01_0087,SK01,multiple_choice,Sắp xếp giảm dần: 4 9 2,Sort descending: 4 9 2,"9 4 2,2 4 9,4 9 2,2 4 9",9 4 2,3,Số lớn nhất đứng đầu tiên
-SK01_0088,SK01,multiple_choice,Sắp xếp giảm dần: 0 7 3,Sort descending: 0 7 3,"7 3 0,0 3 7,0 7 3,3 0 7",7 3 0,3,Số lớn nhất đứng đầu tiên
-SK01_0089,SK01,multiple_choice,Sắp xếp giảm dần: 6 1 9,Sort descending: 6 1 9,"9 6 1,1 6 9,6 1 9,9 6 1",9 6 1,3,Số lớn nhất đứng đầu tiên
-SK01_0090,SK01,multiple_choice,Sắp xếp giảm dần: 5 3 8,Sort descending: 5 3 8,"8 5 3,3 5 8,5 3 8,8 5 3",8 5 3,3,Số lớn nhất đứng đầu tiên
-SK01_0091,SK01,multiple_choice,Sắp xếp giảm dần: 2 7 4,Sort descending: 2 7 4,"7 4 2,2 4 7,2 7 4,4 2 7",7 4 2,3,Số lớn nhất đứng đầu tiên
-SK01_0092,SK01,multiple_choice,Sắp xếp giảm dần: 10 3 7,Sort descending: 10 3 7,"10 7 3,3 7 10,10 3 7,7 10 3",10 7 3,3,Số lớn nhất đứng đầu tiên
-SK01_0093,SK01,multiple_choice,Sắp xếp giảm dần: 1 8 5,Sort descending: 1 8 5,"8 5 1,1 5 8,1 8 5,5 1 8",8 5 1,3,Số lớn nhất đứng đầu tiên
-SK01_0094,SK01,fill_blank,Điền số còn thiếu: 0 2 4 _ 8,Fill the blank: 0 2 4 _ 8,,6,3,Tìm quy luật của dãy số
-SK01_0095,SK01,fill_blank,Điền số còn thiếu: 1 3 _ 7 9,Fill the blank: 1 3 _ 7 9,,5,3,Tìm quy luật của dãy số
-SK01_0096,SK01,fill_blank,Điền số còn thiếu: _ 4 6 8 10,Fill the blank: _ 4 6 8 10,,2,3,Tìm quy luật của dãy số
-SK01_0097,SK01,fill_blank,Điền số còn thiếu: 0 3 6 _ 12,Fill the blank: 0 3 6 _ 12,,9,3,Tìm quy luật của dãy số
-SK01_0098,SK01,fill_blank,Điền số còn thiếu: 10 8 6 _ 2,Fill the blank: 10 8 6 _ 2,,4,3,Tìm quy luật của dãy số
-SK01_0099,SK01,fill_blank,Điền số còn thiếu: 9 7 5 _ 1,Fill the blank: 9 7 5 _ 1,,3,3,Tìm quy luật của dãy số
-SK01_0100,SK01,fill_blank,Điền số còn thiếu: 2 4 6 8 _,Fill the blank: 2 4 6 8 _,,18,3,Tìm quy luật của dãy số
+SK01_0001,SK01,multiple_choice,Số nào đây là số 0?,Which one is number 0?,"5,1,0,2",0,1,Số 0
+SK01_0002,SK01,multiple_choice,Số nào đây là số 1?,Which one is number 1?,"2,9,1,10",1,1,Số 1
+SK01_0003,SK01,multiple_choice,Số nào đây là số 2?,Which one is number 2?,"1,9,4,2",2,1,Số 2
+SK01_0004,SK01,multiple_choice,Số nào đây là số 3?,Which one is number 3?,"3,9,7,4",3,1,Số 3
+SK01_0005,SK01,multiple_choice,Số nào đây là số 4?,Which one is number 4?,"7,4,0,2",4,1,Số 4
+SK01_0006,SK01,multiple_choice,Số nào đây là số 5?,Which one is number 5?,"6,1,3,5",5,1,Số 5
+SK01_0007,SK01,multiple_choice,Số nào đây là số 6?,Which one is number 6?,"4,5,10,6",6,2,Số 6
+SK01_0008,SK01,multiple_choice,Số nào đây là số 7?,Which one is number 7?,"6,9,1,7",7,2,Số 7
+SK01_0009,SK01,multiple_choice,Số nào đây là số 8?,Which one is number 8?,"10,5,3,8",8,2,Số 8
+SK01_0010,SK01,multiple_choice,Số nào đây là số 9?,Which one is number 9?,"3,1,4,9",9,2,Số 9
+SK01_0011,SK01,multiple_choice,Số nào đây là số 10?,Which one is number 10?,"2,10,7,5",10,2,Số 10
+SK01_0012,SK01,multiple_choice,Số nào đứng TRƯỚC số 1?,Which number comes BEFORE 1?,"2,3,0,5",0,1,Số trước 1 là 0
+SK01_0013,SK01,multiple_choice,Số nào đứng TRƯỚC số 2?,Which number comes BEFORE 2?,"7,4,1,5",1,1,Số trước 2 là 1
+SK01_0014,SK01,multiple_choice,Số nào đứng TRƯỚC số 3?,Which number comes BEFORE 3?,"0,7,2,6",2,1,Số trước 3 là 2
+SK01_0015,SK01,multiple_choice,Số nào đứng TRƯỚC số 4?,Which number comes BEFORE 4?,"3,6,10,4",3,1,Số trước 4 là 3
+SK01_0016,SK01,multiple_choice,Số nào đứng TRƯỚC số 5?,Which number comes BEFORE 5?,"4,10,5,2",4,1,Số trước 5 là 4
+SK01_0017,SK01,multiple_choice,Số nào đứng TRƯỚC số 6?,Which number comes BEFORE 6?,"10,9,5,7",5,1,Số trước 6 là 5
+SK01_0018,SK01,multiple_choice,Số nào đứng TRƯỚC số 7?,Which number comes BEFORE 7?,"9,8,1,6",6,2,Số trước 7 là 6
+SK01_0019,SK01,multiple_choice,Số nào đứng TRƯỚC số 8?,Which number comes BEFORE 8?,"7,6,2,1",7,2,Số trước 8 là 7
+SK01_0020,SK01,multiple_choice,Số nào đứng TRƯỚC số 9?,Which number comes BEFORE 9?,"0,9,4,8",8,2,Số trước 9 là 8
+SK01_0021,SK01,multiple_choice,Số nào đứng TRƯỚC số 10?,Which number comes BEFORE 10?,"1,5,9,4",9,2,Số trước 10 là 9
+SK01_0022,SK01,multiple_choice,Số nào đứng SAU số 0?,Which number comes AFTER 0?,"3,0,5,1",1,1,Số sau 0 là 1
+SK01_0023,SK01,multiple_choice,Số nào đứng SAU số 1?,Which number comes AFTER 1?,"9,3,2,4",2,1,Số sau 1 là 2
+SK01_0024,SK01,multiple_choice,Số nào đứng SAU số 2?,Which number comes AFTER 2?,"6,10,8,3",3,1,Số sau 2 là 3
+SK01_0025,SK01,multiple_choice,Số nào đứng SAU số 3?,Which number comes AFTER 3?,"0,4,3,5",4,1,Số sau 3 là 4
+SK01_0026,SK01,multiple_choice,Số nào đứng SAU số 4?,Which number comes AFTER 4?,"8,10,5,1",5,1,Số sau 4 là 5
+SK01_0027,SK01,multiple_choice,Số nào đứng SAU số 5?,Which number comes AFTER 5?,"9,2,6,4",6,2,Số sau 5 là 6
+SK01_0028,SK01,multiple_choice,Số nào đứng SAU số 6?,Which number comes AFTER 6?,"7,4,6,5",7,2,Số sau 6 là 7
+SK01_0029,SK01,multiple_choice,Số nào đứng SAU số 7?,Which number comes AFTER 7?,"3,9,1,8",8,2,Số sau 7 là 8
+SK01_0030,SK01,multiple_choice,Số nào đứng SAU số 8?,Which number comes AFTER 8?,"3,8,9,10",9,2,Số sau 8 là 9
+SK01_0031,SK01,multiple_choice,Số nào đứng SAU số 9?,Which number comes AFTER 9?,"3,1,0,10",10,2,Số sau 9 là 10
+SK01_0032,SK01,multiple_choice,"0, 1, ___ tiếp theo là số nào?","0, 1, ___ what comes next?","9,4,2,5",2,2,Cộng thêm 1 vào 1
+SK01_0033,SK01,multiple_choice,"1, 2, ___ tiếp theo là số nào?","1, 2, ___ what comes next?","8,3,10,4",3,2,Cộng thêm 1 vào 2
+SK01_0034,SK01,multiple_choice,"2, 3, ___ tiếp theo là số nào?","2, 3, ___ what comes next?","4,7,1,10",4,2,Cộng thêm 1 vào 3
+SK01_0035,SK01,multiple_choice,"3, 4, ___ tiếp theo là số nào?","3, 4, ___ what comes next?","1,0,8,5",5,2,Cộng thêm 1 vào 4
+SK01_0036,SK01,multiple_choice,"4, 5, ___ tiếp theo là số nào?","4, 5, ___ what comes next?","6,9,3,1",6,2,Cộng thêm 1 vào 5
+SK01_0037,SK01,multiple_choice,"5, 6, ___ tiếp theo là số nào?","5, 6, ___ what comes next?","10,7,2,6",7,2,Cộng thêm 1 vào 6
+SK01_0038,SK01,multiple_choice,"6, 7, ___ tiếp theo là số nào?","6, 7, ___ what comes next?","1,10,7,8",8,2,Cộng thêm 1 vào 7
+SK01_0039,SK01,multiple_choice,"7, 8, ___ tiếp theo là số nào?","7, 8, ___ what comes next?","9,3,1,2",9,2,Cộng thêm 1 vào 8
+SK01_0040,SK01,multiple_choice,"8, 9, ___ tiếp theo là số nào?","8, 9, ___ what comes next?","6,10,0,3",10,2,Cộng thêm 1 vào 9

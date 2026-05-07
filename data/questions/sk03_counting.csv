@@ -1,289 +1,67 @@
 id,skill_id,type,question_vi,question_en,options,correct_answer,difficulty,hint_vi
-SK03_0001,SK03,fill_blank,Đếm tiếp: 1 ?,Count on: 1 ?,,2,1,Cộng thêm 1 vào 1
-SK03_0002,SK03,fill_blank,Đếm tiếp: 2 ?,Count on: 2 ?,,3,1,Cộng thêm 1 vào 2
-SK03_0003,SK03,fill_blank,Đếm tiếp: 3 ?,Count on: 3 ?,,4,1,Cộng thêm 1 vào 3
-SK03_0004,SK03,fill_blank,Đếm tiếp: 4 ?,Count on: 4 ?,,5,1,Cộng thêm 1 vào 4
-SK03_0005,SK03,fill_blank,Đếm tiếp: 5 ?,Count on: 5 ?,,6,1,Cộng thêm 1 vào 5
-SK03_0006,SK03,fill_blank,Đếm tiếp: 6 ?,Count on: 6 ?,,7,1,Cộng thêm 1 vào 6
-SK03_0007,SK03,fill_blank,Đếm tiếp: 7 ?,Count on: 7 ?,,8,1,Cộng thêm 1 vào 7
-SK03_0008,SK03,fill_blank,Đếm tiếp: 8 ?,Count on: 8 ?,,9,1,Cộng thêm 1 vào 8
-SK03_0009,SK03,fill_blank,Đếm tiếp: 9 ?,Count on: 9 ?,,10,1,Cộng thêm 1 vào 9
-SK03_0010,SK03,fill_blank,Đếm tiếp: 10 ?,Count on: 10 ?,,11,1,Cộng thêm 1 vào 10
-SK03_0011,SK03,fill_blank,Đếm tiếp: 11 ?,Count on: 11 ?,,12,1,Cộng thêm 1 vào 11
-SK03_0012,SK03,fill_blank,Đếm tiếp: 12 ?,Count on: 12 ?,,13,1,Cộng thêm 1 vào 12
-SK03_0013,SK03,fill_blank,Đếm tiếp: 13 ?,Count on: 13 ?,,14,1,Cộng thêm 1 vào 13
-SK03_0014,SK03,fill_blank,Đếm tiếp: 14 ?,Count on: 14 ?,,15,1,Cộng thêm 1 vào 14
-SK03_0015,SK03,fill_blank,Đếm tiếp: 15 ?,Count on: 15 ?,,16,1,Cộng thêm 1 vào 15
-SK03_0016,SK03,fill_blank,Đếm tiếp: 16 ?,Count on: 16 ?,,17,2,Cộng thêm 1 vào 16
-SK03_0017,SK03,fill_blank,Đếm tiếp: 17 ?,Count on: 17 ?,,18,2,Cộng thêm 1 vào 17
-SK03_0018,SK03,fill_blank,Đếm tiếp: 18 ?,Count on: 18 ?,,19,2,Cộng thêm 1 vào 18
-SK03_0019,SK03,fill_blank,Đếm tiếp: 19 ?,Count on: 19 ?,,20,2,Cộng thêm 1 vào 19
-SK03_0020,SK03,fill_blank,Đếm tiếp: 20 ?,Count on: 20 ?,,21,2,Cộng thêm 1 vào 20
-SK03_0021,SK03,fill_blank,Đếm tiếp: 21 ?,Count on: 21 ?,,22,2,Cộng thêm 1 vào 21
-SK03_0022,SK03,fill_blank,Đếm tiếp: 22 ?,Count on: 22 ?,,23,2,Cộng thêm 1 vào 22
-SK03_0023,SK03,fill_blank,Đếm tiếp: 23 ?,Count on: 23 ?,,24,2,Cộng thêm 1 vào 23
-SK03_0024,SK03,fill_blank,Đếm tiếp: 24 ?,Count on: 24 ?,,25,2,Cộng thêm 1 vào 24
-SK03_0025,SK03,fill_blank,Đếm tiếp: 25 ?,Count on: 25 ?,,26,2,Cộng thêm 1 vào 25
-SK03_0026,SK03,fill_blank,Đếm tiếp: 26 ?,Count on: 26 ?,,27,2,Cộng thêm 1 vào 26
-SK03_0027,SK03,fill_blank,Đếm tiếp: 27 ?,Count on: 27 ?,,28,2,Cộng thêm 1 vào 27
-SK03_0028,SK03,fill_blank,Đếm tiếp: 28 ?,Count on: 28 ?,,29,2,Cộng thêm 1 vào 28
-SK03_0029,SK03,fill_blank,Đếm tiếp: 29 ?,Count on: 29 ?,,30,2,Cộng thêm 1 vào 29
-SK03_0030,SK03,fill_blank,Đếm tiếp: 30 ?,Count on: 30 ?,,31,2,Cộng thêm 1 vào 30
-SK03_0031,SK03,fill_blank,Đếm tiếp: 31 ?,Count on: 31 ?,,32,2,Cộng thêm 1 vào 31
-SK03_0032,SK03,fill_blank,Đếm tiếp: 32 ?,Count on: 32 ?,,33,2,Cộng thêm 1 vào 32
-SK03_0033,SK03,fill_blank,Đếm tiếp: 33 ?,Count on: 33 ?,,34,2,Cộng thêm 1 vào 33
-SK03_0034,SK03,fill_blank,Đếm tiếp: 34 ?,Count on: 34 ?,,35,2,Cộng thêm 1 vào 34
-SK03_0035,SK03,fill_blank,Đếm tiếp: 35 ?,Count on: 35 ?,,36,2,Cộng thêm 1 vào 35
-SK03_0036,SK03,fill_blank,Đếm tiếp: 36 ?,Count on: 36 ?,,37,3,Cộng thêm 1 vào 36
-SK03_0037,SK03,fill_blank,Đếm tiếp: 37 ?,Count on: 37 ?,,38,3,Cộng thêm 1 vào 37
-SK03_0038,SK03,fill_blank,Đếm tiếp: 38 ?,Count on: 38 ?,,39,3,Cộng thêm 1 vào 38
-SK03_0039,SK03,fill_blank,Đếm tiếp: 39 ?,Count on: 39 ?,,40,3,Cộng thêm 1 vào 39
-SK03_0040,SK03,fill_blank,Đếm tiếp: 40 ?,Count on: 40 ?,,41,3,Cộng thêm 1 vào 40
-SK03_0041,SK03,fill_blank,Đếm tiếp: 41 ?,Count on: 41 ?,,42,3,Cộng thêm 1 vào 41
-SK03_0042,SK03,fill_blank,Đếm tiếp: 42 ?,Count on: 42 ?,,43,3,Cộng thêm 1 vào 42
-SK03_0043,SK03,fill_blank,Đếm tiếp: 43 ?,Count on: 43 ?,,44,3,Cộng thêm 1 vào 43
-SK03_0044,SK03,fill_blank,Đếm tiếp: 44 ?,Count on: 44 ?,,45,3,Cộng thêm 1 vào 44
-SK03_0045,SK03,fill_blank,Đếm tiếp: 45 ?,Count on: 45 ?,,46,3,Cộng thêm 1 vào 45
-SK03_0046,SK03,fill_blank,Đếm tiếp: 46 ?,Count on: 46 ?,,47,3,Cộng thêm 1 vào 46
-SK03_0047,SK03,fill_blank,Đếm tiếp: 47 ?,Count on: 47 ?,,48,3,Cộng thêm 1 vào 47
-SK03_0048,SK03,fill_blank,Đếm tiếp: 48 ?,Count on: 48 ?,,49,3,Cộng thêm 1 vào 48
-SK03_0049,SK03,fill_blank,Đếm tiếp: 49 ?,Count on: 49 ?,,50,3,Cộng thêm 1 vào 49
-SK03_0050,SK03,fill_blank,Đếm tiếp: 50 ?,Count on: 50 ?,,51,3,Cộng thêm 1 vào 50
-SK03_0051,SK03,fill_blank,Điền số còn thiếu: 1 _ 3,Fill the blank: 1 _ 3,,2,1,Số nằm giữa 1 và 3
-SK03_0052,SK03,fill_blank,Điền số còn thiếu: 2 _ 4,Fill the blank: 2 _ 4,,3,1,Số nằm giữa 2 và 4
-SK03_0053,SK03,fill_blank,Điền số còn thiếu: 3 _ 5,Fill the blank: 3 _ 5,,4,1,Số nằm giữa 3 và 5
-SK03_0054,SK03,fill_blank,Điền số còn thiếu: 4 _ 6,Fill the blank: 4 _ 6,,5,1,Số nằm giữa 4 và 6
-SK03_0055,SK03,fill_blank,Điền số còn thiếu: 5 _ 7,Fill the blank: 5 _ 7,,6,1,Số nằm giữa 5 và 7
-SK03_0056,SK03,fill_blank,Điền số còn thiếu: 6 _ 8,Fill the blank: 6 _ 8,,7,1,Số nằm giữa 6 và 8
-SK03_0057,SK03,fill_blank,Điền số còn thiếu: 7 _ 9,Fill the blank: 7 _ 9,,8,1,Số nằm giữa 7 và 9
-SK03_0058,SK03,fill_blank,Điền số còn thiếu: 8 _ 10,Fill the blank: 8 _ 10,,9,1,Số nằm giữa 8 và 10
-SK03_0059,SK03,fill_blank,Điền số còn thiếu: 9 _ 11,Fill the blank: 9 _ 11,,10,1,Số nằm giữa 9 và 11
-SK03_0060,SK03,fill_blank,Điền số còn thiếu: 10 _ 12,Fill the blank: 10 _ 12,,11,1,Số nằm giữa 10 và 12
-SK03_0061,SK03,fill_blank,Điền số còn thiếu: 11 _ 13,Fill the blank: 11 _ 13,,12,1,Số nằm giữa 11 và 13
-SK03_0062,SK03,fill_blank,Điền số còn thiếu: 12 _ 14,Fill the blank: 12 _ 14,,13,1,Số nằm giữa 12 và 14
-SK03_0063,SK03,fill_blank,Điền số còn thiếu: 13 _ 15,Fill the blank: 13 _ 15,,14,1,Số nằm giữa 13 và 15
-SK03_0064,SK03,fill_blank,Điền số còn thiếu: 14 _ 16,Fill the blank: 14 _ 16,,15,1,Số nằm giữa 14 và 16
-SK03_0065,SK03,fill_blank,Điền số còn thiếu: 15 _ 17,Fill the blank: 15 _ 17,,16,1,Số nằm giữa 15 và 17
-SK03_0066,SK03,fill_blank,Điền số còn thiếu: 16 _ 18,Fill the blank: 16 _ 18,,17,2,Số nằm giữa 16 và 18
-SK03_0067,SK03,fill_blank,Điền số còn thiếu: 17 _ 19,Fill the blank: 17 _ 19,,18,2,Số nằm giữa 17 và 19
-SK03_0068,SK03,fill_blank,Điền số còn thiếu: 18 _ 20,Fill the blank: 18 _ 20,,19,2,Số nằm giữa 18 và 20
-SK03_0069,SK03,fill_blank,Điền số còn thiếu: 19 _ 21,Fill the blank: 19 _ 21,,20,2,Số nằm giữa 19 và 21
-SK03_0070,SK03,fill_blank,Điền số còn thiếu: 20 _ 22,Fill the blank: 20 _ 22,,21,2,Số nằm giữa 20 và 22
-SK03_0071,SK03,fill_blank,Điền số còn thiếu: 21 _ 23,Fill the blank: 21 _ 23,,22,2,Số nằm giữa 21 và 23
-SK03_0072,SK03,fill_blank,Điền số còn thiếu: 22 _ 24,Fill the blank: 22 _ 24,,23,2,Số nằm giữa 22 và 24
-SK03_0073,SK03,fill_blank,Điền số còn thiếu: 23 _ 25,Fill the blank: 23 _ 25,,24,2,Số nằm giữa 23 và 25
-SK03_0074,SK03,fill_blank,Điền số còn thiếu: 24 _ 26,Fill the blank: 24 _ 26,,25,2,Số nằm giữa 24 và 26
-SK03_0075,SK03,fill_blank,Điền số còn thiếu: 25 _ 27,Fill the blank: 25 _ 27,,26,2,Số nằm giữa 25 và 27
-SK03_0076,SK03,fill_blank,Điền số còn thiếu: 26 _ 28,Fill the blank: 26 _ 28,,27,2,Số nằm giữa 26 và 28
-SK03_0077,SK03,fill_blank,Điền số còn thiếu: 27 _ 29,Fill the blank: 27 _ 29,,28,2,Số nằm giữa 27 và 29
-SK03_0078,SK03,fill_blank,Điền số còn thiếu: 28 _ 30,Fill the blank: 28 _ 30,,29,2,Số nằm giữa 28 và 30
-SK03_0079,SK03,fill_blank,Điền số còn thiếu: 29 _ 31,Fill the blank: 29 _ 31,,30,2,Số nằm giữa 29 và 31
-SK03_0080,SK03,fill_blank,Điền số còn thiếu: 30 _ 32,Fill the blank: 30 _ 32,,31,2,Số nằm giữa 30 và 32
-SK03_0081,SK03,multiple_choice,Có bao nhiêu bước từ 1 đến 4?,How many steps from 1 to 4?,"5,4,2,3",3,2,Đếm từ 1 đến 4: 1 2 3 4
-SK03_0082,SK03,multiple_choice,Có bao nhiêu bước từ 1 đến 5?,How many steps from 1 to 5?,"5,6,3,4",4,2,Đếm từ 1 đến 5: 1 2 3 4 5
-SK03_0083,SK03,multiple_choice,Có bao nhiêu bước từ 1 đến 6?,How many steps from 1 to 6?,"4,5,6,7",5,2,Đếm từ 1 đến 6: 1 2 3 4 5 6
-SK03_0084,SK03,multiple_choice,Có bao nhiêu bước từ 1 đến 7?,How many steps from 1 to 7?,"6,8,5,7",6,2,Đếm từ 1 đến 7: 1 2 3 4 5 6 7
-SK03_0085,SK03,multiple_choice,Có bao nhiêu bước từ 2 đến 5?,How many steps from 2 to 5?,"5,4,2,3",3,2,Đếm từ 2 đến 5: 2 3 4 5
-SK03_0086,SK03,multiple_choice,Có bao nhiêu bước từ 2 đến 6?,How many steps from 2 to 6?,"5,4,6,3",4,2,Đếm từ 2 đến 6: 2 3 4 5 6
-SK03_0087,SK03,multiple_choice,Có bao nhiêu bước từ 2 đến 7?,How many steps from 2 to 7?,"4,7,5,6",5,2,Đếm từ 2 đến 7: 2 3 4 5 6 7
-SK03_0088,SK03,multiple_choice,Có bao nhiêu bước từ 2 đến 8?,How many steps from 2 to 8?,"7,8,6,5",6,2,Đếm từ 2 đến 8: 2 3 4 5 6 7 8
-SK03_0089,SK03,multiple_choice,Có bao nhiêu bước từ 3 đến 6?,How many steps from 3 to 6?,"4,2,3,5",3,2,Đếm từ 3 đến 6: 3 4 5 6
-SK03_0090,SK03,multiple_choice,Có bao nhiêu bước từ 3 đến 7?,How many steps from 3 to 7?,"3,5,4,6",4,2,Đếm từ 3 đến 7: 3 4 5 6 7
-SK03_0091,SK03,multiple_choice,Có bao nhiêu bước từ 3 đến 8?,How many steps from 3 to 8?,"5,4,7,6",5,2,Đếm từ 3 đến 8: 3 4 5 6 7 8
-SK03_0092,SK03,multiple_choice,Có bao nhiêu bước từ 3 đến 9?,How many steps from 3 to 9?,"7,8,6,5",6,2,Đếm từ 3 đến 9: 3 4 5 6 7 8 9
-SK03_0093,SK03,multiple_choice,Có bao nhiêu bước từ 4 đến 7?,How many steps from 4 to 7?,"5,4,3,2",3,2,Đếm từ 4 đến 7: 4 5 6 7
-SK03_0094,SK03,multiple_choice,Có bao nhiêu bước từ 4 đến 8?,How many steps from 4 to 8?,"3,4,5,6",4,2,Đếm từ 4 đến 8: 4 5 6 7 8
-SK03_0095,SK03,multiple_choice,Có bao nhiêu bước từ 4 đến 9?,How many steps from 4 to 9?,"4,5,7,6",5,2,Đếm từ 4 đến 9: 4 5 6 7 8 9
-SK03_0096,SK03,multiple_choice,Có bao nhiêu bước từ 4 đến 10?,How many steps from 4 to 10?,"7,6,8,5",6,2,Đếm từ 4 đến 10: 4 5 6 7 8 9 10
-SK03_0097,SK03,multiple_choice,Có bao nhiêu bước từ 5 đến 8?,How many steps from 5 to 8?,"5,4,3,2",3,2,Đếm từ 5 đến 8: 5 6 7 8
-SK03_0098,SK03,multiple_choice,Có bao nhiêu bước từ 5 đến 9?,How many steps from 5 to 9?,"6,3,4,5",4,2,Đếm từ 5 đến 9: 5 6 7 8 9
-SK03_0099,SK03,multiple_choice,Có bao nhiêu bước từ 5 đến 10?,How many steps from 5 to 10?,"7,4,5,6",5,2,Đếm từ 5 đến 10: 5 6 7 8 9 10
-SK03_0100,SK03,multiple_choice,Có bao nhiêu bước từ 5 đến 11?,How many steps from 5 to 11?,"6,8,5,7",6,2,Đếm từ 5 đến 11: 5 6 7 8 9 10 11
-SK03_0101,SK03,multiple_choice,Có bao nhiêu bước từ 6 đến 9?,How many steps from 6 to 9?,"2,3,4,5",3,2,Đếm từ 6 đến 9: 6 7 8 9
-SK03_0102,SK03,multiple_choice,Có bao nhiêu bước từ 6 đến 10?,How many steps from 6 to 10?,"3,5,6,4",4,2,Đếm từ 6 đến 10: 6 7 8 9 10
-SK03_0103,SK03,multiple_choice,Có bao nhiêu bước từ 6 đến 11?,How many steps from 6 to 11?,"5,4,6,7",5,2,Đếm từ 6 đến 11: 6 7 8 9 10 11
-SK03_0104,SK03,multiple_choice,Có bao nhiêu bước từ 6 đến 12?,How many steps from 6 to 12?,"6,7,5,8",6,2,Đếm từ 6 đến 12: 6 7 8 9 10 11 12
-SK03_0105,SK03,multiple_choice,Có bao nhiêu bước từ 7 đến 10?,How many steps from 7 to 10?,"5,2,3,4",3,2,Đếm từ 7 đến 10: 7 8 9 10
-SK03_0106,SK03,multiple_choice,Có bao nhiêu bước từ 7 đến 11?,How many steps from 7 to 11?,"3,5,6,4",4,2,Đếm từ 7 đến 11: 7 8 9 10 11
-SK03_0107,SK03,multiple_choice,Có bao nhiêu bước từ 7 đến 12?,How many steps from 7 to 12?,"6,7,5,4",5,2,Đếm từ 7 đến 12: 7 8 9 10 11 12
-SK03_0108,SK03,multiple_choice,Có bao nhiêu bước từ 7 đến 13?,How many steps from 7 to 13?,"8,5,6,7",6,2,Đếm từ 7 đến 13: 7 8 9 10 11 12 13
-SK03_0109,SK03,multiple_choice,Có bao nhiêu bước từ 8 đến 11?,How many steps from 8 to 11?,"4,2,3,5",3,2,Đếm từ 8 đến 11: 8 9 10 11
-SK03_0110,SK03,multiple_choice,Có bao nhiêu bước từ 8 đến 12?,How many steps from 8 to 12?,"3,5,6,4",4,2,Đếm từ 8 đến 12: 8 9 10 11 12
-SK03_0111,SK03,multiple_choice,Có bao nhiêu bước từ 8 đến 13?,How many steps from 8 to 13?,"5,4,7,6",5,2,Đếm từ 8 đến 13: 8 9 10 11 12 13
-SK03_0112,SK03,multiple_choice,Có bao nhiêu bước từ 8 đến 14?,How many steps from 8 to 14?,"8,6,7,5",6,2,Đếm từ 8 đến 14: 8 9 10 11 12 13 14
-SK03_0113,SK03,multiple_choice,Có bao nhiêu bước từ 9 đến 12?,How many steps from 9 to 12?,"2,5,4,3",3,2,Đếm từ 9 đến 12: 9 10 11 12
-SK03_0114,SK03,multiple_choice,Có bao nhiêu bước từ 9 đến 13?,How many steps from 9 to 13?,"4,6,5,3",4,2,Đếm từ 9 đến 13: 9 10 11 12 13
-SK03_0115,SK03,multiple_choice,Có bao nhiêu bước từ 9 đến 14?,How many steps from 9 to 14?,"7,4,6,5",5,2,Đếm từ 9 đến 14: 9 10 11 12 13 14
-SK03_0116,SK03,multiple_choice,Có bao nhiêu bước từ 9 đến 15?,How many steps from 9 to 15?,"6,5,7,8",6,2,Đếm từ 9 đến 15: 9 10 11 12 13 14 15
-SK03_0117,SK03,multiple_choice,Có bao nhiêu bước từ 10 đến 13?,How many steps from 10 to 13?,"5,2,3,4",3,2,Đếm từ 10 đến 13: 10 11 12 13
-SK03_0118,SK03,multiple_choice,Có bao nhiêu bước từ 10 đến 14?,How many steps from 10 to 14?,"6,4,3,5",4,2,Đếm từ 10 đến 14: 10 11 12 13 14
-SK03_0119,SK03,multiple_choice,Có bao nhiêu bước từ 10 đến 15?,How many steps from 10 to 15?,"7,5,4,6",5,2,Đếm từ 10 đến 15: 10 11 12 13 14 15
-SK03_0120,SK03,multiple_choice,Có bao nhiêu bước từ 10 đến 16?,How many steps from 10 to 16?,"7,8,6,5",6,2,Đếm từ 10 đến 16: 10 11 12 13 14 15 16
-SK03_0121,SK03,multiple_choice,Có bao nhiêu bước từ 11 đến 14?,How many steps from 11 to 14?,"5,3,2,4",3,2,Đếm từ 11 đến 14: 11 12 13 14
-SK03_0122,SK03,multiple_choice,Có bao nhiêu bước từ 11 đến 15?,How many steps from 11 to 15?,"6,4,5,3",4,2,Đếm từ 11 đến 15: 11 12 13 14 15
-SK03_0123,SK03,multiple_choice,Có bao nhiêu bước từ 11 đến 16?,How many steps from 11 to 16?,"5,7,6,4",5,2,Đếm từ 11 đến 16: 11 12 13 14 15 16
-SK03_0124,SK03,multiple_choice,Có bao nhiêu bước từ 11 đến 17?,How many steps from 11 to 17?,"7,8,5,6",6,2,Đếm từ 11 đến 17: 11 12 13 14 15 16 17
-SK03_0125,SK03,multiple_choice,Có bao nhiêu bước từ 12 đến 15?,How many steps from 12 to 15?,"3,2,4,5",3,2,Đếm từ 12 đến 15: 12 13 14 15
-SK03_0126,SK03,multiple_choice,Có bao nhiêu bước từ 12 đến 16?,How many steps from 12 to 16?,"6,5,3,4",4,2,Đếm từ 12 đến 16: 12 13 14 15 16
-SK03_0127,SK03,multiple_choice,Có bao nhiêu bước từ 12 đến 17?,How many steps from 12 to 17?,"4,7,6,5",5,2,Đếm từ 12 đến 17: 12 13 14 15 16 17
-SK03_0128,SK03,multiple_choice,Có bao nhiêu bước từ 12 đến 18?,How many steps from 12 to 18?,"5,6,8,7",6,2,Đếm từ 12 đến 18: 12 13 14 15 16 17 18
-SK03_0129,SK03,multiple_choice,Có bao nhiêu bước từ 13 đến 16?,How many steps from 13 to 16?,"2,5,4,3",3,2,Đếm từ 13 đến 16: 13 14 15 16
-SK03_0130,SK03,multiple_choice,Có bao nhiêu bước từ 13 đến 17?,How many steps from 13 to 17?,"4,6,3,5",4,2,Đếm từ 13 đến 17: 13 14 15 16 17
-SK03_0131,SK03,multiple_choice,Có bao nhiêu bước từ 13 đến 18?,How many steps from 13 to 18?,"5,4,6,7",5,2,Đếm từ 13 đến 18: 13 14 15 16 17 18
-SK03_0132,SK03,multiple_choice,Có bao nhiêu bước từ 13 đến 19?,How many steps from 13 to 19?,"7,6,8,5",6,2,Đếm từ 13 đến 19: 13 14 15 16 17 18 19
-SK03_0133,SK03,multiple_choice,Có bao nhiêu bước từ 14 đến 17?,How many steps from 14 to 17?,"5,3,2,4",3,2,Đếm từ 14 đến 17: 14 15 16 17
-SK03_0134,SK03,multiple_choice,Có bao nhiêu bước từ 14 đến 18?,How many steps from 14 to 18?,"5,3,6,4",4,2,Đếm từ 14 đến 18: 14 15 16 17 18
-SK03_0135,SK03,multiple_choice,Có bao nhiêu bước từ 14 đến 19?,How many steps from 14 to 19?,"6,4,5,7",5,2,Đếm từ 14 đến 19: 14 15 16 17 18 19
-SK03_0136,SK03,multiple_choice,Có bao nhiêu bước từ 14 đến 20?,How many steps from 14 to 20?,"5,6,8,7",6,2,Đếm từ 14 đến 20: 14 15 16 17 18 19 20
-SK03_0137,SK03,multiple_choice,Có bao nhiêu bước từ 15 đến 18?,How many steps from 15 to 18?,"5,4,3,2",3,2,Đếm từ 15 đến 18: 15 16 17 18
-SK03_0138,SK03,multiple_choice,Có bao nhiêu bước từ 15 đến 19?,How many steps from 15 to 19?,"6,5,4,3",4,2,Đếm từ 15 đến 19: 15 16 17 18 19
-SK03_0139,SK03,multiple_choice,Có bao nhiêu bước từ 15 đến 20?,How many steps from 15 to 20?,"5,7,6,4",5,2,Đếm từ 15 đến 20: 15 16 17 18 19 20
-SK03_0140,SK03,multiple_choice,Có bao nhiêu bước từ 15 đến 21?,How many steps from 15 to 21?,"7,8,6,5",6,2,Đếm từ 15 đến 21: 15 16 17 18 19 20 21
-SK03_0141,SK03,multiple_choice,Có bao nhiêu bước từ 16 đến 19?,How many steps from 16 to 19?,"4,2,3,5",3,2,Đếm từ 16 đến 19: 16 17 18 19
-SK03_0142,SK03,multiple_choice,Có bao nhiêu bước từ 16 đến 20?,How many steps from 16 to 20?,"4,6,3,5",4,2,Đếm từ 16 đến 20: 16 17 18 19 20
-SK03_0143,SK03,multiple_choice,Có bao nhiêu bước từ 16 đến 21?,How many steps from 16 to 21?,"4,7,6,5",5,2,Đếm từ 16 đến 21: 16 17 18 19 20 21
-SK03_0144,SK03,multiple_choice,Có bao nhiêu bước từ 16 đến 22?,How many steps from 16 to 22?,"7,8,5,6",6,2,Đếm từ 16 đến 22: 16 17 18 19 20 21 22
-SK03_0145,SK03,multiple_choice,Có bao nhiêu bước từ 17 đến 20?,How many steps from 17 to 20?,"5,4,3,2",3,2,Đếm từ 17 đến 20: 17 18 19 20
-SK03_0146,SK03,multiple_choice,Có bao nhiêu bước từ 17 đến 21?,How many steps from 17 to 21?,"4,3,5,6",4,2,Đếm từ 17 đến 21: 17 18 19 20 21
-SK03_0147,SK03,multiple_choice,Có bao nhiêu bước từ 17 đến 22?,How many steps from 17 to 22?,"4,5,7,6",5,2,Đếm từ 17 đến 22: 17 18 19 20 21 22
-SK03_0148,SK03,multiple_choice,Có bao nhiêu bước từ 17 đến 23?,How many steps from 17 to 23?,"5,8,6,7",6,2,Đếm từ 17 đến 23: 17 18 19 20 21 22 23
-SK03_0149,SK03,multiple_choice,Có bao nhiêu bước từ 18 đến 21?,How many steps from 18 to 21?,"5,2,3,4",3,2,Đếm từ 18 đến 21: 18 19 20 21
-SK03_0150,SK03,multiple_choice,Có bao nhiêu bước từ 18 đến 22?,How many steps from 18 to 22?,"3,5,4,6",4,2,Đếm từ 18 đến 22: 18 19 20 21 22
-SK03_0151,SK03,multiple_choice,Có bao nhiêu bước từ 18 đến 23?,How many steps from 18 to 23?,"5,4,7,6",5,2,Đếm từ 18 đến 23: 18 19 20 21 22 23
-SK03_0152,SK03,multiple_choice,Có bao nhiêu bước từ 18 đến 24?,How many steps from 18 to 24?,"8,6,5,7",6,2,Đếm từ 18 đến 24: 18 19 20 21 22 23 24
-SK03_0153,SK03,multiple_choice,Có bao nhiêu bước từ 19 đến 22?,How many steps from 19 to 22?,"3,5,4,2",3,2,Đếm từ 19 đến 22: 19 20 21 22
-SK03_0154,SK03,multiple_choice,Có bao nhiêu bước từ 19 đến 23?,How many steps from 19 to 23?,"4,6,5,3",4,2,Đếm từ 19 đến 23: 19 20 21 22 23
-SK03_0155,SK03,multiple_choice,Có bao nhiêu bước từ 19 đến 24?,How many steps from 19 to 24?,"5,6,7,4",5,2,Đếm từ 19 đến 24: 19 20 21 22 23 24
-SK03_0156,SK03,multiple_choice,Có bao nhiêu bước từ 19 đến 25?,How many steps from 19 to 25?,"7,6,5,8",6,2,Đếm từ 19 đến 25: 19 20 21 22 23 24 25
-SK03_0157,SK03,multiple_choice,Có bao nhiêu bước từ 20 đến 23?,How many steps from 20 to 23?,"2,3,5,4",3,2,Đếm từ 20 đến 23: 20 21 22 23
-SK03_0158,SK03,multiple_choice,Có bao nhiêu bước từ 20 đến 24?,How many steps from 20 to 24?,"3,6,5,4",4,2,Đếm từ 20 đến 24: 20 21 22 23 24
-SK03_0159,SK03,multiple_choice,Có bao nhiêu bước từ 20 đến 25?,How many steps from 20 to 25?,"4,5,7,6",5,2,Đếm từ 20 đến 25: 20 21 22 23 24 25
-SK03_0160,SK03,multiple_choice,Có bao nhiêu bước từ 20 đến 26?,How many steps from 20 to 26?,"6,7,8,5",6,2,Đếm từ 20 đến 26: 20 21 22 23 24 25 26
-SK03_0161,SK03,fill_blank,Đếm cách 2: 0 2 4 _ 8,Count by 2: 0 2 4 _ 8,,6,2,Mỗi bước cộng thêm 2
-SK03_0162,SK03,fill_blank,Đếm cách 2: 2 4 6 _ 10,Count by 2: 2 4 6 _ 10,,8,2,Mỗi bước cộng thêm 2
-SK03_0163,SK03,fill_blank,Đếm cách 2: 4 6 8 _ 12,Count by 2: 4 6 8 _ 12,,10,2,Mỗi bước cộng thêm 2
-SK03_0164,SK03,fill_blank,Đếm cách 2: 6 8 10 _ 14,Count by 2: 6 8 10 _ 14,,12,2,Mỗi bước cộng thêm 2
-SK03_0165,SK03,fill_blank,Đếm cách 2: 8 10 12 _ 16,Count by 2: 8 10 12 _ 16,,14,2,Mỗi bước cộng thêm 2
-SK03_0166,SK03,fill_blank,Đếm cách 2: 10 12 14 _ 18,Count by 2: 10 12 14 _ 18,,16,2,Mỗi bước cộng thêm 2
-SK03_0167,SK03,fill_blank,Đếm cách 2: 12 14 16 _ 20,Count by 2: 12 14 16 _ 20,,18,2,Mỗi bước cộng thêm 2
-SK03_0168,SK03,fill_blank,Đếm cách 2: 14 16 18 _ 22,Count by 2: 14 16 18 _ 22,,20,2,Mỗi bước cộng thêm 2
-SK03_0169,SK03,fill_blank,Đếm cách 2: 16 18 20 _ 24,Count by 2: 16 18 20 _ 24,,22,2,Mỗi bước cộng thêm 2
-SK03_0170,SK03,fill_blank,Đếm cách 2: 18 20 22 _ 26,Count by 2: 18 20 22 _ 26,,24,2,Mỗi bước cộng thêm 2
-SK03_0171,SK03,fill_blank,Đếm cách 2: 20 22 24 _ 28,Count by 2: 20 22 24 _ 28,,26,2,Mỗi bước cộng thêm 2
-SK03_0172,SK03,fill_blank,Đếm cách 5: 0 5 _ 15,Count by 5: 0 5 _ 15,,10,2,Mỗi bước cộng thêm 5
-SK03_0173,SK03,fill_blank,Đếm cách 5: 5 10 _ 20,Count by 5: 5 10 _ 20,,15,2,Mỗi bước cộng thêm 5
-SK03_0174,SK03,fill_blank,Đếm cách 5: 10 15 _ 25,Count by 5: 10 15 _ 25,,20,2,Mỗi bước cộng thêm 5
-SK03_0175,SK03,fill_blank,Đếm cách 5: 15 20 _ 30,Count by 5: 15 20 _ 30,,25,2,Mỗi bước cộng thêm 5
-SK03_0176,SK03,fill_blank,Đếm cách 5: 20 25 _ 35,Count by 5: 20 25 _ 35,,30,2,Mỗi bước cộng thêm 5
-SK03_0177,SK03,fill_blank,Đếm cách 5: 25 30 _ 40,Count by 5: 25 30 _ 40,,35,2,Mỗi bước cộng thêm 5
-SK03_0178,SK03,fill_blank,Đếm cách 5: 30 35 _ 45,Count by 5: 30 35 _ 45,,40,2,Mỗi bước cộng thêm 5
-SK03_0179,SK03,fill_blank,Đếm cách 5: 35 40 _ 50,Count by 5: 35 40 _ 50,,45,2,Mỗi bước cộng thêm 5
-SK03_0180,SK03,fill_blank,Đếm cách 5: 40 45 _ 55,Count by 5: 40 45 _ 55,,50,2,Mỗi bước cộng thêm 5
-SK03_0181,SK03,fill_blank,Đếm cách 5: 45 50 _ 60,Count by 5: 45 50 _ 60,,55,2,Mỗi bước cộng thêm 5
-SK03_0182,SK03,fill_blank,Đếm cách 5: 50 55 _ 65,Count by 5: 50 55 _ 65,,60,2,Mỗi bước cộng thêm 5
-SK03_0183,SK03,fill_blank,Đếm cách 10: 0 10 20 _,Count by 10: 0 10 20 _,,30,2,Mỗi bước cộng thêm 10
-SK03_0184,SK03,fill_blank,Đếm cách 10: 10 20 30 _,Count by 10: 10 20 30 _,,40,2,Mỗi bước cộng thêm 10
-SK03_0185,SK03,fill_blank,Đếm cách 10: 20 30 40 _,Count by 10: 20 30 40 _,,50,2,Mỗi bước cộng thêm 10
-SK03_0186,SK03,fill_blank,Đếm cách 10: 30 40 50 _,Count by 10: 30 40 50 _,,60,2,Mỗi bước cộng thêm 10
-SK03_0187,SK03,fill_blank,Đếm cách 10: 40 50 60 _,Count by 10: 40 50 60 _,,70,2,Mỗi bước cộng thêm 10
-SK03_0188,SK03,fill_blank,Đếm cách 10: 50 60 70 _,Count by 10: 50 60 70 _,,80,2,Mỗi bước cộng thêm 10
-SK03_0189,SK03,fill_blank,Đếm cách 10: 60 70 80 _,Count by 10: 60 70 80 _,,90,2,Mỗi bước cộng thêm 10
-SK03_0190,SK03,fill_blank,Đếm cách 10: 70 80 90 _,Count by 10: 70 80 90 _,,100,2,Mỗi bước cộng thêm 10
-SK03_0191,SK03,fill_blank,Đếm cách 3: 0 3 _ 9,Count by 3: 0 3 _ 9,,6,3,Mỗi bước cộng thêm 3
-SK03_0192,SK03,fill_blank,Đếm cách 3: 3 6 _ 12,Count by 3: 3 6 _ 12,,9,3,Mỗi bước cộng thêm 3
-SK03_0193,SK03,fill_blank,Đếm cách 3: 6 9 _ 15,Count by 3: 6 9 _ 15,,12,3,Mỗi bước cộng thêm 3
-SK03_0194,SK03,fill_blank,Đếm cách 3: 9 12 _ 18,Count by 3: 9 12 _ 18,,15,3,Mỗi bước cộng thêm 3
-SK03_0195,SK03,fill_blank,Đếm cách 3: 12 15 _ 21,Count by 3: 12 15 _ 21,,18,3,Mỗi bước cộng thêm 3
-SK03_0196,SK03,fill_blank,Đếm cách 3: 15 18 _ 24,Count by 3: 15 18 _ 24,,21,3,Mỗi bước cộng thêm 3
-SK03_0197,SK03,fill_blank,Đếm cách 3: 18 21 _ 27,Count by 3: 18 21 _ 27,,24,3,Mỗi bước cộng thêm 3
-SK03_0198,SK03,fill_blank,Đếm cách 3: 21 24 _ 30,Count by 3: 21 24 _ 30,,27,3,Mỗi bước cộng thêm 3
-SK03_0199,SK03,fill_blank,Đếm cách 3: 24 27 _ 33,Count by 3: 24 27 _ 33,,30,3,Mỗi bước cộng thêm 3
-SK03_0200,SK03,fill_blank,Đếm cách 3: 27 30 _ 36,Count by 3: 27 30 _ 36,,33,3,Mỗi bước cộng thêm 3
-SK03_0201,SK03,fill_blank,Đếm cách 3: 30 33 _ 39,Count by 3: 30 33 _ 39,,36,3,Mỗi bước cộng thêm 3
-SK03_0202,SK03,fill_blank,Đếm ngược từ 10: 10 9 8 _,Count down: 10 9 8 _,,7,2,Trừ đi 1 mỗi bước
-SK03_0203,SK03,fill_blank,Đếm ngược từ 13: 13 12 11 _,Count down: 13 12 11 _,,10,2,Trừ đi 1 mỗi bước
-SK03_0204,SK03,fill_blank,Đếm ngược từ 16: 16 15 14 _,Count down: 16 15 14 _,,13,2,Trừ đi 1 mỗi bước
-SK03_0205,SK03,fill_blank,Đếm ngược từ 19: 19 18 17 _,Count down: 19 18 17 _,,16,2,Trừ đi 1 mỗi bước
-SK03_0206,SK03,fill_blank,Đếm ngược từ 22: 22 21 20 _,Count down: 22 21 20 _,,19,3,Trừ đi 1 mỗi bước
-SK03_0207,SK03,fill_blank,Đếm ngược từ 25: 25 24 23 _,Count down: 25 24 23 _,,22,3,Trừ đi 1 mỗi bước
-SK03_0208,SK03,fill_blank,Đếm ngược từ 28: 28 27 26 _,Count down: 28 27 26 _,,25,3,Trừ đi 1 mỗi bước
-SK03_0209,SK03,multiple_choice,Có bao nhiêu số từ 1 đến 5 (kể cả 1 và 5)?,How many numbers from 1 to 5 inclusive?,"4,6,5,7",5,3,Đếm: 1 2 3 4 5
-SK03_0210,SK03,multiple_choice,Có bao nhiêu số từ 1 đến 6 (kể cả 1 và 6)?,How many numbers from 1 to 6 inclusive?,"7,8,5,6",6,3,Đếm: 1 2 3 4 5 6
-SK03_0211,SK03,multiple_choice,Có bao nhiêu số từ 1 đến 7 (kể cả 1 và 7)?,How many numbers from 1 to 7 inclusive?,"7,9,6,8",7,3,Đếm: 1 2 3 4 5 6 7
-SK03_0212,SK03,multiple_choice,Có bao nhiêu số từ 1 đến 8 (kể cả 1 và 8)?,How many numbers from 1 to 8 inclusive?,"8,7,10,9",8,3,Đếm: 1 2 3 4 5 6 7 8
-SK03_0213,SK03,multiple_choice,Có bao nhiêu số từ 2 đến 6 (kể cả 2 và 6)?,How many numbers from 2 to 6 inclusive?,"5,6,4,7",5,3,Đếm: 2 3 4 5 6
-SK03_0214,SK03,multiple_choice,Có bao nhiêu số từ 2 đến 7 (kể cả 2 và 7)?,How many numbers from 2 to 7 inclusive?,"8,7,5,6",6,3,Đếm: 2 3 4 5 6 7
-SK03_0215,SK03,multiple_choice,Có bao nhiêu số từ 2 đến 8 (kể cả 2 và 8)?,How many numbers from 2 to 8 inclusive?,"8,9,6,7",7,3,Đếm: 2 3 4 5 6 7 8
-SK03_0216,SK03,multiple_choice,Có bao nhiêu số từ 2 đến 9 (kể cả 2 và 9)?,How many numbers from 2 to 9 inclusive?,"10,9,7,8",8,3,Đếm: 2 3 4 5 6 7 8 9
-SK03_0217,SK03,multiple_choice,Có bao nhiêu số từ 3 đến 7 (kể cả 3 và 7)?,How many numbers from 3 to 7 inclusive?,"7,4,6,5",5,3,Đếm: 3 4 5 6 7
-SK03_0218,SK03,multiple_choice,Có bao nhiêu số từ 3 đến 8 (kể cả 3 và 8)?,How many numbers from 3 to 8 inclusive?,"7,5,6,8",6,3,Đếm: 3 4 5 6 7 8
-SK03_0219,SK03,multiple_choice,Có bao nhiêu số từ 3 đến 9 (kể cả 3 và 9)?,How many numbers from 3 to 9 inclusive?,"9,8,7,6",7,3,Đếm: 3 4 5 6 7 8 9
-SK03_0220,SK03,multiple_choice,Có bao nhiêu số từ 3 đến 10 (kể cả 3 và 10)?,How many numbers from 3 to 10 inclusive?,"10,7,8,9",8,3,Đếm: 3 4 5 6 7 8 9 10
-SK03_0221,SK03,multiple_choice,Có bao nhiêu số từ 4 đến 8 (kể cả 4 và 8)?,How many numbers from 4 to 8 inclusive?,"4,5,6,7",5,3,Đếm: 4 5 6 7 8
-SK03_0222,SK03,multiple_choice,Có bao nhiêu số từ 4 đến 9 (kể cả 4 và 9)?,How many numbers from 4 to 9 inclusive?,"7,8,6,5",6,3,Đếm: 4 5 6 7 8 9
-SK03_0223,SK03,multiple_choice,Có bao nhiêu số từ 4 đến 10 (kể cả 4 và 10)?,How many numbers from 4 to 10 inclusive?,"6,9,7,8",7,3,Đếm: 4 5 6 7 8 9 10
-SK03_0224,SK03,multiple_choice,Có bao nhiêu số từ 4 đến 11 (kể cả 4 và 11)?,How many numbers from 4 to 11 inclusive?,"9,10,8,7",8,3,Đếm: 4 5 6 7 8 9 10 11
-SK03_0225,SK03,multiple_choice,Có bao nhiêu số từ 5 đến 9 (kể cả 5 và 9)?,How many numbers from 5 to 9 inclusive?,"4,7,5,6",5,3,Đếm: 5 6 7 8 9
-SK03_0226,SK03,multiple_choice,Có bao nhiêu số từ 5 đến 10 (kể cả 5 và 10)?,How many numbers from 5 to 10 inclusive?,"6,5,8,7",6,3,Đếm: 5 6 7 8 9 10
-SK03_0227,SK03,multiple_choice,Có bao nhiêu số từ 5 đến 11 (kể cả 5 và 11)?,How many numbers from 5 to 11 inclusive?,"9,8,7,6",7,3,Đếm: 5 6 7 8 9 10 11
-SK03_0228,SK03,multiple_choice,Có bao nhiêu số từ 5 đến 12 (kể cả 5 và 12)?,How many numbers from 5 to 12 inclusive?,"8,10,7,9",8,3,Đếm: 5 6 7 8 9 10 11 12
-SK03_0229,SK03,multiple_choice,Có bao nhiêu số từ 6 đến 10 (kể cả 6 và 10)?,How many numbers from 6 to 10 inclusive?,"4,5,6,7",5,3,Đếm: 6 7 8 9 10
-SK03_0230,SK03,multiple_choice,Có bao nhiêu số từ 6 đến 11 (kể cả 6 và 11)?,How many numbers from 6 to 11 inclusive?,"6,7,8,5",6,3,Đếm: 6 7 8 9 10 11
-SK03_0231,SK03,multiple_choice,Có bao nhiêu số từ 6 đến 12 (kể cả 6 và 12)?,How many numbers from 6 to 12 inclusive?,"8,9,7,6",7,3,Đếm: 6 7 8 9 10 11 12
-SK03_0232,SK03,multiple_choice,Có bao nhiêu số từ 6 đến 13 (kể cả 6 và 13)?,How many numbers from 6 to 13 inclusive?,"10,8,9,7",8,3,Đếm: 6 7 8 9 10 11 12 13
-SK03_0233,SK03,multiple_choice,Có bao nhiêu số từ 7 đến 11 (kể cả 7 và 11)?,How many numbers from 7 to 11 inclusive?,"4,6,5,7",5,3,Đếm: 7 8 9 10 11
-SK03_0234,SK03,multiple_choice,Có bao nhiêu số từ 7 đến 12 (kể cả 7 và 12)?,How many numbers from 7 to 12 inclusive?,"7,6,8,5",6,3,Đếm: 7 8 9 10 11 12
-SK03_0235,SK03,multiple_choice,Có bao nhiêu số từ 7 đến 13 (kể cả 7 và 13)?,How many numbers from 7 to 13 inclusive?,"6,7,8,9",7,3,Đếm: 7 8 9 10 11 12 13
-SK03_0236,SK03,multiple_choice,Có bao nhiêu số từ 7 đến 14 (kể cả 7 và 14)?,How many numbers from 7 to 14 inclusive?,"9,8,10,7",8,3,Đếm: 7 8 9 10 11 12 13 14
-SK03_0237,SK03,multiple_choice,Có bao nhiêu số từ 8 đến 12 (kể cả 8 và 12)?,How many numbers from 8 to 12 inclusive?,"6,4,5,7",5,3,Đếm: 8 9 10 11 12
-SK03_0238,SK03,multiple_choice,Có bao nhiêu số từ 8 đến 13 (kể cả 8 và 13)?,How many numbers from 8 to 13 inclusive?,"6,7,5,8",6,3,Đếm: 8 9 10 11 12 13
-SK03_0239,SK03,multiple_choice,Có bao nhiêu số từ 8 đến 14 (kể cả 8 và 14)?,How many numbers from 8 to 14 inclusive?,"9,6,7,8",7,3,Đếm: 8 9 10 11 12 13 14
-SK03_0240,SK03,multiple_choice,Có bao nhiêu số từ 8 đến 15 (kể cả 8 và 15)?,How many numbers from 8 to 15 inclusive?,"10,7,8,9",8,3,Đếm: 8 9 10 11 12 13 14 15
-SK03_0241,SK03,multiple_choice,Có bao nhiêu số từ 9 đến 13 (kể cả 9 và 13)?,How many numbers from 9 to 13 inclusive?,"4,6,5,7",5,3,Đếm: 9 10 11 12 13
-SK03_0242,SK03,multiple_choice,Có bao nhiêu số từ 9 đến 14 (kể cả 9 và 14)?,How many numbers from 9 to 14 inclusive?,"5,6,7,8",6,3,Đếm: 9 10 11 12 13 14
-SK03_0243,SK03,multiple_choice,Có bao nhiêu số từ 9 đến 15 (kể cả 9 và 15)?,How many numbers from 9 to 15 inclusive?,"6,7,8,9",7,3,Đếm: 9 10 11 12 13 14 15
-SK03_0244,SK03,multiple_choice,Có bao nhiêu số từ 9 đến 16 (kể cả 9 và 16)?,How many numbers from 9 to 16 inclusive?,"10,7,9,8",8,3,Đếm: 9 10 11 12 13 14 15 16
-SK03_0245,SK03,multiple_choice,Có bao nhiêu số từ 10 đến 14 (kể cả 10 và 14)?,How many numbers from 10 to 14 inclusive?,"4,5,7,6",5,3,Đếm: 10 11 12 13 14
-SK03_0246,SK03,multiple_choice,Có bao nhiêu số từ 10 đến 15 (kể cả 10 và 15)?,How many numbers from 10 to 15 inclusive?,"5,7,6,8",6,3,Đếm: 10 11 12 13 14 15
-SK03_0247,SK03,multiple_choice,Có bao nhiêu số từ 10 đến 16 (kể cả 10 và 16)?,How many numbers from 10 to 16 inclusive?,"8,9,7,6",7,3,Đếm: 10 11 12 13 14 15 16
-SK03_0248,SK03,multiple_choice,Có bao nhiêu số từ 10 đến 17 (kể cả 10 và 17)?,How many numbers from 10 to 17 inclusive?,"10,9,8,7",8,3,Đếm: 10 11 12 13 14 15 16 17
-SK03_0249,SK03,multiple_choice,Có bao nhiêu số từ 11 đến 15 (kể cả 11 và 15)?,How many numbers from 11 to 15 inclusive?,"6,7,4,5",5,3,Đếm: 11 12 13 14 15
-SK03_0250,SK03,multiple_choice,Có bao nhiêu số từ 11 đến 16 (kể cả 11 và 16)?,How many numbers from 11 to 16 inclusive?,"7,5,6,8",6,3,Đếm: 11 12 13 14 15 16
-SK03_0251,SK03,multiple_choice,Có bao nhiêu số từ 11 đến 17 (kể cả 11 và 17)?,How many numbers from 11 to 17 inclusive?,"6,8,7,9",7,3,Đếm: 11 12 13 14 15 16 17
-SK03_0252,SK03,multiple_choice,Có bao nhiêu số từ 11 đến 18 (kể cả 11 và 18)?,How many numbers from 11 to 18 inclusive?,"9,7,8,10",8,3,Đếm: 11 12 13 14 15 16 17 18
-SK03_0253,SK03,multiple_choice,Có bao nhiêu số từ 12 đến 16 (kể cả 12 và 16)?,How many numbers from 12 to 16 inclusive?,"4,7,5,6",5,3,Đếm: 12 13 14 15 16
-SK03_0254,SK03,multiple_choice,Có bao nhiêu số từ 12 đến 17 (kể cả 12 và 17)?,How many numbers from 12 to 17 inclusive?,"7,6,8,5",6,3,Đếm: 12 13 14 15 16 17
-SK03_0255,SK03,multiple_choice,Có bao nhiêu số từ 12 đến 18 (kể cả 12 và 18)?,How many numbers from 12 to 18 inclusive?,"9,6,8,7",7,3,Đếm: 12 13 14 15 16 17 18
-SK03_0256,SK03,multiple_choice,Có bao nhiêu số từ 12 đến 19 (kể cả 12 và 19)?,How many numbers from 12 to 19 inclusive?,"8,10,7,9",8,3,Đếm: 12 13 14 15 16 17 18 19
-SK03_0257,SK03,multiple_choice,Có bao nhiêu số từ 13 đến 17 (kể cả 13 và 17)?,How many numbers from 13 to 17 inclusive?,"4,6,5,7",5,3,Đếm: 13 14 15 16 17
-SK03_0258,SK03,multiple_choice,Có bao nhiêu số từ 13 đến 18 (kể cả 13 và 18)?,How many numbers from 13 to 18 inclusive?,"6,7,5,8",6,3,Đếm: 13 14 15 16 17 18
-SK03_0259,SK03,multiple_choice,Có bao nhiêu số từ 13 đến 19 (kể cả 13 và 19)?,How many numbers from 13 to 19 inclusive?,"7,8,9,6",7,3,Đếm: 13 14 15 16 17 18 19
-SK03_0260,SK03,multiple_choice,Có bao nhiêu số từ 13 đến 20 (kể cả 13 và 20)?,How many numbers from 13 to 20 inclusive?,"7,8,10,9",8,3,Đếm: 13 14 15 16 17 18 19 20
-SK03_0261,SK03,multiple_choice,Có bao nhiêu số từ 14 đến 18 (kể cả 14 và 18)?,How many numbers from 14 to 18 inclusive?,"4,7,5,6",5,3,Đếm: 14 15 16 17 18
-SK03_0262,SK03,multiple_choice,Có bao nhiêu số từ 14 đến 19 (kể cả 14 và 19)?,How many numbers from 14 to 19 inclusive?,"7,8,5,6",6,3,Đếm: 14 15 16 17 18 19
-SK03_0263,SK03,multiple_choice,Có bao nhiêu số từ 14 đến 20 (kể cả 14 và 20)?,How many numbers from 14 to 20 inclusive?,"9,6,7,8",7,3,Đếm: 14 15 16 17 18 19 20
-SK03_0264,SK03,multiple_choice,Có bao nhiêu số từ 14 đến 21 (kể cả 14 và 21)?,How many numbers from 14 to 21 inclusive?,"9,8,7,10",8,3,Đếm: 14 15 16 17 18 19 20 21
-SK03_0265,SK03,multiple_choice,Có bao nhiêu số từ 15 đến 19 (kể cả 15 và 19)?,How many numbers from 15 to 19 inclusive?,"7,4,6,5",5,3,Đếm: 15 16 17 18 19
-SK03_0266,SK03,multiple_choice,Có bao nhiêu số từ 15 đến 20 (kể cả 15 và 20)?,How many numbers from 15 to 20 inclusive?,"5,8,7,6",6,3,Đếm: 15 16 17 18 19 20
-SK03_0267,SK03,multiple_choice,Có bao nhiêu số từ 15 đến 21 (kể cả 15 và 21)?,How many numbers from 15 to 21 inclusive?,"7,6,8,9",7,3,Đếm: 15 16 17 18 19 20 21
-SK03_0268,SK03,multiple_choice,Có bao nhiêu số từ 15 đến 22 (kể cả 15 và 22)?,How many numbers from 15 to 22 inclusive?,"8,10,9,7",8,3,Đếm: 15 16 17 18 19 20 21 22
-SK03_0269,SK03,multiple_choice,Có bao nhiêu số từ 16 đến 20 (kể cả 16 và 20)?,How many numbers from 16 to 20 inclusive?,"4,6,5,7",5,3,Đếm: 16 17 18 19 20
-SK03_0270,SK03,multiple_choice,Có bao nhiêu số từ 16 đến 21 (kể cả 16 và 21)?,How many numbers from 16 to 21 inclusive?,"5,6,7,8",6,3,Đếm: 16 17 18 19 20 21
-SK03_0271,SK03,multiple_choice,Có bao nhiêu số từ 16 đến 22 (kể cả 16 và 22)?,How many numbers from 16 to 22 inclusive?,"9,8,6,7",7,3,Đếm: 16 17 18 19 20 21 22
-SK03_0272,SK03,multiple_choice,Có bao nhiêu số từ 16 đến 23 (kể cả 16 và 23)?,How many numbers from 16 to 23 inclusive?,"10,7,8,9",8,3,Đếm: 16 17 18 19 20 21 22 23
-SK03_0273,SK03,multiple_choice,Có bao nhiêu số từ 17 đến 21 (kể cả 17 và 21)?,How many numbers from 17 to 21 inclusive?,"6,5,4,7",5,3,Đếm: 17 18 19 20 21
-SK03_0274,SK03,multiple_choice,Có bao nhiêu số từ 17 đến 22 (kể cả 17 và 22)?,How many numbers from 17 to 22 inclusive?,"7,8,5,6",6,3,Đếm: 17 18 19 20 21 22
-SK03_0275,SK03,multiple_choice,Có bao nhiêu số từ 17 đến 23 (kể cả 17 và 23)?,How many numbers from 17 to 23 inclusive?,"7,6,8,9",7,3,Đếm: 17 18 19 20 21 22 23
-SK03_0276,SK03,multiple_choice,Có bao nhiêu số từ 17 đến 24 (kể cả 17 và 24)?,How many numbers from 17 to 24 inclusive?,"9,7,8,10",8,3,Đếm: 17 18 19 20 21 22 23 24
-SK03_0277,SK03,multiple_choice,Có bao nhiêu số từ 18 đến 22 (kể cả 18 và 22)?,How many numbers from 18 to 22 inclusive?,"5,7,4,6",5,3,Đếm: 18 19 20 21 22
-SK03_0278,SK03,multiple_choice,Có bao nhiêu số từ 18 đến 23 (kể cả 18 và 23)?,How many numbers from 18 to 23 inclusive?,"5,7,6,8",6,3,Đếm: 18 19 20 21 22 23
-SK03_0279,SK03,multiple_choice,Có bao nhiêu số từ 18 đến 24 (kể cả 18 và 24)?,How many numbers from 18 to 24 inclusive?,"9,8,7,6",7,3,Đếm: 18 19 20 21 22 23 24
-SK03_0280,SK03,multiple_choice,Có bao nhiêu số từ 18 đến 25 (kể cả 18 và 25)?,How many numbers from 18 to 25 inclusive?,"10,8,9,7",8,3,Đếm: 18 19 20 21 22 23 24 25
-SK03_0281,SK03,multiple_choice,Có bao nhiêu số từ 19 đến 23 (kể cả 19 và 23)?,How many numbers from 19 to 23 inclusive?,"6,5,4,7",5,3,Đếm: 19 20 21 22 23
-SK03_0282,SK03,multiple_choice,Có bao nhiêu số từ 19 đến 24 (kể cả 19 và 24)?,How many numbers from 19 to 24 inclusive?,"7,6,8,5",6,3,Đếm: 19 20 21 22 23 24
-SK03_0283,SK03,multiple_choice,Có bao nhiêu số từ 19 đến 25 (kể cả 19 và 25)?,How many numbers from 19 to 25 inclusive?,"8,7,6,9",7,3,Đếm: 19 20 21 22 23 24 25
-SK03_0284,SK03,multiple_choice,Có bao nhiêu số từ 19 đến 26 (kể cả 19 và 26)?,How many numbers from 19 to 26 inclusive?,"10,8,7,9",8,3,Đếm: 19 20 21 22 23 24 25 26
-SK03_0285,SK03,multiple_choice,Có bao nhiêu số từ 20 đến 24 (kể cả 20 và 24)?,How many numbers from 20 to 24 inclusive?,"6,4,5,7",5,3,Đếm: 20 21 22 23 24
-SK03_0286,SK03,multiple_choice,Có bao nhiêu số từ 20 đến 25 (kể cả 20 và 25)?,How many numbers from 20 to 25 inclusive?,"6,8,5,7",6,3,Đếm: 20 21 22 23 24 25
-SK03_0287,SK03,multiple_choice,Có bao nhiêu số từ 20 đến 26 (kể cả 20 và 26)?,How many numbers from 20 to 26 inclusive?,"8,6,9,7",7,3,Đếm: 20 21 22 23 24 25 26
-SK03_0288,SK03,multiple_choice,Có bao nhiêu số từ 20 đến 27 (kể cả 20 và 27)?,How many numbers from 20 to 27 inclusive?,"7,10,8,9",8,3,Đếm: 20 21 22 23 24 25 26 27
+SK03_0001,SK03,multiple_choice,"0, 1, ___ tiếp theo?","0, 1, ___ what comes next?","5,3,6,2",2,1,Cộng thêm 1 vào 1
+SK03_0002,SK03,multiple_choice,"1, 2, ___ tiếp theo?","1, 2, ___ what comes next?","1,7,3,2",3,1,Cộng thêm 1 vào 2
+SK03_0003,SK03,multiple_choice,"2, 3, ___ tiếp theo?","2, 3, ___ what comes next?","3,4,7,1",4,1,Cộng thêm 1 vào 3
+SK03_0004,SK03,multiple_choice,"3, 4, ___ tiếp theo?","3, 4, ___ what comes next?","2,8,6,5",5,1,Cộng thêm 1 vào 4
+SK03_0005,SK03,multiple_choice,"4, 5, ___ tiếp theo?","4, 5, ___ what comes next?","7,9,6,10",6,1,Cộng thêm 1 vào 5
+SK03_0006,SK03,multiple_choice,"5, 6, ___ tiếp theo?","5, 6, ___ what comes next?","4,8,6,7",7,1,Cộng thêm 1 vào 6
+SK03_0007,SK03,multiple_choice,"6, 7, ___ tiếp theo?","6, 7, ___ what comes next?","10,12,8,5",8,1,Cộng thêm 1 vào 7
+SK03_0008,SK03,multiple_choice,"7, 8, ___ tiếp theo?","7, 8, ___ what comes next?","6,9,7,13",9,1,Cộng thêm 1 vào 8
+SK03_0009,SK03,multiple_choice,"8, 9, ___ tiếp theo?","8, 9, ___ what comes next?","10,12,14,11",10,1,Cộng thêm 1 vào 9
+SK03_0010,SK03,multiple_choice,"9, 10, ___ tiếp theo?","9, 10, ___ what comes next?","15,11,12,13",11,1,Cộng thêm 1 vào 10
+SK03_0011,SK03,multiple_choice,"10, 11, ___ tiếp theo?","10, 11, ___ what comes next?","9,12,15,14",12,2,Cộng thêm 1 vào 11
+SK03_0012,SK03,multiple_choice,"11, 12, ___ tiếp theo?","11, 12, ___ what comes next?","10,16,13,12",13,2,Cộng thêm 1 vào 12
+SK03_0013,SK03,multiple_choice,"12, 13, ___ tiếp theo?","12, 13, ___ what comes next?","12,11,16,14",14,2,Cộng thêm 1 vào 13
+SK03_0014,SK03,multiple_choice,"13, 14, ___ tiếp theo?","13, 14, ___ what comes next?","18,16,15,17",15,2,Cộng thêm 1 vào 14
+SK03_0015,SK03,multiple_choice,"14, 15, ___ tiếp theo?","14, 15, ___ what comes next?","15,19,16,20",16,2,Cộng thêm 1 vào 15
+SK03_0016,SK03,multiple_choice,"15, 16, ___ tiếp theo?","15, 16, ___ what comes next?","20,17,19,16",17,2,Cộng thêm 1 vào 16
+SK03_0017,SK03,multiple_choice,"16, 17, ___ tiếp theo?","16, 17, ___ what comes next?","20,21,18,16",18,2,Cộng thêm 1 vào 17
+SK03_0018,SK03,multiple_choice,"17, 18, ___ tiếp theo?","17, 18, ___ what comes next?","18,19,16,17",19,2,Cộng thêm 1 vào 18
+SK03_0019,SK03,multiple_choice,"18, 19, ___ tiếp theo?","18, 19, ___ what comes next?","20,23,21,19",20,2,Cộng thêm 1 vào 19
+SK03_0020,SK03,multiple_choice,"19, 20, ___ tiếp theo?","19, 20, ___ what comes next?","23,18,22,21",21,2,Cộng thêm 1 vào 20
+SK03_0021,SK03,multiple_choice,"0, 2, ___ (bước nhảy 2)?","0, 2, ___ (count by 2)?","6,3,0,4",4,2,Cộng thêm 2 vào 2
+SK03_0022,SK03,multiple_choice,"2, 4, ___ (bước nhảy 2)?","2, 4, ___ (count by 2)?","6,5,2,7",6,2,Cộng thêm 2 vào 4
+SK03_0023,SK03,multiple_choice,"4, 6, ___ (bước nhảy 2)?","4, 6, ___ (count by 2)?","8,7,5,10",8,2,Cộng thêm 2 vào 6
+SK03_0024,SK03,multiple_choice,"6, 8, ___ (bước nhảy 2)?","6, 8, ___ (count by 2)?","10,11,6,7",10,2,Cộng thêm 2 vào 8
+SK03_0025,SK03,multiple_choice,"8, 10, ___ (bước nhảy 2)?","8, 10, ___ (count by 2)?","12,8,9,13",12,2,Cộng thêm 2 vào 10
+SK03_0026,SK03,multiple_choice,"10, 12, ___ (bước nhảy 2)?","10, 12, ___ (count by 2)?","15,16,13,14",14,2,Cộng thêm 2 vào 12
+SK03_0027,SK03,multiple_choice,"12, 14, ___ (bước nhảy 2)?","12, 14, ___ (count by 2)?","18,13,15,16",16,2,Cộng thêm 2 vào 14
+SK03_0028,SK03,multiple_choice,"14, 16, ___ (bước nhảy 2)?","14, 16, ___ (count by 2)?","19,20,15,18",18,2,Cộng thêm 2 vào 16
+SK03_0029,SK03,multiple_choice,"16, 18, ___ (bước nhảy 2)?","16, 18, ___ (count by 2)?","22,21,20,19",20,2,Cộng thêm 2 vào 18
+SK03_0030,SK03,multiple_choice,"18, 20, ___ (bước nhảy 2)?","18, 20, ___ (count by 2)?","22,21,19,23",22,2,Cộng thêm 2 vào 20
+SK03_0031,SK03,multiple_choice,"0, 5, ___ (bước nhảy 5)?","0, 5, ___ (count by 5)?","15,10,7,6",10,2,Cộng thêm 5 vào 5
+SK03_0032,SK03,multiple_choice,"5, 10, ___ (bước nhảy 5)?","5, 10, ___ (count by 5)?","14,11,15,16",15,2,Cộng thêm 5 vào 10
+SK03_0033,SK03,multiple_choice,"10, 15, ___ (bước nhảy 5)?","10, 15, ___ (count by 5)?","20,16,19,17",20,2,Cộng thêm 5 vào 15
+SK03_0034,SK03,multiple_choice,"15, 20, ___ (bước nhảy 5)?","15, 20, ___ (count by 5)?","30,25,26,24",25,2,Cộng thêm 5 vào 20
+SK03_0035,SK03,multiple_choice,"20, 25, ___ (bước nhảy 5)?","20, 25, ___ (count by 5)?","31,27,29,30",30,2,Cộng thêm 5 vào 25
+SK03_0036,SK03,multiple_choice,"25, 30, ___ (bước nhảy 5)?","25, 30, ___ (count by 5)?","40,36,33,35",35,2,Cộng thêm 5 vào 30
+SK03_0037,SK03,multiple_choice,"30, 35, ___ (bước nhảy 5)?","30, 35, ___ (count by 5)?","40,45,39,41",40,2,Cộng thêm 5 vào 35
+SK03_0038,SK03,multiple_choice,"35, 40, ___ (bước nhảy 5)?","35, 40, ___ (count by 5)?","50,45,43,44",45,2,Cộng thêm 5 vào 40
+SK03_0039,SK03,multiple_choice,"40, 45, ___ (bước nhảy 5)?","40, 45, ___ (count by 5)?","47,50,49,55",50,2,Cộng thêm 5 vào 45
+SK03_0040,SK03,multiple_choice,"45, 50, ___ (bước nhảy 5)?","45, 50, ___ (count by 5)?","53,55,54,56",55,2,Cộng thêm 5 vào 50
+SK03_0041,SK03,multiple_choice,"0, 10, ___ (bước nhảy 10)?","0, 10, ___ (count by 10)?","30,21,20,11",20,2,Cộng thêm 10 vào 10
+SK03_0042,SK03,multiple_choice,"10, 20, ___ (bước nhảy 10)?","10, 20, ___ (count by 10)?","31,30,40,21",30,2,Cộng thêm 10 vào 20
+SK03_0043,SK03,multiple_choice,"20, 30, ___ (bước nhảy 10)?","20, 30, ___ (count by 10)?","40,31,35,41",40,2,Cộng thêm 10 vào 30
+SK03_0044,SK03,multiple_choice,"30, 40, ___ (bước nhảy 10)?","30, 40, ___ (count by 10)?","50,48,41,51",50,2,Cộng thêm 10 vào 40
+SK03_0045,SK03,multiple_choice,"40, 50, ___ (bước nhảy 10)?","40, 50, ___ (count by 10)?","51,70,58,60",60,2,Cộng thêm 10 vào 50
+SK03_0046,SK03,multiple_choice,"50, 60, ___ (bước nhảy 10)?","50, 60, ___ (count by 10)?","65,80,61,70",70,2,Cộng thêm 10 vào 60
+SK03_0047,SK03,multiple_choice,"60, 70, ___ (bước nhảy 10)?","60, 70, ___ (count by 10)?","81,78,80,75",80,2,Cộng thêm 10 vào 70
+SK03_0048,SK03,multiple_choice,"70, 80, ___ (bước nhảy 10)?","70, 80, ___ (count by 10)?","90,85,88,81",90,2,Cộng thêm 10 vào 80
+SK03_0049,SK03,multiple_choice,"11, 10, ___ đếm lùi?","11, 10, ___ count down?","6,9,12,10",9,2,Trừ đi 1 từ 10
+SK03_0050,SK03,multiple_choice,"10, 9, ___ đếm lùi?","10, 9, ___ count down?","5,8,11,4",8,2,Trừ đi 1 từ 9
+SK03_0051,SK03,multiple_choice,"9, 8, ___ đếm lùi?","9, 8, ___ count down?","7,8,4,6",7,2,Trừ đi 1 từ 8
+SK03_0052,SK03,multiple_choice,"8, 7, ___ đếm lùi?","8, 7, ___ count down?","4,6,5,2",6,2,Trừ đi 1 từ 7
+SK03_0053,SK03,multiple_choice,"7, 6, ___ đếm lùi?","7, 6, ___ count down?","5,1,3,4",5,2,Trừ đi 1 từ 6
+SK03_0054,SK03,multiple_choice,"6, 5, ___ đếm lùi?","6, 5, ___ count down?","3,6,4,2",4,2,Trừ đi 1 từ 5
+SK03_0055,SK03,multiple_choice,"5, 4, ___ đếm lùi?","5, 4, ___ count down?","3,4,0,1",3,2,Trừ đi 1 từ 4
+SK03_0056,SK03,multiple_choice,"4, 3, ___ đếm lùi?","4, 3, ___ count down?","4,5,2,3",2,2,Trừ đi 1 từ 3
+SK03_0057,SK03,multiple_choice,"3, 2, ___ đếm lùi?","3, 2, ___ count down?","0,1,3,4",1,2,Trừ đi 1 từ 2
+SK03_0058,SK03,multiple_choice,"2, 1, ___ đếm lùi?","2, 1, ___ count down?","0,1,2,3",0,2,Trừ đi 1 từ 1
+SK03_0059,SK03,multiple_choice,"12, 10, ___ đếm lùi bước 2?","12, 10, ___ count back by 2?","9,6,7,8",8,3,Trừ đi 2 từ 10
+SK03_0060,SK03,multiple_choice,"14, 12, ___ đếm lùi bước 2?","14, 12, ___ count back by 2?","11,13,10,8",10,3,Trừ đi 2 từ 12
+SK03_0061,SK03,multiple_choice,"16, 14, ___ đếm lùi bước 2?","16, 14, ___ count back by 2?","15,10,12,13",12,3,Trừ đi 2 từ 14
+SK03_0062,SK03,multiple_choice,"18, 16, ___ đếm lùi bước 2?","18, 16, ___ count back by 2?","14,12,18,15",14,3,Trừ đi 2 từ 16
+SK03_0063,SK03,multiple_choice,"20, 18, ___ đếm lùi bước 2?","20, 18, ___ count back by 2?","17,14,15,16",16,3,Trừ đi 2 từ 18
+SK03_0064,SK03,multiple_choice,"22, 20, ___ đếm lùi bước 2?","22, 20, ___ count back by 2?","19,21,18,16",18,3,Trừ đi 2 từ 20
+SK03_0065,SK03,multiple_choice,"10, 8, ___ đếm lùi bước 2?","10, 8, ___ count back by 2?","6,10,5,4",6,3,Trừ đi 2 từ 8
+SK03_0066,SK03,multiple_choice,"8, 6, ___ đếm lùi bước 2?","8, 6, ___ count back by 2?","8,5,4,7",4,3,Trừ đi 2 từ 6

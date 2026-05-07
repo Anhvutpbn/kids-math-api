@@ -19,6 +19,8 @@ import { Skill } from './modules/skills/schemas/skill.schema';
 import { Badge } from './modules/badges/schemas/badge.schema';
 import { LearningSession } from './modules/sessions/schemas/session.schema';
 import { SkillMap } from './modules/skills/schemas/skill-map.schema';
+import { MemoryGameResult } from './modules/memory-game/schemas/memory-game-result.schema';
+import { MemoryGameProgress } from './modules/memory-game/schemas/memory-game-progress.schema';
 
 if (!fs.existsSync('logs')) fs.mkdirSync('logs');
 
@@ -116,6 +118,24 @@ async function bootstrap() {
           navigation: { name: 'Monitoring', icon: 'BarChart' },
           listProperties: ['userId', 'skillId', 'masteryScore', 'locked', 'errorTypeFlag', 'lastPracticedAt'],
           filterProperties: ['skillId', 'locked', 'errorTypeFlag'],
+          actions: { new: { isAccessible: false }, edit: { isAccessible: false }, delete: { isAccessible: false } },
+        },
+      },
+      {
+        resource: app.get(getModelToken(MemoryGameResult.name)),
+        options: {
+          navigation: { name: 'Memory Game', icon: 'Brain' },
+          listProperties: ['userId', 'level', 'tier', 'numBoxes', 'mistakesMade', 'passed', 'durationMs', 'createdAt'],
+          filterProperties: ['tier', 'passed'],
+          actions: { new: { isAccessible: false }, edit: { isAccessible: false }, delete: { isAccessible: false } },
+        },
+      },
+      {
+        resource: app.get(getModelToken(MemoryGameProgress.name)),
+        options: {
+          navigation: { name: 'Memory Game', icon: 'Brain' },
+          listProperties: ['userId', 'maxLevelUnlocked', 'tiersCompleted', 'updatedAt'],
+          filterProperties: [],
           actions: { new: { isAccessible: false }, edit: { isAccessible: false }, delete: { isAccessible: false } },
         },
       },

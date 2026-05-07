@@ -87,11 +87,43 @@ export class AiService {
     // Check badges
     const newBadges: any[] = [];
 
+    // first_correct: award once when user gets any correct answer
+    if (results.some((r) => r.isCorrect)) {
+      const firstCorrectBadges = await this.badgesService.checkAndAwardBadges(
+        userId, 'first_correct', 1,
+      );
+      newBadges.push(...firstCorrectBadges);
+    }
+
+    // skill_mastered + milestone badges: check each skill updated this session
     for (const { skillId, masteryScore } of masteryEvents) {
       const awarded = await this.badgesService.checkAndAwardBadges(
-        userId, 'skill_mastery', { skillId, masteryScore },
+        userId, 'skill_mastered', { skillId, masteryScore },
       );
       newBadges.push(...awarded);
+
+      if (masteryScore >= 40) {
+        const b = await this.badgesService.checkAndAwardBadges(userId, 'skill_mastery_40', { skillId });
+        newBadges.push(...b);
+      }
+      if (masteryScore >= 60) {
+        const b = await this.badgesService.checkAndAwardBadges(userId, 'skill_mastery_60', { skillId });
+        newBadges.push(...b);
+      }
+      if (masteryScore >= 100) {
+        const b = await this.badgesService.checkAndAwardBadges(userId, 'skill_mastery_100', { skillId });
+        newBadges.push(...b);
+      }
+    }
+
+    // all_skills_mastered: check if every skill in map has reached mastery
+    const fullSkillMap = await this.skillsService.getSkillMap(userId);
+    const masteredCount = fullSkillMap.filter((s) => s.masteryScore >= 80).length;
+    if (masteredCount >= 7) {
+      const allMasteredBadges = await this.badgesService.checkAndAwardBadges(
+        userId, 'all_skills_mastered', masteredCount,
+      );
+      newBadges.push(...allMasteredBadges);
     }
 
     // Streak badge check

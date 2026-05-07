@@ -23,27 +23,23 @@ export class SeedService implements OnApplicationBootstrap {
 
   async onApplicationBootstrap() {
     const dataDir = this.config.get<string>('dataDir') ?? './data';
-    await this.migrateMinMaxToSk08();
     await this.seedSkills(dataDir);
     await this.seedQuestions(dataDir);
     await this.seedBadges(dataDir);
   }
 
-  // One-time migration: remove old min_max questions that were under SK04
-  private async migrateMinMaxToSk08() {
-    const result = await this.questionModel.deleteMany({ type: 'min_max', skillId: 'SK04' });
-    if (result.deletedCount > 0) {
-      this.logger.log(`Migration: removed ${result.deletedCount} old SK04 min_max questions`);
-    }
-  }
-
   private async seedSkills(dataDir: string) {
     const rows = loadCsv<any>(path.join(dataDir, 'skills.csv'));
-    const existing = await this.skillModel.countDocuments();
-    if (existing >= rows.length) {
-      this.logger.log(`Skills already seeded (${existing}), skipping`);
+    const csvCount = rows.length;
+    const dbCount = await this.skillModel.countDocuments();
+
+    if (dbCount === csvCount) {
+      this.logger.log(`Skills already seeded (${dbCount}), skipping`);
       return;
     }
+
+    // Count mismatch → wipe and reload from CSV
+    await this.skillModel.deleteMany({});
     const docs = rows.map((row) => ({
       id: row.id,
       nameVi: row.name_vi,
@@ -53,11 +49,24 @@ export class SeedService implements OnApplicationBootstrap {
       order: parseInt(row.order, 10),
     }));
     await this.skillModel.insertMany(docs, { ordered: false });
-    this.logger.log(`Seeded ${docs.length} skills`);
+    this.logger.log(`Seeded ${docs.length} skills (replaced ${dbCount} old)`);
   }
 
   private async seedQuestions(dataDir: string) {
     const rows = loadAllQuestionCsvs(dataDir);
+    const csvCount = rows.length;
+    const dbCount = await this.questionModel.countDocuments();
+
+    if (dbCount === csvCount) {
+      this.logger.log(`Questions already seeded (${dbCount}), skipping`);
+      return;
+    }
+
+    // Count mismatch → wipe questions + queues, then insert fresh from CSV
+    this.logger.log(`CSV has ${csvCount} questions, DB has ${dbCount} — reseeding...`);
+    await this.questionModel.deleteMany({});
+    await this.queueModel.deleteMany({});
+
     const docs = rows.map((row) => ({
       id: row.id,
       skillId: row.skill_id,
@@ -71,27 +80,8 @@ export class SeedService implements OnApplicationBootstrap {
       imagePath: row.image_path || null,
     }));
 
-    // Upsert: insert new questions, skip existing ones
-    const result = await this.questionModel.bulkWrite(
-      docs.map((doc) => ({
-        updateOne: {
-          filter: { id: doc.id },
-          update: { $setOnInsert: doc },
-          upsert: true,
-        },
-      })),
-      { ordered: false },
-    );
-
-    const inserted = result.upsertedCount ?? 0;
-    this.logger.log(`Questions: ${docs.length} in CSV, ${inserted} newly inserted`);
-
-    // New questions added → clear all pending queues so next session
-    // generates a fresh queue that includes the new question types
-    if (inserted > 0) {
-      const cleared = await this.queueModel.deleteMany({ status: 'pending' });
-      this.logger.log(`Cleared ${cleared.deletedCount} stale pending queues`);
-    }
+    await this.questionModel.insertMany(docs, { ordered: false });
+    this.logger.log(`Seeded ${docs.length} questions`);
   }
 
   private async seedBadges(dataDir: string) {

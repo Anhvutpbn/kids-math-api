@@ -1,172 +1,90 @@
 id,skill_id,type,question_vi,question_en,options,correct_answer,difficulty,hint_vi
-SK02_0001,SK02,multiple_choice,Số nào là số mười một?,Which number is 11?,"10,9,11,13",11,1,Mười một viết là 11
-SK02_0002,SK02,multiple_choice,Số nào là số mười bốn?,Which number is 14?,"13,14,16,12",14,1,Mười bốn viết là 14
-SK02_0003,SK02,multiple_choice,Số nào là số mười bảy?,Which number is 17?,"17,16,15,19",17,1,Mười bảy viết là 17
-SK02_0004,SK02,multiple_choice,Số nào là số hai mươi?,Which number is 20?,"20,19,18,21",20,1,Hai mươi viết là 20
-SK02_0005,SK02,multiple_choice,Số nào là số hai mươi ba?,Which number is 23?,"21,25,23,22",23,1,Hai mươi ba viết là 23
-SK02_0006,SK02,multiple_choice,Số nào là số hai mươi sáu?,Which number is 26?,"26,27,24,25",26,1,Hai mươi sáu viết là 26
-SK02_0007,SK02,multiple_choice,Số nào là số hai mươi chín?,Which number is 29?,"31,28,29,30",29,1,Hai mươi chín viết là 29
-SK02_0008,SK02,multiple_choice,Số nào là số ba mươi hai?,Which number is 32?,"30,33,31,32",32,1,Ba mươi hai viết là 32
-SK02_0009,SK02,multiple_choice,Số nào là số ba mươi năm?,Which number is 35?,"33,35,37,34",35,1,Ba mươi năm viết là 35
-SK02_0010,SK02,multiple_choice,Số nào là số ba mươi tám?,Which number is 38?,"37,40,38,36",38,1,Ba mươi tám viết là 38
-SK02_0011,SK02,multiple_choice,Số nào là số bốn mươi mốt?,Which number is 41?,"40,43,42,41",41,1,Bốn mươi mốt viết là 41
-SK02_0012,SK02,multiple_choice,Số nào là số bốn mươi bốn?,Which number is 44?,"46,45,44,42",44,1,Bốn mươi bốn viết là 44
-SK02_0013,SK02,multiple_choice,Số nào là số bốn mươi bảy?,Which number is 47?,"49,47,45,46",47,1,Bốn mươi bảy viết là 47
-SK02_0014,SK02,multiple_choice,Số nào là số năm mươi?,Which number is 50?,"52,48,49,50",50,1,Năm mươi viết là 50
-SK02_0015,SK02,multiple_choice,Số nào là số năm mươi ba?,Which number is 53?,"55,52,53,51",53,2,Năm mươi ba viết là 53
-SK02_0016,SK02,multiple_choice,Số nào là số năm mươi sáu?,Which number is 56?,"57,58,56,55",56,2,Năm mươi sáu viết là 56
-SK02_0017,SK02,multiple_choice,Số nào là số năm mươi chín?,Which number is 59?,"59,58,57,61",59,2,Năm mươi chín viết là 59
-SK02_0018,SK02,multiple_choice,Số nào là số sáu mươi hai?,Which number is 62?,"61,62,63,60",62,2,Sáu mươi hai viết là 62
-SK02_0019,SK02,multiple_choice,Số nào là số sáu mươi năm?,Which number is 65?,"63,64,65,66",65,2,Sáu mươi năm viết là 65
-SK02_0020,SK02,multiple_choice,Số nào là số sáu mươi tám?,Which number is 68?,"70,69,66,68",68,2,Sáu mươi tám viết là 68
-SK02_0021,SK02,multiple_choice,Số nào là số bảy mươi mốt?,Which number is 71?,"69,72,73,71",71,2,Bảy mươi mốt viết là 71
-SK02_0022,SK02,multiple_choice,Số nào là số bảy mươi bốn?,Which number is 74?,"75,76,73,74",74,2,Bảy mươi bốn viết là 74
-SK02_0023,SK02,multiple_choice,Số nào là số bảy mươi bảy?,Which number is 77?,"76,77,79,78",77,2,Bảy mươi bảy viết là 77
-SK02_0024,SK02,multiple_choice,Số nào là số tám mươi?,Which number is 80?,"80,82,79,78",80,2,Tám mươi viết là 80
-SK02_0025,SK02,multiple_choice,Số nào là số tám mươi ba?,Which number is 83?,"81,85,83,82",83,2,Tám mươi ba viết là 83
-SK02_0026,SK02,multiple_choice,Số nào là số tám mươi sáu?,Which number is 86?,"86,84,85,88",86,2,Tám mươi sáu viết là 86
-SK02_0027,SK02,multiple_choice,Số nào là số tám mươi chín?,Which number is 89?,"89,91,88,90",89,2,Tám mươi chín viết là 89
-SK02_0028,SK02,multiple_choice,Số nào là số chín mươi hai?,Which number is 92?,"92,91,90,93",92,2,Chín mươi hai viết là 92
-SK02_0029,SK02,multiple_choice,Số nào là số chín mươi năm?,Which number is 95?,"97,96,95,93",95,2,Chín mươi năm viết là 95
-SK02_0030,SK02,multiple_choice,Số nào là số chín mươi tám?,Which number is 98?,"96,100,99,98",98,2,Chín mươi tám viết là 98
-SK02_0031,SK02,fill_blank,Điền số còn thiếu: 10 11 _ 13,Fill the blank: 10 11 _ 13,,12,1,Số đứng giữa 11 và 13
-SK02_0032,SK02,fill_blank,Điền số còn thiếu: 15 16 _ 18,Fill the blank: 15 16 _ 18,,17,1,Số đứng giữa 16 và 18
-SK02_0033,SK02,fill_blank,Điền số còn thiếu: 20 21 _ 23,Fill the blank: 20 21 _ 23,,22,1,Số đứng giữa 21 và 23
-SK02_0034,SK02,fill_blank,Điền số còn thiếu: 25 26 _ 28,Fill the blank: 25 26 _ 28,,27,1,Số đứng giữa 26 và 28
-SK02_0035,SK02,fill_blank,Điền số còn thiếu: 30 31 _ 33,Fill the blank: 30 31 _ 33,,32,1,Số đứng giữa 31 và 33
-SK02_0036,SK02,fill_blank,Điền số còn thiếu: 35 36 _ 38,Fill the blank: 35 36 _ 38,,37,1,Số đứng giữa 36 và 38
-SK02_0037,SK02,fill_blank,Điền số còn thiếu: 40 41 _ 43,Fill the blank: 40 41 _ 43,,42,1,Số đứng giữa 41 và 43
-SK02_0038,SK02,fill_blank,Điền số còn thiếu: 45 46 _ 48,Fill the blank: 45 46 _ 48,,47,1,Số đứng giữa 46 và 48
-SK02_0039,SK02,fill_blank,Điền số còn thiếu: 50 51 _ 53,Fill the blank: 50 51 _ 53,,52,1,Số đứng giữa 51 và 53
-SK02_0040,SK02,fill_blank,Điền số còn thiếu: 55 56 _ 58,Fill the blank: 55 56 _ 58,,57,2,Số đứng giữa 56 và 58
-SK02_0041,SK02,fill_blank,Điền số còn thiếu: 60 61 _ 63,Fill the blank: 60 61 _ 63,,62,2,Số đứng giữa 61 và 63
-SK02_0042,SK02,fill_blank,Điền số còn thiếu: 65 66 _ 68,Fill the blank: 65 66 _ 68,,67,2,Số đứng giữa 66 và 68
-SK02_0043,SK02,fill_blank,Điền số còn thiếu: 70 71 _ 73,Fill the blank: 70 71 _ 73,,72,2,Số đứng giữa 71 và 73
-SK02_0044,SK02,fill_blank,Điền số còn thiếu: 75 76 _ 78,Fill the blank: 75 76 _ 78,,77,2,Số đứng giữa 76 và 78
-SK02_0045,SK02,fill_blank,Điền số còn thiếu: 80 81 _ 83,Fill the blank: 80 81 _ 83,,82,2,Số đứng giữa 81 và 83
-SK02_0046,SK02,fill_blank,Điền số còn thiếu: 85 86 _ 88,Fill the blank: 85 86 _ 88,,87,2,Số đứng giữa 86 và 88
-SK02_0047,SK02,fill_blank,Điền số còn thiếu: 90 91 _ 93,Fill the blank: 90 91 _ 93,,92,2,Số đứng giữa 91 và 93
-SK02_0048,SK02,fill_blank,Điền số còn thiếu: 95 96 _ 98,Fill the blank: 95 96 _ 98,,97,2,Số đứng giữa 96 và 98
-SK02_0049,SK02,fill_blank,Số tiếp theo của 10 là số mấy?,What comes after 10?,,11,1,Cộng thêm 1 vào 10
-SK02_0050,SK02,fill_blank,Số tiếp theo của 14 là số mấy?,What comes after 14?,,15,1,Cộng thêm 1 vào 14
-SK02_0051,SK02,fill_blank,Số tiếp theo của 18 là số mấy?,What comes after 18?,,19,1,Cộng thêm 1 vào 18
-SK02_0052,SK02,fill_blank,Số tiếp theo của 22 là số mấy?,What comes after 22?,,23,1,Cộng thêm 1 vào 22
-SK02_0053,SK02,fill_blank,Số tiếp theo của 26 là số mấy?,What comes after 26?,,27,1,Cộng thêm 1 vào 26
-SK02_0054,SK02,fill_blank,Số tiếp theo của 30 là số mấy?,What comes after 30?,,31,1,Cộng thêm 1 vào 30
-SK02_0055,SK02,fill_blank,Số tiếp theo của 34 là số mấy?,What comes after 34?,,35,1,Cộng thêm 1 vào 34
-SK02_0056,SK02,fill_blank,Số tiếp theo của 38 là số mấy?,What comes after 38?,,39,1,Cộng thêm 1 vào 38
-SK02_0057,SK02,fill_blank,Số tiếp theo của 42 là số mấy?,What comes after 42?,,43,1,Cộng thêm 1 vào 42
-SK02_0058,SK02,fill_blank,Số tiếp theo của 46 là số mấy?,What comes after 46?,,47,1,Cộng thêm 1 vào 46
-SK02_0059,SK02,fill_blank,Số tiếp theo của 50 là số mấy?,What comes after 50?,,51,1,Cộng thêm 1 vào 50
-SK02_0060,SK02,fill_blank,Số tiếp theo của 54 là số mấy?,What comes after 54?,,55,2,Cộng thêm 1 vào 54
-SK02_0061,SK02,fill_blank,Số tiếp theo của 58 là số mấy?,What comes after 58?,,59,2,Cộng thêm 1 vào 58
-SK02_0062,SK02,fill_blank,Số tiếp theo của 62 là số mấy?,What comes after 62?,,63,2,Cộng thêm 1 vào 62
-SK02_0063,SK02,fill_blank,Số tiếp theo của 66 là số mấy?,What comes after 66?,,67,2,Cộng thêm 1 vào 66
-SK02_0064,SK02,fill_blank,Số tiếp theo của 70 là số mấy?,What comes after 70?,,71,2,Cộng thêm 1 vào 70
-SK02_0065,SK02,fill_blank,Số tiếp theo của 74 là số mấy?,What comes after 74?,,75,2,Cộng thêm 1 vào 74
-SK02_0066,SK02,fill_blank,Số tiếp theo của 78 là số mấy?,What comes after 78?,,79,2,Cộng thêm 1 vào 78
-SK02_0067,SK02,fill_blank,Số tiếp theo của 82 là số mấy?,What comes after 82?,,83,2,Cộng thêm 1 vào 82
-SK02_0068,SK02,fill_blank,Số tiếp theo của 86 là số mấy?,What comes after 86?,,87,2,Cộng thêm 1 vào 86
-SK02_0069,SK02,fill_blank,Số tiếp theo của 90 là số mấy?,What comes after 90?,,91,2,Cộng thêm 1 vào 90
-SK02_0070,SK02,fill_blank,Số tiếp theo của 94 là số mấy?,What comes after 94?,,95,2,Cộng thêm 1 vào 94
-SK02_0071,SK02,fill_blank,Số tiếp theo của 98 là số mấy?,What comes after 98?,,99,2,Cộng thêm 1 vào 98
-SK02_0072,SK02,fill_blank,Số liền trước 11 là số mấy?,What comes before 11?,,10,1,Lấy 11 trừ đi 1
-SK02_0073,SK02,fill_blank,Số liền trước 15 là số mấy?,What comes before 15?,,14,1,Lấy 15 trừ đi 1
-SK02_0074,SK02,fill_blank,Số liền trước 19 là số mấy?,What comes before 19?,,18,1,Lấy 19 trừ đi 1
-SK02_0075,SK02,fill_blank,Số liền trước 23 là số mấy?,What comes before 23?,,22,1,Lấy 23 trừ đi 1
-SK02_0076,SK02,fill_blank,Số liền trước 27 là số mấy?,What comes before 27?,,26,1,Lấy 27 trừ đi 1
-SK02_0077,SK02,fill_blank,Số liền trước 31 là số mấy?,What comes before 31?,,30,1,Lấy 31 trừ đi 1
-SK02_0078,SK02,fill_blank,Số liền trước 35 là số mấy?,What comes before 35?,,34,1,Lấy 35 trừ đi 1
-SK02_0079,SK02,fill_blank,Số liền trước 39 là số mấy?,What comes before 39?,,38,1,Lấy 39 trừ đi 1
-SK02_0080,SK02,fill_blank,Số liền trước 43 là số mấy?,What comes before 43?,,42,1,Lấy 43 trừ đi 1
-SK02_0081,SK02,fill_blank,Số liền trước 47 là số mấy?,What comes before 47?,,46,1,Lấy 47 trừ đi 1
-SK02_0082,SK02,fill_blank,Số liền trước 51 là số mấy?,What comes before 51?,,50,2,Lấy 51 trừ đi 1
-SK02_0083,SK02,fill_blank,Số liền trước 55 là số mấy?,What comes before 55?,,54,2,Lấy 55 trừ đi 1
-SK02_0084,SK02,fill_blank,Số liền trước 59 là số mấy?,What comes before 59?,,58,2,Lấy 59 trừ đi 1
-SK02_0085,SK02,fill_blank,Số liền trước 63 là số mấy?,What comes before 63?,,62,2,Lấy 63 trừ đi 1
-SK02_0086,SK02,fill_blank,Số liền trước 67 là số mấy?,What comes before 67?,,66,2,Lấy 67 trừ đi 1
-SK02_0087,SK02,fill_blank,Số liền trước 71 là số mấy?,What comes before 71?,,70,2,Lấy 71 trừ đi 1
-SK02_0088,SK02,fill_blank,Số liền trước 75 là số mấy?,What comes before 75?,,74,2,Lấy 75 trừ đi 1
-SK02_0089,SK02,fill_blank,Số liền trước 79 là số mấy?,What comes before 79?,,78,2,Lấy 79 trừ đi 1
-SK02_0090,SK02,fill_blank,Số liền trước 83 là số mấy?,What comes before 83?,,82,2,Lấy 83 trừ đi 1
-SK02_0091,SK02,fill_blank,Số liền trước 87 là số mấy?,What comes before 87?,,86,2,Lấy 87 trừ đi 1
-SK02_0092,SK02,fill_blank,Số liền trước 91 là số mấy?,What comes before 91?,,90,2,Lấy 91 trừ đi 1
-SK02_0093,SK02,fill_blank,Số liền trước 95 là số mấy?,What comes before 95?,,94,2,Lấy 95 trừ đi 1
-SK02_0094,SK02,fill_blank,Số liền trước 99 là số mấy?,What comes before 99?,,98,2,Lấy 99 trừ đi 1
-SK02_0095,SK02,fill_blank,Số có hàng chục là 1 và hàng đơn vị là 3 là số mấy?,Tens digit 1 and units digit 3. What number?,,13,2,"1 chục = 10, cộng 3 đơn vị"
-SK02_0096,SK02,fill_blank,Số có hàng chục là 1 và hàng đơn vị là 6 là số mấy?,Tens digit 1 and units digit 6. What number?,,16,2,"1 chục = 10, cộng 6 đơn vị"
-SK02_0097,SK02,fill_blank,Số có hàng chục là 1 và hàng đơn vị là 9 là số mấy?,Tens digit 1 and units digit 9. What number?,,19,2,"1 chục = 10, cộng 9 đơn vị"
-SK02_0098,SK02,fill_blank,Số có hàng chục là 2 và hàng đơn vị là 0 là số mấy?,Tens digit 2 and units digit 0. What number?,,20,2,"2 chục = 20, cộng 0 đơn vị"
-SK02_0099,SK02,fill_blank,Số có hàng chục là 2 và hàng đơn vị là 3 là số mấy?,Tens digit 2 and units digit 3. What number?,,23,2,"2 chục = 20, cộng 3 đơn vị"
-SK02_0100,SK02,fill_blank,Số có hàng chục là 2 và hàng đơn vị là 6 là số mấy?,Tens digit 2 and units digit 6. What number?,,26,2,"2 chục = 20, cộng 6 đơn vị"
-SK02_0101,SK02,fill_blank,Số có hàng chục là 2 và hàng đơn vị là 9 là số mấy?,Tens digit 2 and units digit 9. What number?,,29,2,"2 chục = 20, cộng 9 đơn vị"
-SK02_0102,SK02,fill_blank,Số có hàng chục là 3 và hàng đơn vị là 0 là số mấy?,Tens digit 3 and units digit 0. What number?,,30,2,"3 chục = 30, cộng 0 đơn vị"
-SK02_0103,SK02,fill_blank,Số có hàng chục là 3 và hàng đơn vị là 3 là số mấy?,Tens digit 3 and units digit 3. What number?,,33,2,"3 chục = 30, cộng 3 đơn vị"
-SK02_0104,SK02,fill_blank,Số có hàng chục là 3 và hàng đơn vị là 6 là số mấy?,Tens digit 3 and units digit 6. What number?,,36,2,"3 chục = 30, cộng 6 đơn vị"
-SK02_0105,SK02,fill_blank,Số có hàng chục là 3 và hàng đơn vị là 9 là số mấy?,Tens digit 3 and units digit 9. What number?,,39,2,"3 chục = 30, cộng 9 đơn vị"
-SK02_0106,SK02,fill_blank,Số có hàng chục là 4 và hàng đơn vị là 0 là số mấy?,Tens digit 4 and units digit 0. What number?,,40,2,"4 chục = 40, cộng 0 đơn vị"
-SK02_0107,SK02,fill_blank,Số có hàng chục là 4 và hàng đơn vị là 3 là số mấy?,Tens digit 4 and units digit 3. What number?,,43,2,"4 chục = 40, cộng 3 đơn vị"
-SK02_0108,SK02,fill_blank,Số có hàng chục là 4 và hàng đơn vị là 6 là số mấy?,Tens digit 4 and units digit 6. What number?,,46,2,"4 chục = 40, cộng 6 đơn vị"
-SK02_0109,SK02,fill_blank,Số có hàng chục là 4 và hàng đơn vị là 9 là số mấy?,Tens digit 4 and units digit 9. What number?,,49,2,"4 chục = 40, cộng 9 đơn vị"
-SK02_0110,SK02,fill_blank,Số có hàng chục là 5 và hàng đơn vị là 0 là số mấy?,Tens digit 5 and units digit 0. What number?,,50,2,"5 chục = 50, cộng 0 đơn vị"
-SK02_0111,SK02,fill_blank,Số có hàng chục là 5 và hàng đơn vị là 3 là số mấy?,Tens digit 5 and units digit 3. What number?,,53,2,"5 chục = 50, cộng 3 đơn vị"
-SK02_0112,SK02,fill_blank,Số có hàng chục là 5 và hàng đơn vị là 6 là số mấy?,Tens digit 5 and units digit 6. What number?,,56,2,"5 chục = 50, cộng 6 đơn vị"
-SK02_0113,SK02,fill_blank,Số có hàng chục là 5 và hàng đơn vị là 9 là số mấy?,Tens digit 5 and units digit 9. What number?,,59,2,"5 chục = 50, cộng 9 đơn vị"
-SK02_0114,SK02,fill_blank,Số có hàng chục là 6 và hàng đơn vị là 0 là số mấy?,Tens digit 6 and units digit 0. What number?,,60,2,"6 chục = 60, cộng 0 đơn vị"
-SK02_0115,SK02,fill_blank,Số có hàng chục là 6 và hàng đơn vị là 3 là số mấy?,Tens digit 6 and units digit 3. What number?,,63,2,"6 chục = 60, cộng 3 đơn vị"
-SK02_0116,SK02,fill_blank,Số có hàng chục là 6 và hàng đơn vị là 6 là số mấy?,Tens digit 6 and units digit 6. What number?,,66,2,"6 chục = 60, cộng 6 đơn vị"
-SK02_0117,SK02,fill_blank,Số có hàng chục là 6 và hàng đơn vị là 9 là số mấy?,Tens digit 6 and units digit 9. What number?,,69,2,"6 chục = 60, cộng 9 đơn vị"
-SK02_0118,SK02,fill_blank,Số có hàng chục là 7 và hàng đơn vị là 0 là số mấy?,Tens digit 7 and units digit 0. What number?,,70,2,"7 chục = 70, cộng 0 đơn vị"
-SK02_0119,SK02,fill_blank,Số có hàng chục là 7 và hàng đơn vị là 3 là số mấy?,Tens digit 7 and units digit 3. What number?,,73,2,"7 chục = 70, cộng 3 đơn vị"
-SK02_0120,SK02,fill_blank,Số có hàng chục là 7 và hàng đơn vị là 6 là số mấy?,Tens digit 7 and units digit 6. What number?,,76,2,"7 chục = 70, cộng 6 đơn vị"
-SK02_0121,SK02,fill_blank,Số có hàng chục là 7 và hàng đơn vị là 9 là số mấy?,Tens digit 7 and units digit 9. What number?,,79,2,"7 chục = 70, cộng 9 đơn vị"
-SK02_0122,SK02,fill_blank,Số có hàng chục là 8 và hàng đơn vị là 0 là số mấy?,Tens digit 8 and units digit 0. What number?,,80,2,"8 chục = 80, cộng 0 đơn vị"
-SK02_0123,SK02,fill_blank,Số có hàng chục là 8 và hàng đơn vị là 3 là số mấy?,Tens digit 8 and units digit 3. What number?,,83,2,"8 chục = 80, cộng 3 đơn vị"
-SK02_0124,SK02,fill_blank,Số có hàng chục là 8 và hàng đơn vị là 6 là số mấy?,Tens digit 8 and units digit 6. What number?,,86,2,"8 chục = 80, cộng 6 đơn vị"
-SK02_0125,SK02,fill_blank,Số có hàng chục là 8 và hàng đơn vị là 9 là số mấy?,Tens digit 8 and units digit 9. What number?,,89,2,"8 chục = 80, cộng 9 đơn vị"
-SK02_0126,SK02,fill_blank,Số có hàng chục là 9 và hàng đơn vị là 0 là số mấy?,Tens digit 9 and units digit 0. What number?,,90,2,"9 chục = 90, cộng 0 đơn vị"
-SK02_0127,SK02,fill_blank,Số có hàng chục là 9 và hàng đơn vị là 3 là số mấy?,Tens digit 9 and units digit 3. What number?,,93,2,"9 chục = 90, cộng 3 đơn vị"
-SK02_0128,SK02,fill_blank,Số có hàng chục là 9 và hàng đơn vị là 6 là số mấy?,Tens digit 9 and units digit 6. What number?,,96,2,"9 chục = 90, cộng 6 đơn vị"
-SK02_0129,SK02,fill_blank,Số có hàng chục là 9 và hàng đơn vị là 9 là số mấy?,Tens digit 9 and units digit 9. What number?,,99,2,"9 chục = 90, cộng 9 đơn vị"
-SK02_0130,SK02,multiple_choice,Số 20 có hàng chục là mấy?,What is the tens digit of 20?,"3,4,1,2",2,2,20 = 2 chục
-SK02_0131,SK02,multiple_choice,Số 30 có hàng chục là mấy?,What is the tens digit of 30?,"3,1,2,5",3,2,30 = 3 chục
-SK02_0132,SK02,multiple_choice,Số 40 có hàng chục là mấy?,What is the tens digit of 40?,"5,4,6,2",4,2,40 = 4 chục
-SK02_0133,SK02,multiple_choice,Số 50 có hàng chục là mấy?,What is the tens digit of 50?,"6,3,7,5",5,2,50 = 5 chục
-SK02_0134,SK02,multiple_choice,Số 60 có hàng chục là mấy?,What is the tens digit of 60?,"7,6,4,5",6,2,60 = 6 chục
-SK02_0135,SK02,multiple_choice,Số 70 có hàng chục là mấy?,What is the tens digit of 70?,"5,9,7,6",7,2,70 = 7 chục
-SK02_0136,SK02,multiple_choice,Số 80 có hàng chục là mấy?,What is the tens digit of 80?,"9,8,6,7",8,2,80 = 8 chục
-SK02_0137,SK02,multiple_choice,Số 90 có hàng chục là mấy?,What is the tens digit of 90?,"7,8,9",9,2,90 = 9 chục
-SK02_0138,SK02,multiple_choice,Sắp xếp tăng dần: 10 30 20,Sort ascending: 10 30 20,"10 20 30,10 30 20,20 30 10,30 10 20",10 20 30,2,Số nhỏ nhất đứng đầu
-SK02_0139,SK02,multiple_choice,Sắp xếp tăng dần: 25 15 35,Sort ascending: 25 15 35,"15 25 35,25 15 35,35 15 25,15 25 35",15 25 35,2,Số nhỏ nhất đứng đầu
-SK02_0140,SK02,multiple_choice,Sắp xếp tăng dần: 25 45 35,Sort ascending: 25 45 35,"25 35 45,25 45 35,35 45 25,45 25 35",25 35 45,2,Số nhỏ nhất đứng đầu
-SK02_0141,SK02,multiple_choice,Sắp xếp tăng dần: 40 30 50,Sort ascending: 40 30 50,"30 40 50,40 30 50,50 30 40,30 40 50",30 40 50,2,Số nhỏ nhất đứng đầu
-SK02_0142,SK02,multiple_choice,Sắp xếp tăng dần: 40 60 50,Sort ascending: 40 60 50,"40 50 60,40 60 50,50 60 40,60 40 50",40 50 60,2,Số nhỏ nhất đứng đầu
-SK02_0143,SK02,multiple_choice,Sắp xếp tăng dần: 55 45 65,Sort ascending: 55 45 65,"45 55 65,55 45 65,65 45 55,45 55 65",45 55 65,2,Số nhỏ nhất đứng đầu
-SK02_0144,SK02,multiple_choice,Sắp xếp tăng dần: 55 75 65,Sort ascending: 55 75 65,"55 65 75,55 75 65,65 75 55,75 55 65",55 65 75,2,Số nhỏ nhất đứng đầu
-SK02_0145,SK02,multiple_choice,Sắp xếp tăng dần: 70 60 80,Sort ascending: 70 60 80,"60 70 80,70 60 80,80 60 70,60 70 80",60 70 80,2,Số nhỏ nhất đứng đầu
-SK02_0146,SK02,multiple_choice,Sắp xếp tăng dần: 70 90 80,Sort ascending: 70 90 80,"70 80 90,70 90 80,80 90 70,90 70 80",70 80 90,2,Số nhỏ nhất đứng đầu
-SK02_0147,SK02,multiple_choice,Sắp xếp tăng dần: 85 75 95,Sort ascending: 85 75 95,"75 85 95,85 75 95,95 75 85,75 85 95",75 85 95,2,Số nhỏ nhất đứng đầu
-SK02_0148,SK02,multiple_choice,11 và 18: số nào lớn hơn?,Which is greater: 11 or 18?,"11,18",18,1,So sánh chữ số hàng chục trước
-SK02_0149,SK02,multiple_choice,18 và 33: số nào lớn hơn?,Which is greater: 18 or 33?,"18,33",33,1,So sánh chữ số hàng chục trước
-SK02_0150,SK02,multiple_choice,25 và 41: số nào lớn hơn?,Which is greater: 25 or 41?,"25,41",41,1,So sánh chữ số hàng chục trước
-SK02_0151,SK02,multiple_choice,32 và 50: số nào lớn hơn?,Which is greater: 32 or 50?,"32,50",50,1,So sánh chữ số hàng chục trước
-SK02_0152,SK02,multiple_choice,39 và 49: số nào lớn hơn?,Which is greater: 39 or 49?,"39,49",49,1,So sánh chữ số hàng chục trước
-SK02_0153,SK02,multiple_choice,46 và 56: số nào lớn hơn?,Which is greater: 46 or 56?,"46,56",56,1,So sánh chữ số hàng chục trước
-SK02_0154,SK02,multiple_choice,53 và 59: số nào lớn hơn?,Which is greater: 53 or 59?,"53,59",59,1,So sánh chữ số hàng chục trước
-SK02_0155,SK02,multiple_choice,60 và 77: số nào lớn hơn?,Which is greater: 60 or 77?,"60,77",77,1,So sánh chữ số hàng chục trước
-SK02_0156,SK02,multiple_choice,67 và 76: số nào lớn hơn?,Which is greater: 67 or 76?,"67,76",76,1,So sánh chữ số hàng chục trước
-SK02_0157,SK02,multiple_choice,74 và 91: số nào lớn hơn?,Which is greater: 74 or 91?,"74,91",91,1,So sánh chữ số hàng chục trước
-SK02_0158,SK02,multiple_choice,81 và 96: số nào lớn hơn?,Which is greater: 81 or 96?,"81,96",96,1,So sánh chữ số hàng chục trước
-SK02_0159,SK02,fill_blank,Sắp xếp giảm dần: 31 15 23,Sort descending: 31 15 23,,31 23 15,3,Số lớn nhất đứng đầu
-SK02_0160,SK02,fill_blank,Sắp xếp giảm dần: 41 25 33,Sort descending: 41 25 33,,41 33 25,3,Số lớn nhất đứng đầu
-SK02_0161,SK02,fill_blank,Sắp xếp giảm dần: 51 35 43,Sort descending: 51 35 43,,51 43 35,3,Số lớn nhất đứng đầu
-SK02_0162,SK02,fill_blank,Sắp xếp giảm dần: 61 45 53,Sort descending: 61 45 53,,61 53 45,3,Số lớn nhất đứng đầu
-SK02_0163,SK02,fill_blank,Sắp xếp giảm dần: 71 55 63,Sort descending: 71 55 63,,71 63 55,3,Số lớn nhất đứng đầu
-SK02_0164,SK02,fill_blank,Sắp xếp giảm dần: 81 65 73,Sort descending: 81 65 73,,81 73 65,3,Số lớn nhất đứng đầu
-SK02_0165,SK02,fill_blank,Sắp xếp giảm dần: 91 75 83,Sort descending: 91 75 83,,91 83 75,3,Số lớn nhất đứng đầu
-SK02_0166,SK02,multiple_choice,Số nào nằm giữa 40 và 50?,Which number is between 40 and 50?,"38,41,45,49",45,3,Tìm số lớn hơn 40 và nhỏ hơn 50
-SK02_0167,SK02,multiple_choice,Số nào nằm giữa 50 và 60?,Which number is between 50 and 60?,"59,48,51,55",55,3,Tìm số lớn hơn 50 và nhỏ hơn 60
-SK02_0168,SK02,multiple_choice,Số nào nằm giữa 60 và 70?,Which number is between 60 and 70?,"65,58,69,61",65,3,Tìm số lớn hơn 60 và nhỏ hơn 70
-SK02_0169,SK02,multiple_choice,Số nào nằm giữa 70 và 80?,Which number is between 70 and 80?,"71,79,68,75",75,3,Tìm số lớn hơn 70 và nhỏ hơn 80
-SK02_0170,SK02,multiple_choice,Số nào nằm giữa 80 và 90?,Which number is between 80 and 90?,"78,81,89,85",85,3,Tìm số lớn hơn 80 và nhỏ hơn 90
-SK02_0171,SK02,multiple_choice,Số nào nằm giữa 90 và 100?,Which number is between 90 and 100?,"88,99,95,91",95,3,Tìm số lớn hơn 90 và nhỏ hơn 100
+SK02_0001,SK02,multiple_choice,Số nào đây là số 0?,Which one is number 0?,"0,5,7,13",0,1,Đây là số 0
+SK02_0002,SK02,multiple_choice,Số nào đây là số 1?,Which one is number 1?,"16,4,1,3",1,1,Đây là số 1
+SK02_0003,SK02,multiple_choice,Số nào đây là số 2?,Which one is number 2?,"0,1,11,2",2,1,Đây là số 2
+SK02_0004,SK02,multiple_choice,Số nào đây là số 3?,Which one is number 3?,"17,6,18,3",3,1,Đây là số 3
+SK02_0005,SK02,multiple_choice,Số nào đây là số 4?,Which one is number 4?,"2,4,18,6",4,1,Đây là số 4
+SK02_0006,SK02,multiple_choice,Số nào đây là số 5?,Which one is number 5?,"1,8,19,5",5,1,Đây là số 5
+SK02_0007,SK02,multiple_choice,Số nào đây là số 6?,Which one is number 6?,"6,7,11,9",6,1,Đây là số 6
+SK02_0008,SK02,multiple_choice,Số nào đây là số 7?,Which one is number 7?,"7,21,4,22",7,1,Đây là số 7
+SK02_0009,SK02,multiple_choice,Số nào đây là số 8?,Which one is number 8?,"2,0,15,8",8,1,Đây là số 8
+SK02_0010,SK02,multiple_choice,Số nào đây là số 9?,Which one is number 9?,"17,4,9,8",9,1,Đây là số 9
+SK02_0011,SK02,multiple_choice,Số nào đây là số 10?,Which one is number 10?,"10,12,9,5",10,1,Đây là số 10
+SK02_0012,SK02,multiple_choice,Số nào đây là số 11?,Which one is number 11?,"21,20,26,11",11,1,Đây là số 11
+SK02_0013,SK02,multiple_choice,Số nào đây là số 12?,Which one is number 12?,"22,4,12,3",12,1,Đây là số 12
+SK02_0014,SK02,multiple_choice,Số nào đây là số 13?,Which one is number 13?,"4,13,24,18",13,1,Đây là số 13
+SK02_0015,SK02,multiple_choice,Số nào đây là số 14?,Which one is number 14?,"14,23,6,10",14,1,Đây là số 14
+SK02_0016,SK02,multiple_choice,Số nào đây là số 15?,Which one is number 15?,"29,8,30,15",15,1,Đây là số 15
+SK02_0017,SK02,multiple_choice,Số nào đây là số 16?,Which one is number 16?,"9,2,28,16",16,1,Đây là số 16
+SK02_0018,SK02,multiple_choice,Số nào đây là số 17?,Which one is number 17?,"17,23,10,7",17,1,Đây là số 17
+SK02_0019,SK02,multiple_choice,Số nào đây là số 18?,Which one is number 18?,"21,6,3,18",18,1,Đây là số 18
+SK02_0020,SK02,multiple_choice,Số nào đây là số 19?,Which one is number 19?,"22,19,31,5",19,1,Đây là số 19
+SK02_0021,SK02,multiple_choice,Số nào đây là số 20?,Which one is number 20?,"6,20,18,9",20,2,Đây là số 20
+SK02_0022,SK02,multiple_choice,Số nào đây là số 22?,Which one is number 22?,"13,22,18,36",22,2,Đây là số 22
+SK02_0023,SK02,multiple_choice,Số nào đây là số 23?,Which one is number 23?,"19,23,33,26",23,2,Đây là số 23
+SK02_0024,SK02,multiple_choice,Số nào đây là số 25?,Which one is number 25?,"17,38,25,40",25,2,Đây là số 25
+SK02_0025,SK02,multiple_choice,Số nào đây là số 27?,Which one is number 27?,"36,27,12,17",27,2,Đây là số 27
+SK02_0026,SK02,multiple_choice,Số nào đây là số 28?,Which one is number 28?,"18,39,21,28",28,2,Đây là số 28
+SK02_0027,SK02,multiple_choice,Số nào đây là số 30?,Which one is number 30?,"30,31,22,43",30,2,Đây là số 30
+SK02_0028,SK02,multiple_choice,Số nào đây là số 32?,Which one is number 32?,"43,44,32,26",32,2,Đây là số 32
+SK02_0029,SK02,multiple_choice,Số nào đây là số 33?,Which one is number 33?,"30,33,40,24",33,2,Đây là số 33
+SK02_0030,SK02,multiple_choice,Số nào đây là số 35?,Which one is number 35?,"35,45,28,31",35,2,Đây là số 35
+SK02_0031,SK02,multiple_choice,Số nào đây là số 37?,Which one is number 37?,"51,22,37,25",37,2,Đây là số 37
+SK02_0032,SK02,multiple_choice,Số nào đây là số 38?,Which one is number 38?,"38,26,24,43",38,2,Đây là số 38
+SK02_0033,SK02,multiple_choice,Số nào đây là số 40?,Which one is number 40?,"45,42,38,40",40,2,Đây là số 40
+SK02_0034,SK02,multiple_choice,Số nào đây là số 42?,Which one is number 42?,"35,28,42,50",42,2,Đây là số 42
+SK02_0035,SK02,multiple_choice,Số nào đây là số 43?,Which one is number 43?,"43,39,30,41",43,2,Đây là số 43
+SK02_0036,SK02,multiple_choice,Số nào đây là số 45?,Which one is number 45?,"45,52,33,58",45,2,Đây là số 45
+SK02_0037,SK02,multiple_choice,Số nào đây là số 47?,Which one is number 47?,"47,54,45,42",47,2,Đây là số 47
+SK02_0038,SK02,multiple_choice,Số nào đây là số 48?,Which one is number 48?,"48,51,37,39",48,2,Đây là số 48
+SK02_0039,SK02,multiple_choice,Số nào đây là số 50?,Which one is number 50?,"50,64,59,57",50,3,Đây là số 50
+SK02_0040,SK02,multiple_choice,Số nào đây là số 52?,Which one is number 52?,"64,55,49,52",52,3,Đây là số 52
+SK02_0041,SK02,multiple_choice,Số nào đây là số 53?,Which one is number 53?,"53,64,44,51",53,3,Đây là số 53
+SK02_0042,SK02,multiple_choice,Số nào đây là số 55?,Which one is number 55?,"54,55,62,46",55,3,Đây là số 55
+SK02_0043,SK02,multiple_choice,Số nào đây là số 57?,Which one is number 57?,"64,51,57,44",57,3,Đây là số 57
+SK02_0044,SK02,multiple_choice,Số nào đây là số 58?,Which one is number 58?,"50,52,58,65",58,3,Đây là số 58
+SK02_0045,SK02,multiple_choice,Số nào đây là số 60?,Which one is number 60?,"61,52,46,60",60,3,Đây là số 60
+SK02_0046,SK02,multiple_choice,Số nào đây là số 62?,Which one is number 62?,"62,66,68,76",62,3,Đây là số 62
+SK02_0047,SK02,multiple_choice,Số nào đây là số 63?,Which one is number 63?,"55,63,60,64",63,3,Đây là số 63
+SK02_0048,SK02,multiple_choice,Số nào đây là số 65?,Which one is number 65?,"75,78,79,65",65,3,Đây là số 65
+SK02_0049,SK02,multiple_choice,Số nào đây là số 67?,Which one is number 67?,"57,78,67,75",67,3,Đây là số 67
+SK02_0050,SK02,multiple_choice,Số nào đây là số 68?,Which one is number 68?,"81,83,68,56",68,3,Đây là số 68
+SK02_0051,SK02,multiple_choice,Số nào đây là số 70?,Which one is number 70?,"70,73,77,72",70,3,Đây là số 70
+SK02_0052,SK02,multiple_choice,Số nào đây là số 72?,Which one is number 72?,"87,84,72,75",72,3,Đây là số 72
+SK02_0053,SK02,multiple_choice,Số nào đây là số 73?,Which one is number 73?,"73,83,66,72",73,3,Đây là số 73
+SK02_0054,SK02,multiple_choice,Số nào đây là số 75?,Which one is number 75?,"75,77,76,85",75,3,Đây là số 75
+SK02_0055,SK02,multiple_choice,Số nào đây là số 77?,Which one is number 77?,"77,85,71,64",77,3,Đây là số 77
+SK02_0056,SK02,multiple_choice,Số nào đây là số 78?,Which one is number 78?,"73,92,81,78",78,3,Đây là số 78
+SK02_0057,SK02,multiple_choice,Số nào đây là số 80?,Which one is number 80?,"88,80,77,72",80,3,Đây là số 80
+SK02_0058,SK02,multiple_choice,Số nào đây là số 82?,Which one is number 82?,"80,82,69,77",82,3,Đây là số 82
+SK02_0059,SK02,multiple_choice,Số nào đây là số 83?,Which one is number 83?,"74,83,95,81",83,3,Đây là số 83
+SK02_0060,SK02,multiple_choice,Số nào đây là số 85?,Which one is number 85?,"99,85,98,95",85,3,Đây là số 85
+SK02_0061,SK02,multiple_choice,Số nào đây là số 87?,Which one is number 87?,"81,87,83,97",87,3,Đây là số 87
+SK02_0062,SK02,multiple_choice,Số nào đây là số 88?,Which one is number 88?,"80,88,89,81",88,3,Đây là số 88
+SK02_0063,SK02,multiple_choice,Số nào đây là số 90?,Which one is number 90?,"87,90,85,97",90,3,Đây là số 90
+SK02_0064,SK02,multiple_choice,Số nào đây là số 92?,Which one is number 92?,"81,97,91,92",92,3,Đây là số 92
+SK02_0065,SK02,multiple_choice,Số nào đây là số 93?,Which one is number 93?,"99,93,91,80",93,3,Đây là số 93
+SK02_0066,SK02,multiple_choice,Số nào đây là số 95?,Which one is number 95?,"92,81,95,88",95,3,Đây là số 95
+SK02_0067,SK02,multiple_choice,Số nào đây là số 97?,Which one is number 97?,"97,94,92,100",97,3,Đây là số 97
+SK02_0068,SK02,multiple_choice,Số nào đây là số 98?,Which one is number 98?,"99,83,85,98",98,3,Đây là số 98
+SK02_0069,SK02,multiple_choice,Số nào đây là số 100?,Which one is number 100?,"95,86,97,100",100,3,Đây là số 100
+SK02_0070,SK02,multiple_choice,Số nào đứng TRƯỚC số 10?,Which number comes BEFORE 10?,"11,7,9,8",9,2,Số trước 10 là 9
+SK02_0071,SK02,multiple_choice,Số nào đứng TRƯỚC số 20?,Which number comes BEFORE 20?,"19,17,21,22",19,2,Số trước 20 là 19
+SK02_0072,SK02,multiple_choice,Số nào đứng TRƯỚC số 30?,Which number comes BEFORE 30?,"28,31,25,29",29,2,Số trước 30 là 29
+SK02_0073,SK02,multiple_choice,Số nào đứng TRƯỚC số 40?,Which number comes BEFORE 40?,"35,39,37,38",39,2,Số trước 40 là 39
+SK02_0074,SK02,multiple_choice,Số nào đứng TRƯỚC số 50?,Which number comes BEFORE 50?,"47,49,45,48",49,2,Số trước 50 là 49
+SK02_0075,SK02,multiple_choice,Số nào đứng TRƯỚC số 60?,Which number comes BEFORE 60?,"59,55,57,58",59,2,Số trước 60 là 59
+SK02_0076,SK02,multiple_choice,Số nào đứng TRƯỚC số 70?,Which number comes BEFORE 70?,"71,69,67,65",69,2,Số trước 70 là 69
+SK02_0077,SK02,multiple_choice,Số nào đứng TRƯỚC số 80?,Which number comes BEFORE 80?,"82,79,81,75",79,2,Số trước 80 là 79
+SK02_0078,SK02,multiple_choice,Số nào đứng TRƯỚC số 90?,Which number comes BEFORE 90?,"89,92,91,88",89,2,Số trước 90 là 89
+SK02_0079,SK02,multiple_choice,Số nào đứng TRƯỚC số 100?,Which number comes BEFORE 100?,"98,97,99,95",99,2,Số trước 100 là 99
+SK02_0080,SK02,multiple_choice,Số nào đứng SAU số 0?,Which number comes AFTER 0?,"1,5,3,2",1,2,Số sau 0 là 1
+SK02_0081,SK02,multiple_choice,Số nào đứng SAU số 10?,Which number comes AFTER 10?,"13,9,11,12",11,2,Số sau 10 là 11
+SK02_0082,SK02,multiple_choice,Số nào đứng SAU số 20?,Which number comes AFTER 20?,"21,30,23,19",21,2,Số sau 20 là 21
+SK02_0083,SK02,multiple_choice,Số nào đứng SAU số 30?,Which number comes AFTER 30?,"29,32,31,40",31,2,Số sau 30 là 31
+SK02_0084,SK02,multiple_choice,Số nào đứng SAU số 40?,Which number comes AFTER 40?,"41,39,50,45",41,2,Số sau 40 là 41
+SK02_0085,SK02,multiple_choice,Số nào đứng SAU số 50?,Which number comes AFTER 50?,"60,52,55,51",51,2,Số sau 50 là 51
+SK02_0086,SK02,multiple_choice,Số nào đứng SAU số 60?,Which number comes AFTER 60?,"61,70,65,63",61,2,Số sau 60 là 61
+SK02_0087,SK02,multiple_choice,Số nào đứng SAU số 70?,Which number comes AFTER 70?,"71,69,75,73",71,2,Số sau 70 là 71
+SK02_0088,SK02,multiple_choice,Số nào đứng SAU số 80?,Which number comes AFTER 80?,"83,81,82,79",81,2,Số sau 80 là 81
+SK02_0089,SK02,multiple_choice,Số nào đứng SAU số 90?,Which number comes AFTER 90?,"91,92,93,100",91,2,Số sau 90 là 91

@@ -47,12 +47,20 @@ export class BadgesService {
 
       if (badge.conditionType === 'streak' && event === 'streak') {
         qualifies = Number(value) >= Number(badge.conditionValue);
-      } else if (badge.conditionType === 'skill_mastery' && event === 'skill_mastery') {
-        // value: { skillId, masteryScore }
-        qualifies = value?.masteryScore >= Number(badge.conditionValue);
+      } else if (badge.conditionType === 'skill_mastered' && event === 'skill_mastered') {
+        // value: { skillId, masteryScore } — conditionValue is the skill ID (e.g. SK01)
+        qualifies = value?.skillId === badge.conditionValue && value?.masteryScore >= 80;
       } else if (badge.conditionType === 'sessions_count' && event === 'sessions_count') {
         qualifies = Number(value) >= Number(badge.conditionValue);
       } else if (badge.conditionType === 'xp_total' && event === 'xp_total') {
+        qualifies = Number(value) >= Number(badge.conditionValue);
+      } else if (badge.conditionType === 'skill_mastery_40' && event === 'skill_mastery_40') {
+        qualifies = value?.skillId === badge.conditionValue;
+      } else if (badge.conditionType === 'skill_mastery_60' && event === 'skill_mastery_60') {
+        qualifies = value?.skillId === badge.conditionValue;
+      } else if (badge.conditionType === 'skill_mastery_100' && event === 'skill_mastery_100') {
+        qualifies = value?.skillId === badge.conditionValue;
+      } else if (badge.conditionType === 'memory_tier' && event === 'memory_tier') {
         qualifies = Number(value) >= Number(badge.conditionValue);
       } else if (badge.conditionType === event) {
         qualifies = Number(value) >= Number(badge.conditionValue);

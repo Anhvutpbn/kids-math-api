@@ -6,3 +6,32 @@ B004,sk01_mastered,Vua số nhỏ,Number King,skill_mastered,SK01,Thành thạo 
 B005,sk05_mastered,Nhà vô địch cộng,Addition Champion,skill_mastered,SK05,Thành thạo kỹ năng Phép cộng
 B006,sk06_mastered,Vua trừ số,Subtraction Star,skill_mastered,SK06,Thành thạo kỹ năng Phép trừ
 B007,all_mastered,Siêu sao lớp 1,Grade 1 Star,all_skills_mastered,7,Thành thạo tất cả 7 kỹ năng
+B008,memory_tier1,Trí nhớ Đồng,Bronze Memory,memory_tier,1,Vượt qua thử thách ghi nhớ 4 ô
+B009,memory_tier2,Trí nhớ Bạc,Silver Memory,memory_tier,2,Vượt qua thử thách ghi nhớ 6 ô
+B010,memory_tier3,Trí nhớ Vàng,Gold Memory,memory_tier,3,Vượt qua thử thách ghi nhớ 10 ô
+B011,memory_tier4,Trí nhớ Bạch Kim,Platinum Memory,memory_tier,4,Vượt qua thử thách ghi nhớ 15 ô
+B012,memory_tier5,Siêu Trí Tuệ,Super Intellect,memory_tier,5,Vượt qua thử thách ghi nhớ 20 ô
+B013,sk01_40,Chồi xanh số học,Math Sprout,skill_mastery_40,SK01,Đạt 40% kỹ năng Nhận biết số 0-10
+B014,sk01_60,Học trò cần mẫn,Diligent Student,skill_mastery_60,SK01,Đạt 60% kỹ năng Nhận biết số 0-10
+B015,sk01_100,Thần đồng số học,Math Prodigy,skill_mastery_100,SK01,Thành thạo 100% kỹ năng Nhận biết số 0-10
+B016,sk02_40,Nhà khám phá trăm số,Century Explorer,skill_mastery_40,SK02,Đạt 40% kỹ năng Nhận biết số 0-100
+B017,sk02_60,Người đọc số tài ba,Number Reader,skill_mastery_60,SK02,Đạt 60% kỹ năng Nhận biết số 0-100
+B018,sk02_100,Bách số tinh thông,Century Master,skill_mastery_100,SK02,Thành thạo 100% kỹ năng Nhận biết số 0-100
+B019,sk03_40,Ngón tay thần kỳ,Magic Fingers,skill_mastery_40,SK03,Đạt 40% kỹ năng Đếm số
+B020,sk03_60,Siêu đếm nhanh,Speed Counter,skill_mastery_60,SK03,Đạt 60% kỹ năng Đếm số
+B021,sk03_100,Vua đếm số,Counting King,skill_mastery_100,SK03,Thành thạo 100% kỹ năng Đếm số
+B022,sk04_40,Thám tử so sánh,Compare Detective,skill_mastery_40,SK04,Đạt 40% kỹ năng So sánh số
+B023,sk04_60,Cảnh sát số học,Math Police,skill_mastery_60,SK04,Đạt 60% kỹ năng So sánh số
+B024,sk04_100,Quan tòa toán học,Math Judge,skill_mastery_100,SK04,Thành thạo 100% kỹ năng So sánh số
+B025,sk05_40,Người gom số,Number Collector,skill_mastery_40,SK05,Đạt 40% kỹ năng Phép cộng
+B026,sk05_60,Chuyên gia cộng,Addition Expert,skill_mastery_60,SK05,Đạt 60% kỹ năng Phép cộng
+B027,sk05_100,Phù thủy cộng,Addition Wizard,skill_mastery_100,SK05,Thành thạo 100% kỹ năng Phép cộng
+B028,sk06_40,Nhà ảo thuật trừ,Subtraction Magician,skill_mastery_40,SK06,Đạt 40% kỹ năng Phép trừ
+B029,sk06_60,Cao thủ trừ số,Subtraction Expert,skill_mastery_60,SK06,Đạt 60% kỹ năng Phép trừ
+B030,sk06_100,Đại sư phép trừ,Subtraction Master,skill_mastery_100,SK06,Thành thạo 100% kỹ năng Phép trừ
+B031,sk07_40,Thám tử điền số,Fill Detective,skill_mastery_40,SK07,Đạt 40% kỹ năng Điền số còn thiếu
+B032,sk07_60,Giải mã số học,Code Breaker,skill_mastery_60,SK07,Đạt 60% kỹ năng Điền số còn thiếu
+B033,sk07_100,Siêu thám tử,Super Detective,skill_mastery_100,SK07,Thành thạo 100% kỹ năng Điền số còn thiếu
+B034,sk08_40,Mắt thần số học,Math Eye,skill_mastery_40,SK08,Đạt 40% kỹ năng Chọn min/max
+B035,sk08_60,Phán quan số học,Math Arbiter,skill_mastery_60,SK08,Đạt 60% kỹ năng Chọn min/max
+B036,sk08_100,Hoàng đế số học,Math Emperor,skill_mastery_100,SK08,Thành thạo 100% kỹ năng Chọn min/max
