@@ -1,4 +1,4 @@
-import { Controller, Get, Post, UseGuards } from '@nestjs/common';
+import { Controller, Get, Post, Body, UseGuards } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse, ApiBearerAuth } from '@nestjs/swagger';
 import { LessonQueueService } from './lesson-queue.service';
 import { JwtAuthGuard } from '../../common/guards/jwt-auth.guard';
@@ -36,6 +36,25 @@ export class LessonQueueController {
   @ApiResponse({ status: 201, description: 'LessonQueue mới được tạo' })
   generate(@CurrentUser() user: any) {
     return this.lessonQueueService.generateDailyQueue(user._id.toString());
+  }
+
+  @Post('skill-focus')
+  @ApiOperation({
+    summary: 'Tạo queue cho 1 skill cụ thể theo độ khó',
+    description: 'Tạo queue gồm N câu hỏi của skillId ở difficulty cho chế độ học theo skill.',
+  })
+  @ApiResponse({ status: 201, description: 'LessonQueue skill_focus mới' })
+  async generateSkillFocus(
+    @CurrentUser() user: any,
+    @Body() body: { skillId: string; difficulty: number; count?: number },
+  ) {
+    const queue = await this.lessonQueueService.generateSkillFocusQueue(
+      user._id.toString(),
+      body.skillId,
+      body.difficulty,
+      body.count ?? 12,
+    );
+    return this.lessonQueueService.populateQueueQuestions(queue);
   }
 
   @Post('generate-weekly')

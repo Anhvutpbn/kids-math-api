@@ -1,41 +1,11 @@
 id,skill_id,type,question_vi,question_en,options,correct_answer,difficulty,hint_vi
-SK01_0001,SK01,multiple_choice,Số nào đây là số 0?,Which one is number 0?,"5,1,0,2",0,1,Số 0
-SK01_0002,SK01,multiple_choice,Số nào đây là số 1?,Which one is number 1?,"2,9,1,10",1,1,Số 1
-SK01_0003,SK01,multiple_choice,Số nào đây là số 2?,Which one is number 2?,"1,9,4,2",2,1,Số 2
-SK01_0004,SK01,multiple_choice,Số nào đây là số 3?,Which one is number 3?,"3,9,7,4",3,1,Số 3
-SK01_0005,SK01,multiple_choice,Số nào đây là số 4?,Which one is number 4?,"7,4,0,2",4,1,Số 4
-SK01_0006,SK01,multiple_choice,Số nào đây là số 5?,Which one is number 5?,"6,1,3,5",5,1,Số 5
-SK01_0007,SK01,multiple_choice,Số nào đây là số 6?,Which one is number 6?,"4,5,10,6",6,2,Số 6
-SK01_0008,SK01,multiple_choice,Số nào đây là số 7?,Which one is number 7?,"6,9,1,7",7,2,Số 7
-SK01_0009,SK01,multiple_choice,Số nào đây là số 8?,Which one is number 8?,"10,5,3,8",8,2,Số 8
-SK01_0010,SK01,multiple_choice,Số nào đây là số 9?,Which one is number 9?,"3,1,4,9",9,2,Số 9
-SK01_0011,SK01,multiple_choice,Số nào đây là số 10?,Which one is number 10?,"2,10,7,5",10,2,Số 10
-SK01_0012,SK01,multiple_choice,Số nào đứng TRƯỚC số 1?,Which number comes BEFORE 1?,"2,3,0,5",0,1,Số trước 1 là 0
-SK01_0013,SK01,multiple_choice,Số nào đứng TRƯỚC số 2?,Which number comes BEFORE 2?,"7,4,1,5",1,1,Số trước 2 là 1
-SK01_0014,SK01,multiple_choice,Số nào đứng TRƯỚC số 3?,Which number comes BEFORE 3?,"0,7,2,6",2,1,Số trước 3 là 2
-SK01_0015,SK01,multiple_choice,Số nào đứng TRƯỚC số 4?,Which number comes BEFORE 4?,"3,6,10,4",3,1,Số trước 4 là 3
-SK01_0016,SK01,multiple_choice,Số nào đứng TRƯỚC số 5?,Which number comes BEFORE 5?,"4,10,5,2",4,1,Số trước 5 là 4
-SK01_0017,SK01,multiple_choice,Số nào đứng TRƯỚC số 6?,Which number comes BEFORE 6?,"10,9,5,7",5,1,Số trước 6 là 5
-SK01_0018,SK01,multiple_choice,Số nào đứng TRƯỚC số 7?,Which number comes BEFORE 7?,"9,8,1,6",6,2,Số trước 7 là 6
-SK01_0019,SK01,multiple_choice,Số nào đứng TRƯỚC số 8?,Which number comes BEFORE 8?,"7,6,2,1",7,2,Số trước 8 là 7
-SK01_0020,SK01,multiple_choice,Số nào đứng TRƯỚC số 9?,Which number comes BEFORE 9?,"0,9,4,8",8,2,Số trước 9 là 8
-SK01_0021,SK01,multiple_choice,Số nào đứng TRƯỚC số 10?,Which number comes BEFORE 10?,"1,5,9,4",9,2,Số trước 10 là 9
-SK01_0022,SK01,multiple_choice,Số nào đứng SAU số 0?,Which number comes AFTER 0?,"3,0,5,1",1,1,Số sau 0 là 1
-SK01_0023,SK01,multiple_choice,Số nào đứng SAU số 1?,Which number comes AFTER 1?,"9,3,2,4",2,1,Số sau 1 là 2
-SK01_0024,SK01,multiple_choice,Số nào đứng SAU số 2?,Which number comes AFTER 2?,"6,10,8,3",3,1,Số sau 2 là 3
-SK01_0025,SK01,multiple_choice,Số nào đứng SAU số 3?,Which number comes AFTER 3?,"0,4,3,5",4,1,Số sau 3 là 4
-SK01_0026,SK01,multiple_choice,Số nào đứng SAU số 4?,Which number comes AFTER 4?,"8,10,5,1",5,1,Số sau 4 là 5
-SK01_0027,SK01,multiple_choice,Số nào đứng SAU số 5?,Which number comes AFTER 5?,"9,2,6,4",6,2,Số sau 5 là 6
-SK01_0028,SK01,multiple_choice,Số nào đứng SAU số 6?,Which number comes AFTER 6?,"7,4,6,5",7,2,Số sau 6 là 7
-SK01_0029,SK01,multiple_choice,Số nào đứng SAU số 7?,Which number comes AFTER 7?,"3,9,1,8",8,2,Số sau 7 là 8
-SK01_0030,SK01,multiple_choice,Số nào đứng SAU số 8?,Which number comes AFTER 8?,"3,8,9,10",9,2,Số sau 8 là 9
-SK01_0031,SK01,multiple_choice,Số nào đứng SAU số 9?,Which number comes AFTER 9?,"3,1,0,10",10,2,Số sau 9 là 10
-SK01_0032,SK01,multiple_choice,"0, 1, ___ tiếp theo là số nào?","0, 1, ___ what comes next?","9,4,2,5",2,2,Cộng thêm 1 vào 1
-SK01_0033,SK01,multiple_choice,"1, 2, ___ tiếp theo là số nào?","1, 2, ___ what comes next?","8,3,10,4",3,2,Cộng thêm 1 vào 2
-SK01_0034,SK01,multiple_choice,"2, 3, ___ tiếp theo là số nào?","2, 3, ___ what comes next?","4,7,1,10",4,2,Cộng thêm 1 vào 3
-SK01_0035,SK01,multiple_choice,"3, 4, ___ tiếp theo là số nào?","3, 4, ___ what comes next?","1,0,8,5",5,2,Cộng thêm 1 vào 4
-SK01_0036,SK01,multiple_choice,"4, 5, ___ tiếp theo là số nào?","4, 5, ___ what comes next?","6,9,3,1",6,2,Cộng thêm 1 vào 5
-SK01_0037,SK01,multiple_choice,"5, 6, ___ tiếp theo là số nào?","5, 6, ___ what comes next?","10,7,2,6",7,2,Cộng thêm 1 vào 6
-SK01_0038,SK01,multiple_choice,"6, 7, ___ tiếp theo là số nào?","6, 7, ___ what comes next?","1,10,7,8",8,2,Cộng thêm 1 vào 7
-SK01_0039,SK01,multiple_choice,"7, 8, ___ tiếp theo là số nào?","7, 8, ___ what comes next?","9,3,1,2",9,2,Cộng thêm 1 vào 8
-SK01_0040,SK01,multiple_choice,"8, 9, ___ tiếp theo là số nào?","8, 9, ___ what comes next?","6,10,0,3",10,2,Cộng thêm 1 vào 9
+SK01_0001,SK01,multiple_choice,Số nào là số 0?,Which number is 0?,"1,2,0,3",0,1,Đây là số 0
+SK01_0002,SK01,multiple_choice,Số nào là số 1?,Which number is 1?,"2,1,3,4",1,1,Đây là số 1
+SK01_0003,SK01,multiple_choice,Số nào là số 2?,Which number is 2?,"3,4,2,5",2,1,Đây là số 2
+SK01_0004,SK01,multiple_choice,Số nào là số 3?,Which number is 3?,"4,3,5,6",3,1,Đây là số 3
+SK01_0005,SK01,multiple_choice,Số nào là số 5?,Which number is 5?,"6,7,5,8",5,1,Đây là số 5
+SK01_0006,SK01,multiple_choice,Số nào là số 7?,Which number is 7?,"6,8,9,7",7,2,Đây là số 7
+SK01_0007,SK01,multiple_choice,Số nào là số 9?,Which number is 9?,"8,10,9,6",9,2,Đây là số 9
+SK01_0008,SK01,multiple_choice,Số nào là số 10?,Which number is 10?,"8,9,11,10",10,2,Đây là số 10
+SK01_0009,SK01,multiple_choice,"0, 1, 2, ___ tiếp theo?","0, 1, 2, ___ next?","5,3,4,6",3,3,Đếm thêm 1
+SK01_0010,SK01,multiple_choice,"7, 8, 9, ___ tiếp theo?","7, 8, 9, ___ next?","10,11,12,6",10,3,Đếm thêm 1

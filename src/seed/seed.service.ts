@@ -8,6 +8,13 @@ import { Question, QuestionDocument } from '../modules/questions/schemas/questio
 import { Badge, BadgeDocument } from '../modules/badges/schemas/badge.schema';
 import { LessonQueue, LessonQueueDocument } from '../modules/lesson-queue/schemas/lesson-queue.schema';
 import { loadCsv, loadAllQuestionCsvs } from './csv-loader';
+import {
+  generateSK03, generateSK04, generateSK05,
+  generateSK06, generateSK07, generateSK08,
+} from './question-generator';
+
+// SK01: 10, SK02: 100 (CSV) + SK03-SK08 generated = 1160 total
+const EXPECTED_QUESTION_COUNT = 10 + 100 + 100 + 200 + 150 + 150 + 150 + 300;
 
 @Injectable()
 export class SeedService implements OnApplicationBootstrap {
@@ -38,7 +45,6 @@ export class SeedService implements OnApplicationBootstrap {
       return;
     }
 
-    // Count mismatch → wipe and reload from CSV
     await this.skillModel.deleteMany({});
     const docs = rows.map((row) => ({
       id: row.id,
@@ -53,35 +59,57 @@ export class SeedService implements OnApplicationBootstrap {
   }
 
   private async seedQuestions(dataDir: string) {
-    const rows = loadAllQuestionCsvs(dataDir);
-    const csvCount = rows.length;
     const dbCount = await this.questionModel.countDocuments();
 
-    if (dbCount === csvCount) {
+    if (dbCount === EXPECTED_QUESTION_COUNT) {
       this.logger.log(`Questions already seeded (${dbCount}), skipping`);
       return;
     }
 
-    // Count mismatch → wipe questions + queues, then insert fresh from CSV
-    this.logger.log(`CSV has ${csvCount} questions, DB has ${dbCount} — reseeding...`);
+    this.logger.log(`Expected ${EXPECTED_QUESTION_COUNT} questions, DB has ${dbCount} — reseeding...`);
     await this.questionModel.deleteMany({});
     await this.queueModel.deleteMany({});
 
-    const docs = rows.map((row) => ({
-      id: row.id,
-      skillId: row.skill_id,
-      type: row.type,
-      questionVi: row.question_vi,
-      questionEn: row.question_en,
-      options: row.options ? row.options.split(',').map((s: string) => s.trim()) : [],
-      correctAnswer: row.correct_answer,
-      difficulty: parseInt(row.difficulty, 10) || 1,
-      hintVi: row.hint_vi,
-      imagePath: row.image_path || null,
+    // SK01 + SK02 from CSV
+    const csvRows = loadAllQuestionCsvs(dataDir);
+    const csvDocs = csvRows
+      .filter((row) => ['SK01', 'SK02'].includes(row.skill_id))
+      .map((row) => ({
+        id: row.id,
+        skillId: row.skill_id,
+        type: row.type,
+        questionVi: row.question_vi,
+        questionEn: row.question_en,
+        options: row.options ? row.options.split(',').map((s: string) => s.trim()) : [],
+        correctAnswer: row.correct_answer,
+        difficulty: parseInt(row.difficulty, 10) || 1,
+        hintVi: row.hint_vi,
+        imagePath: row.image_path || null,
+      }));
+
+    // SK03–SK08 generated
+    const sk03 = generateSK03(); const sk04 = generateSK04();
+    const sk05 = generateSK05(); const sk06 = generateSK06();
+    const sk07 = generateSK07(); const sk08 = generateSK08();
+    this.logger.log(`Generator counts: SK03=${sk03.length} SK04=${sk04.length} SK05=${sk05.length} SK06=${sk06.length} SK07=${sk07.length} SK08=${sk08.length} total=${sk03.length+sk04.length+sk05.length+sk06.length+sk07.length+sk08.length}`);
+    const generated = [
+      ...sk03, ...sk04, ...sk05, ...sk06, ...sk07, ...sk08,
+    ].map((q) => ({
+      id: q.id,
+      skillId: q.skillId,
+      type: q.type,
+      questionVi: q.questionVi,
+      questionEn: q.questionEn,
+      options: q.options,
+      correctAnswer: q.correctAnswer,
+      difficulty: q.difficulty,
+      hintVi: q.hintVi,
+      imagePath: null,
     }));
 
-    await this.questionModel.insertMany(docs, { ordered: false });
-    this.logger.log(`Seeded ${docs.length} questions`);
+    const allDocs = [...csvDocs, ...generated];
+    await this.questionModel.insertMany(allDocs, { ordered: false });
+    this.logger.log(`Seeded ${allDocs.length} questions (${csvDocs.length} CSV + ${generated.length} generated)`);
   }
 
   private async seedBadges(dataDir: string) {

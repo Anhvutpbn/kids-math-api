@@ -3,7 +3,7 @@ import { Document, Types } from 'mongoose';
 
 export type LessonQueueDocument = LessonQueue & Document;
 
-export type QueueType = 'daily' | 'weekly_review';
+export type QueueType = 'daily' | 'weekly_review' | 'skill_focus';
 export type QueueStatus = 'pending' | 'in_progress' | 'done';
 
 @Schema({ timestamps: true })
@@ -14,7 +14,7 @@ export class LessonQueue {
   @Prop({ type: [Object], default: [] })
   questions: { questionId: string; skillId: string; difficulty: number }[];
 
-  @Prop({ default: 'daily', enum: ['daily', 'weekly_review'] })
+  @Prop({ default: 'daily', enum: ['daily', 'weekly_review', 'skill_focus'] })
   queueType: QueueType;
 
   @Prop({ default: 'pending', enum: ['pending', 'in_progress', 'done'] })

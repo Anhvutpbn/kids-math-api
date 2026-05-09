@@ -122,6 +122,22 @@ export class LessonQueueService {
     await this.queueModel.findByIdAndUpdate(queueId, { status: 'done' });
   }
 
+  async generateSkillFocusQueue(
+    userId: string,
+    skillId: string,
+    difficulty: number,
+    count = 12,
+  ): Promise<LessonQueueDocument> {
+    const pool = await this.questionsService.findBySkill(skillId, difficulty);
+    const shuffled = pool.sort(() => Math.random() - 0.5).slice(0, count);
+    return this.queueModel.create({
+      userId: new Types.ObjectId(userId),
+      questions: shuffled.map((q) => ({ questionId: q.id, skillId: q.skillId, difficulty: q.difficulty })),
+      queueType: 'skill_focus',
+      status: 'pending',
+    });
+  }
+
   async markCurrentQueueDone(userId: string) {
     await this.queueModel.findOneAndUpdate(
       { userId: new Types.ObjectId(userId), status: { $in: ['pending', 'in_progress'] } },
