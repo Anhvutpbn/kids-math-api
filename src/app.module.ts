@@ -20,6 +20,7 @@ import { PlacementTestModule } from './modules/placement-test/placement-test.mod
 import { HealthModule } from './health/health.module';
 import { SeedModule } from './seed/seed.module';
 import { MemoryGameModule } from './modules/memory-game/memory-game.module';
+import { MultiplicationModule } from './modules/multiplication/multiplication.module';
 
 @Module({
   imports: [
@@ -46,6 +47,7 @@ import { MemoryGameModule } from './modules/memory-game/memory-game.module';
     BadgesModule,
     PlacementTestModule,
     MemoryGameModule,
+    MultiplicationModule,
     HealthModule,
   ],
   providers: [
