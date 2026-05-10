@@ -168,20 +168,20 @@ export function generateSK04(): GeneratedQuestion[] {
   return qs;
 }
 
-// ─── SK05: Phép cộng — 150 câu ────────────────────────────────────────────
-// D1 (50): a+b ≤ 10
-// D2 (55): 10 < a+b ≤ 50
-// D3 (45): 50 < a+b ≤ 100
+// ─── SK05: Phép cộng — 150 câu (vertical_arithmetic) ─────────────────────
+// D1 (50): a+b ≤ 10, blank = result
+// D2 (55): 10 < a+b ≤ 50, blank = result
+// D3 (45): 50 < a+b ≤ 100, blank = random operand
 export function generateSK05(): GeneratedQuestion[] {
   const qs: GeneratedQuestion[] = [];
   let idx = 1;
   const qid = () => `SK05_${String(idx++).padStart(4, '0')}`;
 
-  function add(a: number, b: number, diff: number) {
+  function addResult(a: number, b: number, diff: number) {
     const ans = a + b;
     const w = uniqueWrongs(ans, 3, 0, 110);
     qs.push({
-      id: qid(), skillId: 'SK05', type: 'multiple_choice',
+      id: qid(), skillId: 'SK05', type: 'vertical_arithmetic',
       questionVi: `${a} + ${b} = ?`,
       questionEn: `${a} + ${b} = ?`,
       options: makeOpts(ans, w),
@@ -190,13 +190,40 @@ export function generateSK05(): GeneratedQuestion[] {
     });
   }
 
-  // D1: all pairs where a+b <= 10
-  const d1All: [number, number][] = [];
-  for (let a = 0; a <= 10; a++) for (let b = 0; b <= 10 - a; b++) d1All.push([a, b]);
-  shuffleArr(d1All).slice(0, 50).forEach(([a, b]) => add(a, b, 1));
+  function addOperand(a: number, b: number, diff: number) {
+    const sum = a + b;
+    if (Math.random() < 0.5) {
+      // blank op1: "? + b = sum"
+      const w = uniqueWrongs(a, 3, 1, sum - 1);
+      qs.push({
+        id: qid(), skillId: 'SK05', type: 'vertical_arithmetic',
+        questionVi: `? + ${b} = ${sum}`,
+        questionEn: `? + ${b} = ${sum}`,
+        options: makeOpts(a, w),
+        correctAnswer: pad(a), difficulty: diff,
+        hintVi: `${sum} trừ ${b} bằng ${a}`,
+      });
+    } else {
+      // blank op2: "a + ? = sum"
+      const w = uniqueWrongs(b, 3, 1, sum - 1);
+      qs.push({
+        id: qid(), skillId: 'SK05', type: 'vertical_arithmetic',
+        questionVi: `${a} + ? = ${sum}`,
+        questionEn: `${a} + ? = ${sum}`,
+        options: makeOpts(b, w),
+        correctAnswer: pad(b), difficulty: diff,
+        hintVi: `${sum} trừ ${a} bằng ${b}`,
+      });
+    }
+  }
 
-  // D2 & D3 via random
-  const used2 = new Set<string>(), used3 = new Set<string>();
+  // D1: all pairs where a+b <= 10, result blank
+  const d1All: [number, number][] = [];
+  for (let a = 1; a <= 9; a++) for (let b = 1; b <= 10 - a; b++) d1All.push([a, b]);
+  shuffleArr(d1All).slice(0, 50).forEach(([a, b]) => addResult(a, b, 1));
+
+  // D2: 10 < a+b <= 50, result blank
+  const used2 = new Set<string>();
   let att = 0;
   while (qs.filter((q) => q.difficulty === 2).length < 55 && att < 100000) {
     att++;
@@ -204,37 +231,40 @@ export function generateSK05(): GeneratedQuestion[] {
     const b = Math.floor(Math.random() * 49) + 1;
     if (a + b > 10 && a + b <= 50) {
       const k = `${Math.min(a,b)},${Math.max(a,b)}`;
-      if (!used2.has(k)) { used2.add(k); add(a, b, 2); }
+      if (!used2.has(k)) { used2.add(k); addResult(a, b, 2); }
     }
   }
+
+  // D3: 50 < a+b <= 100, blank = random operand
+  const used3 = new Set<string>();
   att = 0;
   while (qs.filter((q) => q.difficulty === 3).length < 45 && att < 100000) {
     att++;
-    const a = Math.floor(Math.random() * 99) + 1;
-    const b = Math.floor(Math.random() * 99) + 1;
+    const a = Math.floor(Math.random() * 49) + 2;
+    const b = Math.floor(Math.random() * 49) + 2;
     if (a + b > 50 && a + b <= 100) {
       const k = `${Math.min(a,b)},${Math.max(a,b)}`;
-      if (!used3.has(k)) { used3.add(k); add(a, b, 3); }
+      if (!used3.has(k)) { used3.add(k); addOperand(a, b, 3); }
     }
   }
 
   return qs.slice(0, 150);
 }
 
-// ─── SK06: Phép trừ — 150 câu ────────────────────────────────────────────
-// D1 (50): a ≤ 10, a-b ≥ 0
-// D2 (55): 10 < a ≤ 50
-// D3 (45): 50 < a ≤ 100
+// ─── SK06: Phép trừ — 150 câu (vertical_arithmetic) ─────────────────────
+// D1 (50): a ≤ 10, blank = result
+// D2 (55): 10 < a ≤ 50, blank = result
+// D3 (45): 50 < a ≤ 100, blank = random operand
 export function generateSK06(): GeneratedQuestion[] {
   const qs: GeneratedQuestion[] = [];
   let idx = 1;
   const qid = () => `SK06_${String(idx++).padStart(4, '0')}`;
 
-  function sub(a: number, b: number, diff: number) {
+  function subResult(a: number, b: number, diff: number) {
     const ans = a - b;
     const w = uniqueWrongs(ans, 3, 0, a);
     qs.push({
-      id: qid(), skillId: 'SK06', type: 'multiple_choice',
+      id: qid(), skillId: 'SK06', type: 'vertical_arithmetic',
       questionVi: `${a} - ${b} = ?`,
       questionEn: `${a} - ${b} = ?`,
       options: makeOpts(ans, w),
@@ -243,27 +273,58 @@ export function generateSK06(): GeneratedQuestion[] {
     });
   }
 
-  // D1: all pairs a<=10, b<=a
-  const d1All: [number, number][] = [];
-  for (let a = 0; a <= 10; a++) for (let b = 0; b <= a; b++) d1All.push([a, b]);
-  shuffleArr(d1All).slice(0, 50).forEach(([a, b]) => sub(a, b, 1));
+  function subOperand(a: number, b: number, diff: number) {
+    const result = a - b;
+    if (Math.random() < 0.5) {
+      // blank op1: "? - b = result"
+      const w = uniqueWrongs(a, 3, b + 1, a + 10);
+      qs.push({
+        id: qid(), skillId: 'SK06', type: 'vertical_arithmetic',
+        questionVi: `? - ${b} = ${result}`,
+        questionEn: `? - ${b} = ${result}`,
+        options: makeOpts(a, w),
+        correctAnswer: pad(a), difficulty: diff,
+        hintVi: `${result} cộng ${b} bằng ${a}`,
+      });
+    } else {
+      // blank op2: "a - ? = result"
+      const w = uniqueWrongs(b, 3, 0, a - 1);
+      qs.push({
+        id: qid(), skillId: 'SK06', type: 'vertical_arithmetic',
+        questionVi: `${a} - ? = ${result}`,
+        questionEn: `${a} - ? = ${result}`,
+        options: makeOpts(b, w),
+        correctAnswer: pad(b), difficulty: diff,
+        hintVi: `${a} trừ ${result} bằng ${b}`,
+      });
+    }
+  }
 
-  const used2 = new Set<string>(), used3 = new Set<string>();
+  // D1: all pairs a<=10, b<=a, b>=1
+  const d1All: [number, number][] = [];
+  for (let a = 2; a <= 10; a++) for (let b = 1; b < a; b++) d1All.push([a, b]);
+  shuffleArr(d1All).slice(0, 50).forEach(([a, b]) => subResult(a, b, 1));
+
+  // D2: 10 < a <= 50, result blank
+  const used2 = new Set<string>();
   let att = 0;
   while (qs.filter((q) => q.difficulty === 2).length < 55 && att < 100000) {
     att++;
     const a = Math.floor(Math.random() * 40) + 11;
-    const b = Math.floor(Math.random() * a);
+    const b = Math.floor(Math.random() * (a - 1)) + 1;
     const k = `${a}-${b}`;
-    if (!used2.has(k)) { used2.add(k); sub(a, b, 2); }
+    if (!used2.has(k)) { used2.add(k); subResult(a, b, 2); }
   }
+
+  // D3: 50 < a <= 100, blank = random operand
+  const used3 = new Set<string>();
   att = 0;
   while (qs.filter((q) => q.difficulty === 3).length < 45 && att < 100000) {
     att++;
-    const a = Math.floor(Math.random() * 50) + 51;
-    const b = Math.floor(Math.random() * a);
+    const a = Math.floor(Math.random() * 49) + 52;
+    const b = Math.floor(Math.random() * (a - 2)) + 1;
     const k = `${a}-${b}`;
-    if (!used3.has(k)) { used3.add(k); sub(a, b, 3); }
+    if (!used3.has(k)) { used3.add(k); subOperand(a, b, 3); }
   }
 
   return qs.slice(0, 150);

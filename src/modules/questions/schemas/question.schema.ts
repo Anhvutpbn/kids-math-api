@@ -3,7 +3,7 @@ import { Document } from 'mongoose';
 
 export type QuestionDocument = Question & Document;
 
-export type QuestionType = 'multiple_choice' | 'fill_blank' | 'min_max';
+export type QuestionType = 'multiple_choice' | 'fill_blank' | 'min_max' | 'vertical_arithmetic';
 
 @Schema({ timestamps: true })
 export class Question {
@@ -13,7 +13,7 @@ export class Question {
   @Prop({ required: true })
   skillId: string;
 
-  @Prop({ required: true, enum: ['multiple_choice', 'fill_blank', 'min_max'] })
+  @Prop({ required: true, enum: ['multiple_choice', 'fill_blank', 'min_max', 'vertical_arithmetic'] })
   type: QuestionType;
 
   @Prop({ required: true })

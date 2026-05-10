@@ -60,10 +60,16 @@ export class SeedService implements OnApplicationBootstrap {
 
   private async seedQuestions(dataDir: string) {
     const dbCount = await this.questionModel.countDocuments();
+    const sk05Sample = await this.questionModel.findOne({ skillId: 'SK05' });
+    const alreadyMigrated = sk05Sample?.type === 'vertical_arithmetic';
 
-    if (dbCount === EXPECTED_QUESTION_COUNT) {
+    if (dbCount === EXPECTED_QUESTION_COUNT && alreadyMigrated) {
       this.logger.log(`Questions already seeded (${dbCount}), skipping`);
       return;
+    }
+
+    if (dbCount === EXPECTED_QUESTION_COUNT && !alreadyMigrated) {
+      this.logger.log('SK05/SK06 not yet migrated to vertical_arithmetic — reseeding...');
     }
 
     this.logger.log(`Expected ${EXPECTED_QUESTION_COUNT} questions, DB has ${dbCount} — reseeding...`);
