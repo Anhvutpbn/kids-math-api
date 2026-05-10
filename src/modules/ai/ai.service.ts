@@ -66,9 +66,13 @@ export class AiService {
 
       const currentEntry = await this.skillsService.getSkillEntry(userId, skillId);
       const currentMastery = currentEntry?.masteryScore ?? 0;
+      const sessionCount = currentEntry?.sessionCount ?? 0;
 
       const delta = this.masteryCalculator.calculateDelta(currentMastery, accuracy, errorType, avgTimeMs);
-      const newMastery = Math.min(100, Math.max(0, currentMastery + delta));
+      let newMastery = Math.min(100, Math.max(0, currentMastery + delta));
+
+      // Require at least 3 practice sessions before a skill can reach mastery (≥80)
+      if (sessionCount < 2) newMastery = Math.min(newMastery, 79);
 
       await this.skillsService.updateMastery(userId, skillId, newMastery, errorType);
       masteryEvents.push({ skillId, masteryScore: newMastery });

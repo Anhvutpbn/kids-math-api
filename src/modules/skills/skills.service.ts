@@ -84,18 +84,22 @@ export class SkillsService {
 
   async updateMastery(userId: string, skillId: string, newMastery: number, errorType: string | null) {
     const uid = new Types.ObjectId(userId);
-    const update: any = {
-      masteryScore: Math.min(100, Math.max(0, newMastery)),
+    const clamped = Math.min(100, Math.max(0, newMastery));
+    const setFields: any = {
+      masteryScore: clamped,
       errorTypeFlag: errorType,
       lastPracticedAt: new Date(),
     };
-    if (newMastery >= 80) {
+    if (clamped >= 80) {
       const d = new Date();
       d.setDate(d.getDate() + 7);
-      update.nextReviewAt = d;
+      setFields.nextReviewAt = d;
     }
-    await this.skillMapModel.findOneAndUpdate({ userId: uid, skillId }, update);
-    await this.checkAndUnlockDependents(userId, skillId, newMastery);
+    await this.skillMapModel.findOneAndUpdate(
+      { userId: uid, skillId },
+      { $set: setFields, $inc: { sessionCount: 1 } },
+    );
+    await this.checkAndUnlockDependents(userId, skillId, clamped);
   }
 
   private async checkAndUnlockDependents(userId: string, unlockedSkillId: string, mastery: number) {

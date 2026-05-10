@@ -55,7 +55,7 @@ export function generateSK03(): GeneratedQuestion[] {
 
   // D1: next in +1 sequence from 0 to 39 → 40 questions
   for (let n = 0; n < 40; n++) {
-    const ans = n + 1;
+    const ans = n + 2;
     const w = uniqueWrongs(ans, 3, 0, 50);
     qs.push({
       id: qid(), skillId: 'SK03', type: 'multiple_choice',
@@ -69,7 +69,7 @@ export function generateSK03(): GeneratedQuestion[] {
 
   // D2: next in +1 sequence from 40 to 70 = 31 questions; rest +2 step
   for (let n = 40; n <= 70 && qs.filter((q) => q.difficulty === 2).length < 25; n++) {
-    const ans = n + 1;
+    const ans = n + 2;
     const w = uniqueWrongs(ans, 3, 0, 100);
     qs.push({
       id: qid(), skillId: 'SK03', type: 'multiple_choice',
@@ -99,7 +99,7 @@ export function generateSK03(): GeneratedQuestion[] {
   const backStarts = [10,15,20,25,30,35,40,50,60,70,80,90];
   for (const n of backStarts) {
     if (qs.filter((q) => q.difficulty === 3).length >= 12) break;
-    const ans = n - 1;
+    const ans = n - 2;
     const w = uniqueWrongs(ans, 3, 0, 100);
     qs.push({
       id: qid(), skillId: 'SK03', type: 'multiple_choice',

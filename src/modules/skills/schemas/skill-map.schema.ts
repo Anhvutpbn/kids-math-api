@@ -27,6 +27,9 @@ export class SkillMap {
 
   @Prop({ type: Date, default: null })
   nextReviewAt: Date | null;
+
+  @Prop({ default: 0, min: 0 })
+  sessionCount: number;
 }
 
 export const SkillMapSchema = SchemaFactory.createForClass(SkillMap);
